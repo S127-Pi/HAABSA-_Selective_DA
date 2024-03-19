@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Ontology
+/data/stanford-parser-full-2018-02-27
+/data/ontology.owl
+
 # Distribution / packaging
 .Python
 build/
