@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# XML files
+*.xml
+
 # Ontology
 /data/stanford-parser-full-2018-02-27
 /data/ontology.owl
