@@ -159,7 +159,7 @@ def read_data_2016(fname, source_count, source_word2idx, target_count, target_ph
 
     outF.close()
     print("Read %s aspects from %s" % (len(source_data), fname))
-    print(countConfl)
+    print(f"Number of conflicting polarity: {countConfl}")
     return source_data, source_loc_data, target_data, target_label, max_sent_len, source_loc_data, max_target_len
 
 
