@@ -4,6 +4,7 @@ import numpy as np
 import random
 import os
 import shutil
+import get_bert, prepare_bert
 
 def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert_prepend, use_c_bert):
 
@@ -59,6 +60,17 @@ def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert
                 for file in [augment_path, FLAGS.test_path]:
                     with open(file, 'rb') as in_file:
                         shutil.copyfileobj(in_file, out_file)
+            
+        
+        # if required, create BERT embeddings for all tokens in train_test_raw
+        if FLAGS.do_get_bert:
+            print('Creating embeddings for every token in the train and test data...')
+            get_bert.main()
+            print('Finished creating BERT embeddings for test and train data...')
+        
+        # if required, add BERT embeddings to raw training and text files
+        if FLAGS.do_prepare_bert:
+            prepare_bert.main()
 
         print('creating embeddings...')
         print('lengte source_word2idx=' + str(len(source_word2idx)))
