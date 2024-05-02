@@ -23,21 +23,13 @@ def main(_):
                                     # Use prepare_bert for making train and test data sets
     useOntology      = False        # When run together with runLCRROTALT, the two-step method is used
     shortCutOnt      = False         # Only possible when last run was for same year of training/testing data
-    runLCRROTALT     = False
 
     runSVM           = False
-    runCABASC        = False
-    runLCRROT        = False
-    runLCRROTINVERSE = False
-    weightanalysis   = False
 
-    runLCRROTALT_v1     = False
-    runLCRROTALT_v2     = False
-    runLCRROTALT_v3     = False
     runLCRROTALT_v4     = True
 
     #determine if backupmethod is used
-    if runCABASC or runLCRROT or runLCRROTALT or runLCRROTINVERSE or runSVM or runLCRROTALT_v1 or runLCRROTALT_v2 or runLCRROTALT_v3 or runLCRROTALT_v4:
+    if runLCRROTALT_v4:
         backup = True
     else:
         backup = False
@@ -109,21 +101,6 @@ def main(_):
     #   _, pred2, fw2, bw2, tl2, tr2 = lcrModelAlt.main(FLAGS.train_path, test, accuracyOnt, test_size,
       #                                                  remaining_size)
      #  tf.reset_default_graph()
-
-    if runLCRROTALT_v1 == True:
-       _, pred2, fw2, bw2, tl2, tr2 = lcrModelAlt_hierarchical_v1.main(FLAGS.train_path, test, accuracyOnt, test_size,
-                                                        remaining_size)
-       tf.reset_default_graph()
-
-    if runLCRROTALT_v2 == True:
-       _, pred2, fw2, bw2, tl2, tr2 = lcrModelAlt_hierarchical_v2.main(FLAGS.train_path, test, accuracyOnt, test_size,
-                                                        remaining_size)
-       tf.reset_default_graph()
-
-    if runLCRROTALT_v3 == True:
-       _, pred2, fw2, bw2, tl2, tr2 = lcrModelAlt_hierarchical_v3.main(FLAGS.train_path, test, accuracyOnt, test_size,
-                                                        remaining_size)
-       tf.reset_default_graph()
 
     if runLCRROTALT_v4 == True:
        _, pred2, fw2, bw2, tl2, tr2 = lcrModelAlt_hierarchical_v4.main(FLAGS.train_path, test, accuracyOnt, test_size,
