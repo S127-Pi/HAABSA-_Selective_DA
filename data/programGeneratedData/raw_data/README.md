@@ -1,0 +1,1 @@
+This folder in used for storing raw data (combined traning and testing data for later use of creating word embedding)
