@@ -8,7 +8,6 @@ import shutil
 def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert_prepend, use_c_bert):
 
     FLAGS = config
-
     if loadData == True:
 
         if FLAGS.do_create_raw_files:
@@ -62,18 +61,24 @@ def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert
             
 
         print('creating embeddings...')
+            
         print('lengte source_word2idx=' + str(len(source_word2idx)))
         wt = np.random.normal(0, 0.05, [len(source_word2idx), 300])
         word_embed = {}
         count = 0.0
-        with open(FLAGS.pretrain_file, 'r', encoding="utf8") as f:
-            for line in f:
-                content = line.strip().split()
-                if content[0] in source_word2idx:
-                    wt[source_word2idx[content[0]]] = np.array(list(map(float, content[1:])))
-                    count += 1
-            print('count =' + str(count))
+        # with open(FLAGS.pretrain_file, 'r', encoding="utf8") as f:
+        #     for line in f:
+        #         content = line.strip().split()
+        #         if content[0] in source_word2idx:
+        #             wt[source_word2idx[content[0]]] = np.array(list(map(float, content[1:])))
+        #             count += 1
+        #     print('count =' + str(count))
 
+        # if required, add BERT embeddings to raw training and text files
+        # need_prepare_bert = True
+        # if need_prepare_bert:
+        #     prepare_bert.main()
+            
         print('finished embedding context vectors...')
 
         #not used because we make embedding files via getBert and prepareBert
@@ -91,12 +96,23 @@ def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert
         # get statistic properties from txt file
         train_size, train_polarity_vector = getStatsFromFile(FLAGS.train_path)
         test_size, test_polarity_vector = getStatsFromFile(FLAGS.test_path)
+        train_polarity = {key: train_polarity_vector.count(key) for key in train_polarity_vector}
+        test_polarity = {key: test_polarity_vector.count(key) for key in test_polarity_vector}
+        
+        print(f"Polarity frequency in train data {FLAGS.year}: {train_polarity}")
+        print(f"Polarity frequency in test data {FLAGS.year}: {test_polarity}")
+        
         return train_size, test_size, train_polarity_vector, test_polarity_vector
     else:
         #get statistic properties from txt file
         train_size, train_polarity_vector = getStatsFromFile(FLAGS.train_path)
         test_size, test_polarity_vector = getStatsFromFile(FLAGS.test_path)
-
+        train_polarity = {key: train_polarity_vector.count(key) for key in train_polarity_vector}
+        test_polarity = {key: test_polarity_vector.count(key) for key in test_polarity_vector}
+        
+        print(f"Polarity frequency in train data {FLAGS.year}: {train_polarity}")
+        print(f"Polarity frequency in test data {FLAGS.year}: {test_polarity}")
+        
         return train_size, test_size, train_polarity_vector, test_polarity_vector
 
 def loadAverageSentence(config,sentences,pre_trained_context):
