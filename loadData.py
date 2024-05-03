@@ -4,7 +4,6 @@ import numpy as np
 import random
 import os
 import shutil
-import get_bert, prepare_bert
 
 def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert_prepend, use_c_bert):
 
