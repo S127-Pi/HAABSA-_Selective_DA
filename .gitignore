@@ -9,6 +9,11 @@ __pycache__/
 # XML files
 *.xml
 
+# Large text files (embeddings)
+/data/programGeneratedData/BERT768embedding2015_none.txt
+/data/programGeneratedData/BERT768embedding2016_none.txt
+
+
 # Ontology
 /data/stanford-parser-full-2018-02-27
 /data/ontology.owl
