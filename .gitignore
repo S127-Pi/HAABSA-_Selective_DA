@@ -9,6 +9,9 @@ __pycache__/
 # XML files
 *.xml
 
+# BERT temporary files
+data/programGeneratedData/temp
+
 # Large text files (embeddings)
 /data/programGeneratedData/BERT768embedding2015_none.txt
 /data/programGeneratedData/BERT768embedding2016_none.txt
