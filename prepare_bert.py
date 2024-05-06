@@ -59,8 +59,8 @@ with open(FLAGS.train_path,'w') as outTrain, \
         open(FLAGS.test_path,'w') as outTest:
     # 2015: 3837 for no augmentation, 7674 BERT-models, 15336 EDA-adjusted, 19185 EDA-original
     # 2016: 5640 for no augmentation, 11280 BERT-models, 22560 EDA-adjusted, 28200 EDA-original
-    for j in range(0, 11280):
+    for j in range(0, 3837):
         outTrain.write(linesAllData[j])
-    for k in range(11280, len(linesAllData)):
+    for k in range(3837, len(linesAllData)):
         outTest.write(linesAllData[k])
 print('Wrote embedding data to train and test files')
