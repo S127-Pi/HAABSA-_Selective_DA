@@ -30,9 +30,7 @@ lcrspace = [
                 hp.loguniform('learning_rate', np.log(0.01), np.log(0.1)),
                 hp.quniform('keep_prob', 0.45, 0.75, 0.1),
                 hp.choice('momentum', [0.85, 0.9, 0.95]),
-                #hp.choice('momentum', [0.85, 0.9, 0.95, 0.99]),
                 hp.choice('l2', [0.0001, 0.001]),
-                #hp.choice('l2', [0.00001, 0.0001, 0.001, 0.01, 0.1]),
             ]
 
 cabascspace = [
@@ -120,18 +118,21 @@ def lcr_alt_objective(hyperparams):
     # Save training results to disks with unique filenames
 
     print(eval_num, l, hyperparams)
-
+    result = {
+        'loss':   -l,
+        'status': STATUS_OK,
+        'space': hyperparams,
+    }
     if best_loss is None or -l < best_loss:
         best_loss = -l
         best_hyperparams = hyperparams
 
-    result = {
-            'loss':   -l,
-            'status': STATUS_OK,
-            'space': hyperparams,
-        }
-
-    save_json_result(str(l), result)
+    # result = {
+    #         'loss':   -l,
+    #         'status': STATUS_OK,
+    #         'space': hyperparams,
+    #     }
+        save_json_result(str(l), result)
 
     return result
 
@@ -197,7 +198,7 @@ def svm_objective(hyperparams):
 
 # Run a hyperopt trial
 def run_a_trial():
-    max_evals = nb_evals = 1
+    max_evals = nb_evals = 20 
 
     print("Attempt to resume a past training if it exists:")
 
@@ -285,3 +286,4 @@ while True:
         traceback_str = str(traceback.format_exc())
         print(traceback_str)
     plot_best_model()
+    break
