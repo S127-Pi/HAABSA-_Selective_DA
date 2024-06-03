@@ -96,7 +96,6 @@ def lcr_rot(input_fw, input_bw, sen_len_fw, sen_len_bw, target, sen_len_tr, keep
 def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning_rate=0.09, keep_prob=0.3, momentum=0.85, l2=0.00001):
     print_config()
     with tf.device('/GPU:0'):
-    #with tf.device('/gpu:1'):
         word_id_mapping, w2v = load_w2v(FLAGS.embedding_path, FLAGS.embedding_dim)
         word_embedding = tf.constant(w2v, name='word_embedding')
 
@@ -149,8 +148,8 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         _dir = 'summary/' + str(timestamp) + '_' + title
         test_loss = tf.placeholder(tf.float32)
         test_acc = tf.placeholder(tf.float32)
-        train_summary_op, test_summary_op, validate_summary_op, train_summary_writer, test_summary_writer, \
-        validate_summary_writer = summary_func(loss, acc_prob, test_loss, test_acc, _dir, title, sess)
+        # train_summary_op, test_summary_op, validate_summary_op, train_summary_writer, test_summary_writer, \
+        # validate_summary_writer = summary_func(loss, acc_prob, test_loss, test_acc, _dir, title, sess)
 
         save_dir = 'temp_model/' + str(timestamp) + '_' + title + '/'
         # saver = saver_func(save_dir)
@@ -202,13 +201,12 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         max_prob = None
         step = None
         for i in tqdm(range(FLAGS.n_iter), desc='Processing', unit='iteration'):
-        # for i in range(FLAGS.n_iter):
             trainacc, traincnt = 0., 0
             for train, numtrain in get_batch_data(tr_x, tr_sen_len, tr_x_bw, tr_sen_len_bw, tr_y, tr_target_word, tr_tar_len,
                                            FLAGS.batch_size, keep_prob, keep_prob):
-                # _, step = sess.run([optimizer, global_step], feed_dict=train)
-                _, step, summary, _trainacc = sess.run([optimizer, global_step, train_summary_op, acc_num], feed_dict=train)
-                train_summary_writer.add_summary(summary, step)
+                # _, step, summary, _trainacc = sess.run([optimizer, global_step, train_summary_op, acc_num], feed_dict=train)
+                _, step , _trainacc = sess.run([optimizer, global_step, acc_num], feed_dict=train)
+                # train_summary_writer.add_summary(summary, step)
                 # embed_update = tf.assign(word_embedding, tf.concat(0, [tf.zeros([1, FLAGS.embedding_dim]), word_embedding[1:]]))
                 # sess.run(embed_update)
                 trainacc += _trainacc            # saver.save(sess, save_dir, global_step=step)
@@ -244,8 +242,8 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
             totalacc = ((acc * remaining_size) + (accuracyOnt * (test_size - remaining_size))) / test_size
             cost = cost / cnt
             print('Iter {}: mini-batch loss={:.6f}, train acc={:.6f}, test acc={:.6f}, combined acc={:.6f}'.format(i, cost,trainacc, acc, totalacc))
-            summary = sess.run(test_summary_op, feed_dict={test_loss: cost, test_acc: acc})
-            test_summary_writer.add_summary(summary, step)
+            # summary = sess.run(test_summary_op, feed_dict={test_loss: cost, test_acc: acc})
+            # test_summary_writer.add_summary(summary, step)
             if acc > max_acc:
                 max_acc = acc
                 max_fw = fw
@@ -263,21 +261,21 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         print('R:', R, 'avg=', sum(R) / FLAGS.n_class)
         print('F1:', F1, 'avg=', sum(F1) / FLAGS.n_class)
 
-        fp = open(FLAGS.prob_file, 'w')
-        for item in max_prob:
-            fp.write(' '.join([str(it) for it in item]) + '\n')
-        fp = open(FLAGS.prob_file + '_fw', 'w')
-        for y1, y2, ws in zip(max_ty, max_py, max_fw):
-            fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
-        fp = open(FLAGS.prob_file + '_bw', 'w')
-        for y1, y2, ws in zip(max_ty, max_py, max_bw):
-            fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
-        fp = open(FLAGS.prob_file + '_tl', 'w')
-        for y1, y2, ws in zip(max_ty, max_py, max_tl):
-            fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
-        fp = open(FLAGS.prob_file + '_tr', 'w')
-        for y1, y2, ws in zip(max_ty, max_py, max_tr):
-            fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
+        # fp = open(FLAGS.prob_file, 'w')
+        # for item in max_prob:
+        #     fp.write(' '.join([str(it) for it in item]) + '\n')
+        # fp = open(FLAGS.prob_file + '_fw', 'w')
+        # for y1, y2, ws in zip(max_ty, max_py, max_fw):
+        #     fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
+        # fp = open(FLAGS.prob_file + '_bw', 'w')
+        # for y1, y2, ws in zip(max_ty, max_py, max_bw):
+        #     fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
+        # fp = open(FLAGS.prob_file + '_tl', 'w')
+        # for y1, y2, ws in zip(max_ty, max_py, max_tl):
+        #     fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
+        # fp = open(FLAGS.prob_file + '_tr', 'w')
+        # for y1, y2, ws in zip(max_ty, max_py, max_tr):
+        #     fp.write(str(y1) + ' ' + str(y2) + ' ' + ' '.join([str(w) for w in ws[0]]) + '\n')
 
         print('Optimization Finished! Max acc={}'.format(max_acc))
 
