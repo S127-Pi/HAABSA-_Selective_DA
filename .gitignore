@@ -12,6 +12,14 @@ __pycache__/
 # BERT temporary files
 data/programGeneratedData/temp
 
+# Finetuned models directory
+data/programGeneratedData/finetuning_data/_finetune_model/BERT
+data/programGeneratedData/finetuning_data/_finetune_model/CBERT
+data/programGeneratedData/finetuning_data/_finetune_model/BERTPREPEND
+data/programGeneratedData/finetuning_data/_finetune_model/BERTEXPAND
+
+
+
 # Large text files (embeddings)
 /data/programGeneratedData/BERT768embedding2015_none.txt
 /data/programGeneratedData/BERT768embedding2016_none.txt
