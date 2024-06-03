@@ -1,1 +1,1 @@
-This folder is used to store finetuned models files.
+This folder is used to store finetuned models files (train/eval files).
