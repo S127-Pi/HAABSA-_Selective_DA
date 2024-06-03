@@ -33,15 +33,6 @@ lcrspace = [
                 hp.choice('l2', [0.0001, 0.001]),
             ]
 
-cabascspace = [
-                hp.choice('learning_rate',[0.001,0.005, 0.02, 0.05, 0.06, 0.07, 0.08, 0.09, 0.01, 0.1]),
-                hp.quniform('keep_prob', 0.25, 0.75, 0.01),
-            ]
-svmspace = [
-                hp.choice('c', [0.001, 0.01, 0.1, 1, 10, 100, 1000]),
-                hp.choice('gamma', [0.000001, 0.00001, 0.0001, 0.001, 0.01, 0.1, 1, 10, 100])
-            ]
-
 # Define objectives for hyperopt
 def lcr_objective(hyperparams):
     global eval_num
@@ -133,66 +124,6 @@ def lcr_alt_objective(hyperparams):
     #         'space': hyperparams,
     #     }
         save_json_result(str(l), result)
-
-    return result
-
-def cabasc_objective(hyperparams):
-    global eval_num
-    global best_loss
-    global best_hyperparams
-
-    eval_num += 1
-    (learning_rate, keep_prob) = hyperparams
-    print(hyperparams)
-
-    l = cabascModel.main(FLAGS.hyper_train_path, FLAGS.hyper_eval_path, accuracyOnt, test_size, remaining_size, learning_rate, keep_prob)
-    tf.reset_default_graph()
-
-    # Save training results to disks with unique filenames
-
-    print(eval_num, l, hyperparams)
-
-    if best_loss is None or -l < best_loss:
-        best_loss = -l
-        best_hyperparams = hyperparams
-
-    result = {
-            'loss':   -l,
-            'status': STATUS_OK,
-            'space': hyperparams,
-        }
-
-    save_json_result(str(l), result)
-
-    return result
-
-def svm_objective(hyperparams):
-    global eval_num
-    global best_loss
-    global best_hyperparams
-
-    eval_num += 1
-    (c, gamma) = hyperparams
-    print(hyperparams)
-
-    l = svmModel.main(FLAGS.hyper_svm_train_path, FLAGS.hyper_svm_eval_path, accuracyOnt, test_size, remaining_size, c, gamma)
-    tf.reset_default_graph()
-
-    # Save training results to disks with unique filenames
-
-    print(eval_num, l, hyperparams)
-
-    if best_loss is None or -l < best_loss:
-        best_loss = -l
-        best_hyperparams = hyperparams
-
-    result = {
-            'loss':   -l,
-            'status': STATUS_OK,
-            'space': hyperparams,
-        }
-
-    save_json_result(str(l), result)
 
     return result
 
