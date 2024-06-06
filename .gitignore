@@ -9,8 +9,9 @@ __pycache__/
 # XML files
 *.xml
 
-# BERT temporary files
+# BERT temporary files/finetune_data
 data/programGeneratedData/temp
+data/programGeneratedData/finetuning_data
 
 # Finetuned models directory
 data/programGeneratedData/finetuning_data/_finetune_model/BERT
