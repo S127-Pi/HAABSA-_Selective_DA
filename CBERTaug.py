@@ -22,7 +22,21 @@ model.bert.embeddings.token_type_embeddings.weight.data.normal_(mean=0.0, std=0.
 model.load_state_dict(torch.load("data/programGeneratedData/finetuning_data/_finetune_model/CBERT/best_cbert.pt", 
                                  map_location=torch.device('cpu'))) # finetuned CBERT
 
-def file_maker(in_file, out_file, nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs):
+def file_maker(in_file, out_file, strategy):
+    
+    if strategy == "adverbs":
+        augment_func = augment_aspect_adj_adv
+    elif strategy == "nouns":
+        augment_func = augment_sentence_nouns
+    elif strategy == "nouns_adverbs":
+        augment_func = augment_all_noun_adj_adv
+    elif strategy == "aspect":
+        augment_func = augment_sentence_aspect
+    elif strategy == "aspect_adverbs":
+        augment_func = augment_aspect_adj_adv
+    else:
+        raise ValueError("Not valid strategy")
+    
     rd.seed(546297)
     print('Starting CBERT-augmentation')
     with open(in_file, 'r') as in_f, open(out_file, 'w+', encoding='utf-8') as out_f:
@@ -32,7 +46,7 @@ def file_maker(in_file, out_file, nouns, adverbs, nouns_adverbs, aspect, aspect_
             old_sentence = lines[i].strip()
             target = lines[i + 1].strip()
             sentiment = lines[i + 2].strip()
-            new_sentence, target = augment_sentence_adjective_adverbs(old_sentence, target, sentiment)
+            new_sentence, target = augment_func(old_sentence, target, sentiment)
             out_f.writelines([old_sentence + '\n', target + '\n', sentiment + '\n'])
             out_f.writelines([new_sentence + '\n', target + '\n', sentiment + '\n'])
     return out_file

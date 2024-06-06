@@ -50,17 +50,8 @@ def main(_):
         use_eda = False
 
     # determine whether bert should be used for DA
-    if len(da_methods) > 1:
-            if da_methods[1] == 'nouns':
-                nouns = True
-            if da_methods[1] == 'adverbs':
-                adverbs = True
-            if da_methods[1] == 'nouns/adverbs':
-                nouns_adverbs = True
-            if da_methods[1] == 'aspect':
-                aspect = True
-            if da_methods[1] == 'aspect/adverbs':
-                aspect_adverbs = True
+    nouns = False
+    strategy = da_methods[1]
     
     use_bert = False
     if FLAGS.da_type == 'BERT':
@@ -82,8 +73,8 @@ def main(_):
         use_c_bert = True
 
     # retrieve data and wordembeddings
-    train_size, test_size, train_polarity_vector, test_polarity_vector = loadDataAndEmbeddings(FLAGS, loadData, use_eda, adjusted, use_bert, use_bert_prepend, use_bert_expand, use_c_bert,
-                                                                                               nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs)
+    train_size, test_size, train_polarity_vector, test_polarity_vector = loadDataAndEmbeddings(FLAGS, loadData, use_eda, adjusted, 
+                                                                                               use_bert, use_bert_prepend, use_bert_expand, use_c_bert, strategy)
     print(test_size)
     remaining_size = 250
     accuracyOnt = 0.87

@@ -6,7 +6,7 @@ import os
 import shutil
 
 def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert_prepend, use_bert_expand, use_c_bert,
-                          nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs):
+                          strategy):
 
     FLAGS = config
     if loadData == True:
@@ -36,27 +36,27 @@ def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert
             augment_path = FLAGS.augmentation_file_path
             # if BERT is used for DA, create new sentences using BERT
             if use_bert:
-                import bertAugmentation
-                bertAugmentation.file_maker(train_raw_path, augment_path,
-                                            nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs)
+                import BERTaug
+                BERTaug.file_maker(train_raw_path, augment_path,
+                                            strategy)
 
             # if BERT-prepend is used for DA, create new sentences using BERT-prepend
             if use_bert_prepend:
-                import bertPrependAugmentation
-                bertPrependAugmentation.file_maker_prepend(train_raw_path, augment_path,
-                                                           nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs)
+                import BERTprepend_aug
+                BERTprepend_aug.file_maker(train_raw_path, augment_path,
+                                                           strategy)
             
             # if BERT-expand is used for DA, create new sentences using BERT-expand
             if use_bert_expand:
-                import bertPrependAugmentation
-                bertPrependAugmentation.file_maker_prepend(train_raw_path, augment_path,
-                                                           nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs)
+                import BERTexpand_aug
+                BERTexpand_aug.file_maker(train_raw_path, augment_path,
+                                                           strategy)
 
             # if C-BERT is used for DA, create new sentences using BERT-prepend
             if use_c_bert:
-                import conditionalAugmentation
-                conditionalAugmentation.file_maker_conditional(train_raw_path, augment_path,
-                                                               nouns, adverbs, nouns_adverbs, aspect, aspect_adverbs)
+                import CBERTaug
+                CBERTaug.file_maker(train_raw_path, augment_path,
+                                                               strategy)
 
             # if EDA is used for DA, create new sentences using BERT-prepend
             # if use_eda:
