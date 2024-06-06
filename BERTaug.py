@@ -243,29 +243,14 @@ def augment_all_noun_adj_adv(in_sentence, in_target):
 
     return aug, aspect
 
-def file_maker(in_file, out_file):
-    rd.seed(546297)
-    print('Starting BERT-augmentation')
-    with open(in_file, 'r') as in_f, open(out_file, 'w+', encoding='utf-8') as out_f:
-        lines = in_f.readlines()
-        for i in range(0, len(lines) - 1, 3):
-            print(i)
-            old_sentence = lines[i].strip()
-            target = lines[i + 1].strip()
-            sentiment = lines[i + 2].strip()
-            new_sentence, target = augment_sentence_adjective_adverbs(old_sentence, target)
-            out_f.writelines([old_sentence + '\n', target + '\n', sentiment + '\n'])
-            out_f.writelines([new_sentence + '\n', target + '\n', sentiment + '\n'])
-    return out_file
 
-
-# in_sentence = "The $t$ is too dry, but the salmon compensates it all."
-# in_target = "french fries"
-# aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target)
-# print(in_sentence)
-# print(in_target)
-# print(aug) 
-# print(aspect) 
+in_sentence = "The $t$ is too dry, but the salmon compensates it all."
+in_target = "french fries"
+aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target)
+print(in_sentence)
+print(in_target)
+print(aug) 
+print(aspect) 
 
 
 # in_sentence = "The $t$ is too dirty, but the salmon compensates it all."
