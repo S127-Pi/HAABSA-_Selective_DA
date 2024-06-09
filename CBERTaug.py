@@ -6,6 +6,7 @@ import spacy
 import string
 import random as rd
 import torch.nn.functional as F
+from tqdm import tqdm
 
 # Load the spaCy English model
 nlp = spacy.load('en_core_web_sm')
@@ -41,7 +42,7 @@ def file_maker(in_file, out_file, strategy):
     print('Starting CBERT-augmentation')
     with open(in_file, 'r') as in_f, open(out_file, 'w+', encoding='utf-8') as out_f:
         lines = in_f.readlines()
-        for i in range(0, len(lines) - 1, 3):
+        for i in tqdm(range(0, len(lines) - 1, 3), desc="CERT-augmentation", unit="sentence"):
             print(i)
             old_sentence = lines[i].strip()
             target = lines[i + 1].strip()
