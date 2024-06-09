@@ -51,7 +51,10 @@ def main(_):
 
     # determine whether bert should be used for DA
     nouns = False
-    strategy = da_methods[1]
+
+    strategy = None
+    if len(da_methods) > 1:
+        strategy = da_methods[1]
     
     use_bert = False
     if FLAGS.da_type == 'BERT':
@@ -63,7 +66,7 @@ def main(_):
         use_bert_prepend = True
         
     # determine whether bert-expand should be used for DA
-    use_bert_prepend = False
+    use_bert_expand = False
     if FLAGS.da_type == 'BERT_expand':
         use_bert_expand = True
 

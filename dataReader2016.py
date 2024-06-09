@@ -124,6 +124,7 @@ def read_data_2016(fname, source_count, source_word2idx, target_count, target_ph
 
     source_data, source_loc_data, target_data, target_label = list(), list(), list(), list()
 
+    category_list = []
     # collect output data (match with source_word2idx) and write to .txt file
     for sentence in root.iter('sentence'):
         sent = sentence.find('text').text
@@ -157,6 +158,11 @@ def read_data_2016(fname, source_count, source_word2idx, target_count, target_ph
                         outF.write(str(lab))
                         outF.write("\n")
 
+                        category = opinion.get("category")
+                        category_list.append(category)
+
+    category_counts = Counter(category_list)
+    
     outF.close()
     print("Read %s aspects from %s" % (len(source_data), fname))
     print(f"Number of conflicting polarity: {countConfl}")
