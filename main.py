@@ -49,30 +49,27 @@ def main(_):
     else:
         use_eda = False
 
-    # determine whether bert should be used for DA
-    nouns = False
-
     strategy = None
     if len(da_methods) > 1:
         strategy = da_methods[1]
     
     use_bert = False
-    if FLAGS.da_type == 'BERT':
+    if da_type == 'BERT':
         use_bert = True
 
     # determine whether bert-prepend should be used for DA
     use_bert_prepend = False
-    if FLAGS.da_type == 'BERT_prepend':
+    if da_type == 'BERT_prepend':
         use_bert_prepend = True
         
     # determine whether bert-expand should be used for DA
     use_bert_expand = False
-    if FLAGS.da_type == 'BERT_expand':
+    if da_type == 'BERT_expand':
         use_bert_expand = True
 
     # determine whether c-bert should be used for DA
     use_c_bert = False
-    if FLAGS.da_type == 'C_BERT':
+    if da_type == 'CBERT':
         use_c_bert = True
 
     # retrieve data and wordembeddings

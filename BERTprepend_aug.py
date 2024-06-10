@@ -25,7 +25,7 @@ model.load_state_dict(torch.load("data/programGeneratedData/finetuning_data/_fin
 def file_maker(in_file, out_file, strategy):
     
     if strategy == "adverbs":
-        augment_func = augment_aspect_adj_adv
+        augment_func = augment_sentence_adjective_adverbs
     elif strategy == "nouns":
         augment_func = augment_sentence_nouns
     elif strategy == "nouns_adverbs":
@@ -38,7 +38,7 @@ def file_maker(in_file, out_file, strategy):
         raise ValueError("Not valid strategy")
     
     rd.seed(546297)
-    print('Starting BERTprepend-augmentation')
+    print(f'Starting BERTprepend-augmentation {strategy=}')
     with open(in_file, 'r') as in_f, open(out_file, 'w+', encoding='utf-8') as out_f:
         lines = in_f.readlines()
         for i in tqdm(range(0, len(lines) - 1, 3), desc="BERTprepend-augmentation", unit="sentence"):
@@ -46,8 +46,8 @@ def file_maker(in_file, out_file, strategy):
             old_sentence = lines[i].strip()
             target = lines[i + 1].strip()
             sentiment = lines[i + 2].strip()
-            new_sentence, target = augment_func(old_sentence, target, sentiment)
             out_f.writelines([old_sentence + '\n', target + '\n', sentiment + '\n'])
+            new_sentence, target = augment_func(old_sentence, target, sentiment)
             out_f.writelines([new_sentence + '\n', target + '\n', sentiment + '\n'])
     return out_file
 
@@ -91,21 +91,21 @@ def augment_sentence_aspect(in_sentence, in_target, sentiment):
     This function selective substitute all aspects occuring in a sentence
     """
     masked_word = in_target
-    sentence_mask_target = re.sub(r'\$t\$', "[MASK]", in_sentence)
+    sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence)
 
     predicted_words = unmasker(sentence_mask_target, sentiment)
     target = ""
     print(f"{predicted_words=}")
     if predicted_words[0] == masked_word: # skip to the next predicted word
-        sentence_aug_target = re.sub(r'\$t\$', predicted_words[1], in_sentence)
-        augmented_sentence_str = re.sub(r'\s([,.:;])', r'\1', sentence_aug_target)
+        # sentence_aug_target = re.sub(r'\$T\$', predicted_words[1], in_sentence)
+        # augmented_sentence_str = re.sub(r'\s([,.:;])', r'\1', sentence_aug_target)
         target = predicted_words[1]
     else:
-        sentence_aug_target = re.sub(r'\$t\$', predicted_words[0], in_sentence)
-        augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', sentence_aug_target)
+        # sentence_aug_target = re.sub(r'\$T\$', predicted_words[0], in_sentence)
+        # augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', sentence_aug_target)
         target = predicted_words[0]
 
-    return augmented_sentence_str, target
+    return in_sentence, target
 
 
 
@@ -115,7 +115,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     This function selective substitute all nouns occuring in a sentence
     """
     tar = re.findall(r'\w+|[^\s\w]+', in_target)
-    sentence_w_target = re.sub(r'\$t\$', in_target, in_sentence) # replace $t$ with actual target
+    sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # replace $t$ with actual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
@@ -174,7 +174,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     # Replace the target words with '$t$'
     start_index = tar_idx[0]
     end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
-    augmentend_sentence = augmented_sentence[:start_index] + ['$t$'] + augmented_sentence[end_index:]
+    augmentend_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
 
     # Join the masked tokens to form the masked sequence
     augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
@@ -192,7 +192,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     """
 
     tar = re.findall(r'\w+|[^\s\w]+', in_target) # extract target
-    sentence_w_target = re.sub(r'\$t\$', in_target, in_sentence) # substitute $t$ with autual target
+    sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # substitute $t$ with autual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
@@ -213,7 +213,8 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
             number_not_words += 1
         else:
             j += 1
-
+    if adj_adv_ind == []:
+        return in_sentence, in_target
     # Mask tokens tagged as ADJ or ADV
     masked_sequence = []
     mask_prob = 0.2
@@ -261,7 +262,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     # Replace the target words with '$t$'
     start_index = tar_idx[0]
     end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
-    augmented_sentence = augmented_sentence[:start_index] + ['$t$'] + augmented_sentence[end_index:]
+    augmented_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
 
     augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
     modified_target_str = ' '.join(modified_target)
