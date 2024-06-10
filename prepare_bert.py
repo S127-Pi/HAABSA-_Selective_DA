@@ -36,7 +36,7 @@ def tokenize_sentence(sentence, tokenizer, word_counts):
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 word_counts = {}
 
-with open('data/programGeneratedData/temp/unique2016_BERT_Data_All.txt', 'w') as output_f:
+with open(f'data/programGeneratedData/temp/unique2016_BERT_{FLAGS.da_type}_Data_All.txt', 'w') as output_f:
     lines = open(FLAGS.complete_data_file, errors='replace').readlines()
 
     for i in range(0, len(lines) - 1, 3):
@@ -54,7 +54,7 @@ with open('data/programGeneratedData/temp/unique2016_BERT_Data_All.txt', 'w') as
         output_f.write(f'{sentiment}\n')
     print('Text processing complete. Saved to temporary file')
 
-linesAllData = open('data/programGeneratedData/temp/unique2016_BERT_Data_All.txt').readlines()
+linesAllData = open(f'data/programGeneratedData/temp/unique2016_BERT_{FLAGS.da_type}_Data_All.txt').readlines()
 with open(FLAGS.train_path,'w') as outTrain, \
         open(FLAGS.test_path,'w') as outTest:
     # 2015: 3837 for no augmentation, 7674 BERT-models, 15336 EDA-adjusted, 19185 EDA-original
