@@ -281,8 +281,9 @@ def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all aspect, adjectives and adverbs (15%) occuring in a sentence
     """
-    aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
-    aug, aspect = augment_sentence_aspect(aug, aspect, sentiment)
+    
+    aug, aspect = augment_sentence_aspect(in_sentence, in_target, sentiment)
+    aug, aspect = augment_sentence_adjective_adverbs(aug, aspect, sentiment)
 
     return aug, aspect
 
@@ -290,8 +291,9 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all nouns, adjectives and adverbs (15%) occuring in a sentence
     """
-    aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
-    aug, aspect = augment_sentence_nouns(aug, aspect, sentiment)
+    
+    aug, aspect = augment_sentence_nouns(in_sentence, in_target, sentiment)
+    aug, aspect = augment_sentence_adjective_adverbs(aug, aspect, sentiment)
 
     return aug, aspect
 

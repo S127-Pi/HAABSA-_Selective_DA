@@ -70,12 +70,12 @@ def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert
                         shutil.copyfileobj(in_file, out_file)
             
 
-        print('creating embeddings...')
+        # print('creating embeddings...')
             
-        print('lengte source_word2idx=' + str(len(source_word2idx)))
-        wt = np.random.normal(0, 0.05, [len(source_word2idx), 300])
-        word_embed = {}
-        count = 0.0
+        # print('lengte source_word2idx=' + str(len(source_word2idx)))
+        # wt = np.random.normal(0, 0.05, [len(source_word2idx), 300])
+        # word_embed = {}
+        # count = 0.0
         # with open(FLAGS.pretrain_file, 'r', encoding="utf8") as f:
         #     for line in f:
         #         content = line.strip().split()
