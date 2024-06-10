@@ -4,10 +4,12 @@
 import pandas as pd
 import numpy as np
 import torch
+from config import *
+from tqdm import tqdm
 
-from google.colab import files
+# from google.colab import files
 
-pip install transformers
+# pip install transformers
 
 from transformers import BertModel, BertTokenizer
 model = BertModel.from_pretrained('bert-base-uncased',
@@ -55,21 +57,22 @@ def get_bert_embeddings(tokens_tensor, segments_tensor, model):
         token_vecs_sum.append(sum_vec)
     return token_vecs_sum
 
-upload = files.upload()  # raw2016forBERT
+# upload = files.upload()  # raw2016forBERT
 
 #get the number of lines in the file
-lines = open('none_raw_data2015.txt', errors='replace').readlines()
+lines = open(f'{FLAGS.complete_data_file}', errors='replace').readlines()
+sentences = int(len(lines)/3)
 print(len(lines)/3)
 
 from collections import OrderedDict
 context_embeddings = []
 context_tokens = []
 # Change outfile name to embedding_path in config
-lines = open('none_raw_data2015.txt', errors='replace').readlines()
-with open('BERT768embedding2015_none.txt', 'w', encoding='utf-8') as f:
+lines = open(f'{FLAGS.complete_data_file}', errors='replace').readlines()
+with open(f'{FLAGS.bert_embedding_path}', 'w', encoding='utf-8') as f:
     word_counts = {}
-    for i in range(0 * 3, 1880 * 3, 3):  # len(lines): 2530 for 2016, 4410 for BERT-models, 8170 for EDA-adjusted, 10050 for EDA-original
-        print("sentence: " + str(i / 3) + " out of " + str(len(lines) / 3) + " in " + "raw_data;")
+    for i in tqdm(range(0 * 3, sentences * 3, 3), desc="Creating BERT Embeddings", unit="sentence"):  # len(lines): 2530 for 2016, 4410 for BERT-models, 8170 for EDA-adjusted, 10050 for EDA-original
+        # print("sentence: " + str(i / 3) + " out of " + str(len(lines) / 3) + " in " + "raw_data;")
         target = lines[i + 1].lower().split()
         words = lines[i].lower().split()
         words_l, words_r = [], []
@@ -113,4 +116,4 @@ with open('BERT768embedding2015_none.txt', 'w', encoding='utf-8') as f:
           f.write(' '.join(map(str, token_vec_array)))
 
 #Change filename to file for download
-files.download('BERT768embedding2015_none.txt')
+# files.download('BERT768embedding2015_none.txt')
