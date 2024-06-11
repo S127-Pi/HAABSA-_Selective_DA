@@ -13,7 +13,7 @@ base_command="python prepare_bert.py"
 # Loop through each year and each DA type to run the command
 for year in "${years[@]}"
 do
-  for da_type in "${BERT_da_types[@]}"
+  for da_type in "${BERTprepend_da_types[@]}"
   do
     command="$base_command --year $year --da_type $da_type"
     echo "Running command: $command"

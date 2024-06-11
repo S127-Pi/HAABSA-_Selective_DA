@@ -42,7 +42,6 @@ def file_maker(in_file, out_file, strategy):
     with open(in_file, 'r') as in_f, open(out_file, 'w+', encoding='utf-8') as out_f:
         lines = in_f.readlines()
         for i in tqdm(range(0, len(lines) - 1, 3), desc="BERTprepend-augmentation", unit="sentence"):
-            print(i)
             old_sentence = lines[i].strip()
             target = lines[i + 1].strip()
             sentiment = lines[i + 2].strip()
@@ -91,11 +90,10 @@ def augment_sentence_aspect(in_sentence, in_target, sentiment):
     This function selective substitute all aspects occuring in a sentence
     """
     masked_word = in_target
-    sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence)
+    sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence, count = 1)
 
     predicted_words = unmasker(sentence_mask_target, sentiment)
     target = ""
-    print(f"{predicted_words=}")
     if predicted_words[0] == masked_word: # skip to the next predicted word
         # sentence_aug_target = re.sub(r'\$T\$', predicted_words[1], in_sentence)
         # augmented_sentence_str = re.sub(r'\s([,.:;])', r'\1', sentence_aug_target)
