@@ -7,6 +7,7 @@ import string
 import random as rd
 import torch.nn.functional as F
 from tqdm import tqdm
+import Levenshtein
 
 # Load the spaCy English model
 nlp = spacy.load('en_core_web_sm')
@@ -84,6 +85,10 @@ def unmasker(text, sentiment):
         preds.append(decoded_word)
     return preds
 
+def is_similar_enough(str1, str2, threshold=0.85):
+    ratio = Levenshtein.ratio(str1, str2)
+    return ratio >= threshold
+
 
 def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
@@ -118,7 +123,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
-    tar_idx = [i for i, token in enumerate(doc_tokens) if token in tar] # obtain target indices 
+    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)] # obtain target indices 
 
     noun_idx = []
     j = 0
@@ -134,7 +139,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
             number_not_words += 1
         else:
             j += 1
-    print(F"{number_nouns=}")
+    # print(F"{number_nouns=}")
     
 
     i = 0
@@ -152,7 +157,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
                 masked_word = doc_tokens[i]
                 cur_sent[i] = '[MASK]'
                 predicted_words = unmasker(' '.join(cur_sent), sentiment)
-                print(f"{predicted_words=}")
+                # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
                     cur_sent[i] = predicted_words[1]
@@ -195,7 +200,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
-    tar_idx = [i for i, token in enumerate(doc_tokens) if token in tar]
+    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
 
     j = 0
     number_not_words = 0

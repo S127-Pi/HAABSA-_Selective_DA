@@ -89,7 +89,7 @@ def unmasker(text, sentiment):
         preds.append(decoded_word)
     return preds
 
-def is_similar_enough(str1, str2, threshold=0.90):
+def is_similar_enough(str1, str2, threshold=0.85):
     ratio = Levenshtein.ratio(str1, str2)
     return ratio >= threshold
 
