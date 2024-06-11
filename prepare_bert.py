@@ -5,6 +5,7 @@ The new test-/traindata files contain original data, with every word unique and 
 '''
 from config import *
 from transformers import BertTokenizer
+from tqdm import tqdm
 
 def tokenize_sentence(sentence, tokenizer, word_counts):
     words = "[CLS] " + sentence + " [SEP]"
@@ -36,7 +37,7 @@ def tokenize_sentence(sentence, tokenizer, word_counts):
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 word_counts = {}
 
-with open(f'data/programGeneratedData/temp/unique2016_BERT_{FLAGS.da_type}_Data_All.txt', 'w') as output_f:
+with open(f'data/programGeneratedData/temp/unique{FLAGS.year}_BERT_{FLAGS.da_type}_Data_All.txt', 'w') as output_f:
     lines = open(FLAGS.complete_data_file, errors='replace').readlines()
 
     for i in range(0, len(lines) - 1, 3):
@@ -54,13 +55,16 @@ with open(f'data/programGeneratedData/temp/unique2016_BERT_{FLAGS.da_type}_Data_
         output_f.write(f'{sentiment}\n')
     print('Text processing complete. Saved to temporary file')
 
-linesAllData = open(f'data/programGeneratedData/temp/unique2016_BERT_{FLAGS.da_type}_Data_All.txt').readlines()
+linesAllData = open(f'data/programGeneratedData/temp/unique{FLAGS.year}_BERT_{FLAGS.da_type}_Data_All.txt').readlines()
+linesTrainData = len(open(f'{FLAGS.train_path_ont}').readlines()) if FLAGS.da_type == "none" else len(open(f'{FLAGS.train_path_ont}').readlines()) * 2
+print(len(linesAllData))
+print(f"{linesTrainData=}")
 with open(FLAGS.train_path,'w') as outTrain, \
         open(FLAGS.test_path,'w') as outTest:
     # 2015: 3837 for no augmentation, 7674 BERT-models, 15336 EDA-adjusted, 19185 EDA-original
     # 2016: 5640 for no augmentation, 11280 BERT-models, 22560 EDA-adjusted, 28200 EDA-original
-    for j in range(0, 5640):
+    for j in tqdm(range(0, linesTrainData), desc=f"write train data {outTrain}", unit="sentence"):
         outTrain.write(linesAllData[j])
-    for k in range(5640, len(linesAllData)):
+    for k in tqdm(range(linesTrainData, len(linesAllData)), desc=f"write test data {outTest}", unit="sentence"):
         outTest.write(linesAllData[k])
 print('Wrote embedding data to train and test files')
