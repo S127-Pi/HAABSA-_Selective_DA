@@ -71,7 +71,7 @@ context_tokens = []
 lines = open(f'{FLAGS.complete_data_file}', errors='replace').readlines()
 with open(f'{FLAGS.bert_embedding_path}', 'w', encoding='utf-8') as f:
     word_counts = {}
-    for i in tqdm(range(0 * 3, sentences * 3, 3), desc="Creating BERT Embeddings", unit="sentence"):  # len(lines): 2530 for 2016, 4410 for BERT-models, 8170 for EDA-adjusted, 10050 for EDA-original
+    for i in tqdm(range(0 * 3, sentences * 3, 3), desc=f"Creating BERT Embeddings of {FLAGS.complete_data_file}", unit="sentence"):  # len(lines): 2530 for 2016, 4410 for BERT-models, 8170 for EDA-adjusted, 10050 for EDA-original
         # print("sentence: " + str(i / 3) + " out of " + str(len(lines) / 3) + " in " + "raw_data;")
         target = lines[i + 1].lower().split()
         words = lines[i].lower().split()
