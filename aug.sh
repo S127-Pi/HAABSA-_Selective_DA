@@ -8,7 +8,7 @@ CBERT_da_types=("CBERT-nouns" "CBERT-adverbs" "CBERT-nouns_adverbs" "CBERT-aspec
 BERTprepend_da_types=("BERT_prepend-nouns" "BERT_prepend-adverbs" "BERT_prepend-nouns_adverbs" "BERT_prepend-aspect" "BERT_prepend-aspect_adverbs")
 BERTexpand_da_types=("BERT_expand-nouns" "BERT_expand-adverbs" "BERT_expand-nouns_adverbs" "BERT_expand-aspect" "BERT_expand-aspect_adverbs")
 
-base_command="python prepare_bert.py"
+base_command="python main.py"
 
 # Loop through each year and each DA type to run the command
 for year in "${years[@]}"

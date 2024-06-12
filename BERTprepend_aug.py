@@ -85,7 +85,7 @@ def unmasker(text, sentiment):
         preds.append(decoded_word)
     return preds
 
-def is_similar_enough(str1, str2, threshold=0.85):
+def is_similar_enough(str1, str2, threshold=0.77):
     ratio = Levenshtein.ratio(str1, str2)
     return ratio >= threshold
 
@@ -245,7 +245,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
                 cur_sent[i] = '[MASK]'
                 amount_masked += 1
                 predicted_words = unmasker(' '.join(cur_sent), sentiment)
-                print(f"{predicted_words=}")
+                # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
                     cur_sent[i] = predicted_words[1]
