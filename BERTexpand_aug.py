@@ -43,7 +43,7 @@ def file_maker(in_file, out_file, strategy):
         raise ValueError("Not valid strategy")
     
     rd.seed(546297)
-    print(f'Starting BERTexpand-augmentation {strategy=}')
+    print(f'Starting BERTexpand-augmentation {strategy=} \n {in_file=}')
     with open(in_file, 'r') as in_f, open(out_file, 'w+', encoding='utf-8') as out_f:
         lines = in_f.readlines()
         for i in tqdm(range(0, len(lines) - 1, 3), desc="BERTexpand-Augmentation", unit='sentence'):
@@ -161,7 +161,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
                 masked_word = doc_tokens[i]
                 cur_sent[i] = '[MASK]'
                 predicted_words = unmasker(' '.join(cur_sent), sentiment)
-                print(f"{predicted_words=}")
+                # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
                     cur_sent[i] = predicted_words[1]
@@ -291,38 +291,39 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     This function selective substitute all nouns, adjectives and adverbs (15%) occuring in a sentence
     """
     
-    aug, aspect = augment_sentence_nouns(in_sentence, in_target, sentiment)
-    aug, aspect = augment_sentence_adjective_adverbs(aug, aspect, sentiment)
+    aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
+    aug, aspect = augment_sentence_nouns(aug, aspect, sentiment)
 
     return aug, aspect
 
 
 
-
-# in_sentence = "The $t$ is too dirty, but the salmon compensates it all."
-# in_target = "mens bathroom"
-# aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, "negative")
-# print(aug)
-# print(aspect)
-
-
-# in_sentence = "The $t$ is too dirty, but the salmon compensates it all."
-# in_target = "mens bathroom"
-# aug, aspect = augment_sentence_aspect(in_sentence, in_target, "negative")
-# print(aug)
-# print(aspect)
+if __name__ == '__main__':
+    print("")
+    # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
+    # in_target = "mens bathroom"
+    # aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, "negative")
+    # print(aug)
+    # print(aspect)
 
 
-# in_sentence = "The $t$ is too dirty, but the salmon compensates it all."
-# in_target = "mens bathroom"
-# aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "negative")
-# print(aug)
-# print(aspect)
+    # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
+    # in_target = "mens bathroom"
+    # aug, aspect = augment_sentence_aspect(in_sentence, in_target, "negative")
+    # print(aug)
+    # print(aspect)
 
 
-# in_sentence = "The $t$ is the best!"
-# in_target = "smoked salmon"
-# aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "positive")
-# print(aug)
-# print(aspect)
+    # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
+    # in_target = "mens bathroom"
+    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "negative")
+    # print(aug)
+    # print(aspect)
+
+
+    # in_sentence = "The $T$ is the best!"
+    # in_target = "smoked salmon"
+    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "positive")
+    # print(aug)
+    # print(aspect)
 

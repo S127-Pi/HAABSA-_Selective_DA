@@ -104,8 +104,6 @@ def augment_sentence_aspect(in_sentence, in_target, sentiment):
         # augmented_sentence_str = re.sub(r'\s([,.:;])', r'\1', sentence_aug_target)
         target = predicted_words[1]
     else:
-        # sentence_aug_target = re.sub(r'\$T\$', predicted_words[0], in_sentence)
-        # augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', sentence_aug_target)
         target = predicted_words[0]
 
     return in_sentence, target
@@ -177,7 +175,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     # Replace the target words with '$t$'
     start_index = tar_idx[0]
     end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
-    augmentend_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
+    augmented_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
 
     # Join the masked tokens to form the masked sequence
     augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
@@ -285,8 +283,8 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all nouns, adjectives and adverbs (15%) occuring in a sentence
     """
-    aug, aspect = augment_sentence_nouns(in_sentence, in_target, sentiment)
-    aug, aspect = augment_sentence_adjective_adverbs(aug, aspect, sentiment)
+    aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
+    aug, aspect = augment_sentence_nouns(aug, aspect, sentiment)
 
     return aug, aspect
 
