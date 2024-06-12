@@ -63,6 +63,9 @@ def unmasker(text, sentiment):
         sentiment = 'neutral'
     elif sentiment == '1':
         sentiment = 'positive'
+    else:
+        raise ValueError('Invalid sentiment value')
+    
     text = sentiment + " " + text 
     inputs = tokenizer(text, return_tensors='pt', max_length=100, padding='max_length', truncation=True, add_special_tokens=True)
     MASK_id = tokenizer.convert_tokens_to_ids(['[MASK]'])[0]
@@ -102,7 +105,7 @@ def augment_sentence_aspect(in_sentence, in_target, sentiment):
 
     predicted_words = unmasker(sentence_mask_target, sentiment)
     target = ""
-    print(f"{predicted_words=}")
+    # print(f"{predicted_words=}")
     if predicted_words[0] == masked_word: # skip to the next predicted word
         # sentence_aug_target = re.sub(r'\$T\$', predicted_words[1], in_sentence)
         # augmented_sentence_str = re.sub(r'\s([,.:;])', r'\1', sentence_aug_target)
@@ -143,7 +146,7 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
             number_not_words += 1
         else:
             j += 1
-    print(F"{number_nouns=}")
+    # print(F"{number_nouns=}")
     
 
     i = 0
@@ -299,31 +302,30 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
 
 
 if __name__ == '__main__':
-    print("")
+    in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
+    in_target = "mens bathroom"
+    aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, "-1")
+    print(aug)
+    print(aspect)
+
+
     # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
     # in_target = "mens bathroom"
-    # aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, "negative")
+    # aug, aspect = augment_sentence_aspect(in_sentence, in_target, "-1")
     # print(aug)
     # print(aspect)
 
 
     # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
     # in_target = "mens bathroom"
-    # aug, aspect = augment_sentence_aspect(in_sentence, in_target, "negative")
-    # print(aug)
-    # print(aspect)
-
-
-    # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
-    # in_target = "mens bathroom"
-    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "negative")
+    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "-1")
     # print(aug)
     # print(aspect)
 
 
     # in_sentence = "The $T$ is the best!"
     # in_target = "smoked salmon"
-    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "positive")
+    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, "1")
     # print(aug)
     # print(aspect)
 
