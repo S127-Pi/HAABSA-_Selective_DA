@@ -17,10 +17,12 @@ import os
 import traceback
 from bson import json_util
 import json
+import glob
 
 train_size, test_size, train_polarity_vector, test_polarity_vector = loadHyperData(FLAGS, True)
 remaining_size = 248
 accuracyOnt = 0.87
+
 
 # Define variabel spaces for hyperopt to run over
 eval_num = 0
@@ -129,7 +131,7 @@ def lcr_alt_objective(hyperparams):
 
 # Run a hyperopt trial
 def run_a_trial():
-    max_evals = nb_evals = 20 
+    max_evals = nb_evals = 10
 
     print("Attempt to resume a past training if it exists:")
 
@@ -164,7 +166,15 @@ def print_json(result):
         result,
         default=json_util.default, sort_keys=True,
         indent=4, separators=(',', ': ')
-    )) 
+    ))
+
+    with open(F"results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt", 'w') as file:
+        file.write(json.dumps(
+            result,
+            default=json_util.default, sort_keys=True,
+            indent=4, separators=(',', ': ')
+        ))
+    
 
 def save_json_result(model_name, result):
     """Save json to a directory and a filename."""
@@ -207,6 +217,18 @@ def plot_best_model():
     print("Best hyperspace yet:")
     print_json(space_best_model)
 
+def delete_result_files():
+    """Delete all .txt files in the 'results' folder."""
+    results_path = 'results'
+    txt_files = glob.glob(os.path.join(results_path, '*.txt'))
+    
+    for txt_file in txt_files:
+        try:
+            os.remove(txt_file)
+        except Exception as e:
+            print(f"Error deleting file {txt_file}: {e}")
+
+
 while True:
     print("Optimizing New Model")
     try:
@@ -217,4 +239,5 @@ while True:
         traceback_str = str(traceback.format_exc())
         print(traceback_str)
     plot_best_model()
+    delete_result_files()
     break
