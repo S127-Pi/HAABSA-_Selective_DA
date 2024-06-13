@@ -1,7 +1,7 @@
 import tensorflow.compat.v1 as tf
 import lcrModelAlt_hierarchical_v4
 
-from OntologyReasoner import OntReasoner
+# from OntologyReasoner import OntReasoner
 from loadData import *
 
 #import parameter configuration and data paths
