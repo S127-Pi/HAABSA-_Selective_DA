@@ -218,9 +218,9 @@ def plot_best_model():
     print_json(space_best_model)
 
 def delete_result_files():
-    """Delete all .txt files in the 'results' folder."""
+    """Delete all .txt.json files in the 'results' folder."""
     results_path = 'results'
-    txt_files = glob.glob(os.path.join(results_path, '*.txt'))
+    txt_files = glob.glob(os.path.join(results_path, '*.txt.json'))
     
     for txt_file in txt_files:
         try:
