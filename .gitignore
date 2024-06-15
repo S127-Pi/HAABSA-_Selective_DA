@@ -17,6 +17,9 @@ __pycache__/
 # intermediate hyperparameter results
 results/*.txt.json
 
+# pickle files
+*.pkl
+
 # BERT embeddings files
 data/programGeneratedData/bert_embeddings/*.txt
 
