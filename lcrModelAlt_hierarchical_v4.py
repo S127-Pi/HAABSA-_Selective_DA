@@ -95,6 +95,23 @@ def lcr_rot(input_fw, input_bw, sen_len_fw, sen_len_bw, target, sen_len_tr, keep
 
 def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning_rate=0.09, keep_prob=0.3, momentum=0.85, l2=0.00001):
     print_config()
+    
+    # Load tuned hyperparameters if exists
+    try:
+        file_path = f'best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
+        with open(file_path, 'r') as file:
+            content = file.read()
+
+        # Parse the content into a list of floats
+        values = eval(content)
+
+        # Extract distinct values using a set
+        distinct_values = list(set(values))
+        learning_rate, keep_prob, momentum, l2 = distinct_values
+    
+    except Exception as e:
+        print(f"{file_path} not found. The program proceed with the default settings.")
+        
     with tf.device('/GPU:0'):
         word_id_mapping, w2v = load_w2v(FLAGS.bert_embedding_path, FLAGS.embedding_dim)
         word_embedding = tf.constant(w2v, name='word_embedding')
