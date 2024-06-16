@@ -1,4 +1,7 @@
 # Selective Data Augmentation For HAABSA++
+## Environment
+This source code is configured to run with Python3 Tensorflow2. For development, a Python virtual environment(conda) is recommended.
+Notice: The code for the ontology reasoner is adjusted for the Linux operation system.
 
 ## HAABSA++
 The code for A Hybrid Approach for Aspect-Based Sentiment Analysis Using Contextual Word Emmbeddings and Hierarchical Attention
@@ -7,11 +10,11 @@ The hybrid approach for aspect-based sentiment analysis (HAABSA) is a two-step m
  - HAABSA++ paper: [https://personal.eur.nl/frasincar/papers/ICWE2020/icwe2020.pdf]
 
  ## Software
-The HAABSA source code: https://github.com/mtrusca/HAABSA_PLUS_PLUS needs to be installed. Then the following changes need to be done:
+The HAABSA++ source code: https://github.com/mtrusca/HAABSA_PLUS_PLUS needs to be installed. Then the following changes need to be done:
 - Update files: config.py, att_layer.py, main.py, main_cross.py and main_hyper.py.
 - Add files: 
   - Context-dependent word embeddings: 
-    - getBERTusingColab.py (extract the BERT word embeddings);
+    - getBERTusingColab.py or TorchBERT.py (recommended) (extract the BERT word embeddings);
     - prepareBERT.py (prepare the final BERT embedding matrix, training and testing datasets);
     - prepareELMo.py (extract the ELMo word embeddings and prepare the final ELMo embedding matrix, training and testing datasets);
     - raw_data2015.txt, raw_data2016.txt (Data folder).
