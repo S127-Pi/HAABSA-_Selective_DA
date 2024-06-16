@@ -1,5 +1,5 @@
 # Selective Data Augmentation For HAABSA++
-## Environment
+## Development
 This source code is configured to run with Python3 Tensorflow2. For development, a Python virtual environment(conda) is recommended.
 Notice: The code for the ontology reasoner is adjusted for the Linux operation system.
 
