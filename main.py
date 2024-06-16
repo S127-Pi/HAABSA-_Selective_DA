@@ -18,7 +18,7 @@ import lcrModelAlt_hierarchical_v4
 
 # main function
 def main(_):
-    loadData         = True        # Only True for making data augmentations or raw_data files
+    loadData         = False        # Only True for making data augmentations or raw_data files
                                     # Use TorchBert in Google Colab to generate the BERT embeddings for every word
                                     # Use prepare_bert for making train and test data sets
     useOntology      = False        # When run together with runLCRROTALT, the two-step method is used
@@ -97,12 +97,14 @@ def main(_):
     else:
         if shortCutOnt == True:
             #2015
-            #accuracyOnt = 0.8277
-            #remaining_size = 301
+            if FLAGS.year == 2015:
+                accuracyOnt = 0.8277
+                remaining_size = 301
             #2016
-            accuracyOnt = 0.8682
-            remaining_size = 248
-            test = FLAGS.remaining_test_path
+            if FLAGS.year == 2016:
+                accuracyOnt = 0.8682
+                remaining_size = 248
+                test = FLAGS.remaining_test_path
         else:
             test = FLAGS.test_path
 
