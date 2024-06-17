@@ -98,7 +98,7 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
     
     # Load tuned hyperparameters if exists
     try:
-        file_path = f'best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
+        file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
         with open(file_path, 'r') as file:
             content = file.read()
 
