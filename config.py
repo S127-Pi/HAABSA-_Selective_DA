@@ -56,7 +56,7 @@ tf.app.flags.DEFINE_string("test_path", "data/programGeneratedData/" + str(FLAGS
 tf.app.flags.DEFINE_string("embedding_path", "data/programGeneratedData/" + str(FLAGS.embedding_type) + str(FLAGS.embedding_dim)+'embedding'+str(FLAGS.year)+ '_'+ str(FLAGS.da_type)+".txt", "pre-trained glove vectors file path")
 
 tf.app.flags.DEFINE_string("remaining_test_path_ELMo", "data/programGeneratedData/"+str(FLAGS.embedding_dim)+'remainingtestdata'+str(FLAGS.year)+"ELMo.txt", "only for printing")
-tf.app.flags.DEFINE_string("remaining_test_path", "data/programGeneratedData/"+str(FLAGS.embedding_dim)+'remainingtestdata'+str(FLAGS.year)+".txt", "formatted remaining test data path after ontology")
+tf.app.flags.DEFINE_string("remaining_test_path", "data/programGeneratedData/"+str(FLAGS.embedding_dim)+'remainingtestdata'+"_"+str(FLAGS.da_type)+"_"+str(FLAGS.year)+".txt", "formatted remaining test data path after ontology")
 
 #toegevoegd vanaf arthur
 tf.app.flags.DEFINE_string('bert_embedding_path', 'data/programGeneratedData/bert_embeddings/BERT_base_'+str(FLAGS.da_type) + '_' + str(FLAGS.year)+'.txt', 'path to BERT embeddings file')

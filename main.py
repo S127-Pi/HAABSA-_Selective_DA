@@ -22,11 +22,11 @@ def main(_):
                                     # Use TorchBert in Google Colab to generate the BERT embeddings for every word
                                     # Use prepare_bert for making train and test data sets
     useOntology      = False        # When run together with runLCRROTALT, the two-step method is used
-    shortCutOnt      = False         # Only possible when last run was for same year of training/testing data
+    shortCutOnt      = True         # Only possible when last run was for same year of training/testing data
 
     runSVM           = False
 
-    runLCRROTALT_v4     = True
+    runLCRROTALT_v4  = True
 
     #determine if backupmethod is used
     if runLCRROTALT_v4:
@@ -94,6 +94,7 @@ def main(_):
             test = FLAGS.remaining_test_path
             print(test[0])
         print('train acc = {:.4f}, test acc={:.4f}, remaining size={}'.format(accuracyOnt, accuracyOnt, remaining_size))
+        return 0
     else:
         if shortCutOnt == True:
             #2015
