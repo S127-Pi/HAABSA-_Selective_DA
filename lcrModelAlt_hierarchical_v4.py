@@ -322,7 +322,7 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         with open(result_file, 'w') as file:
             file.write(f"trainacc={trainacc}\n")
             file.write(f"totalacc={totalacc}\n")
-            file.write(f"--------------------------------")
+            file.write(f"--------------------------------\n")
             file.write(f"max_acc={max_acc}\n")
             file.write(f"max_train_accuracy={max_train_accuracy}\n")
             file.write(f"max_total_accuracy={max_total_accuracy}\n")
