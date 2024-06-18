@@ -94,7 +94,6 @@ def lcr_rot(input_fw, input_bw, sen_len_fw, sen_len_bw, target, sen_len_tr, keep
     return prob, att_l, att_r, att_t_l, att_t_r
 
 def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning_rate=0.09, keep_prob=0.3, momentum=0.85, l2=0.00001):
-    print_config()
     
     # Load tuned hyperparameters if exists
     try:
@@ -108,10 +107,14 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         # Extract distinct values using a set
         distinct_values = list(set(values))
         learning_rate, keep_prob, momentum, l2 = distinct_values
+        FLAGS.learning_rate = learning_rate
+        FLAGS.l2_reg = l2
+        FLAGS.momentum = momentum
     
     except Exception as e:
         print(f"{file_path} not found. The program proceed with the default settings.")
         
+    print_config()    
     with tf.device('/GPU:0'):
         word_id_mapping, w2v = load_w2v(FLAGS.bert_embedding_path, FLAGS.embedding_dim)
         word_embedding = tf.constant(w2v, name='word_embedding')
@@ -217,6 +220,8 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         max_ty, max_py = None, None
         max_prob = None
         step = None
+        max_total_accuracy = 0
+        max_train_accuracy = 0
         for i in tqdm(range(FLAGS.n_iter), desc='Processing', unit='iteration'):
             trainacc, traincnt = 0., 0
             for train, numtrain in get_batch_data(tr_x, tr_sen_len, tr_x_bw, tr_sen_len_bw, tr_y, tr_target_word, tr_tar_len,
@@ -270,6 +275,8 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
                 max_ty = ty
                 max_py = py
                 max_prob = p
+                max_total_accuracy = totalacc
+                max_train_accuracy = trainacc
 
         P = precision_score(max_ty, max_py, average=None)
         R = recall_score(max_ty, max_py, average=None)
@@ -313,8 +320,12 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
 
         # Open the file in write mode and save the value of totalacc
         with open(result_file, 'w') as file:
+            file.write(f"trainacc={trainacc}\n")
             file.write(f"totalacc={totalacc}\n")
+            file.write(f"--------------------------------")
             file.write(f"max_acc={max_acc}\n")
+            file.write(f"max_train_accuracy={max_train_accuracy}\n")
+            file.write(f"max_total_accuracy={max_total_accuracy}\n")
             file.write(f"{P=}, 'avg=', {sum(P) / FLAGS.n_class}")
 
         print(f'totalacc value total accuracy has been saved to {result_file}')
