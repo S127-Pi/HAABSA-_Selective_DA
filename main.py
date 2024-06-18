@@ -101,6 +101,7 @@ def main(_):
             if FLAGS.year == 2015:
                 accuracyOnt = 0.8277
                 remaining_size = 301
+                test = FLAGS.remaining_test_path
             #2016
             if FLAGS.year == 2016:
                 accuracyOnt = 0.8682
