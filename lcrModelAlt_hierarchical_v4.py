@@ -313,7 +313,12 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         
         # Save results to file name
         try:
-            result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year}.txt'
+            if FLAGS.year == 2015: # 2015 data used the same optimized hyperparameters
+                result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year+1}.txt'
+                print("File exists")
+            else:
+                result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year}.txt'
+                print("File exists")
         except Exception as e:
             print('Error has occured! The specified file name is invalid')
             result_file = f'result_{FLAGS.da_type}_{FLAGS.year}.txt'
