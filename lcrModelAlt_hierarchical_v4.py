@@ -97,7 +97,14 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
     
     # Load tuned hyperparameters if exists
     try:
-        file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
+        if FLAGS.year == 2015:# same optimized hyperparameters for 2015
+            file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year+1}.txt'
+            print("Hyperparameter file loaded for 2015")
+            
+        if FLAGS.year == 2016:
+            file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
+            print("Hyperparameter file loaded for 2016")
+            
         with open(file_path, 'r') as file:
             content = file.read()
 
@@ -313,12 +320,8 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
         
         # Save results to file name
         try:
-            if FLAGS.year == 2015: # 2015 data used the same optimized hyperparameters
-                result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year+1}.txt'
-                print("File exists for 2015")
-            else:
-                result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year}.txt'
-                print("File exists 2016")
+            result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year}.txt'
+            print("File exists")
         except Exception as e:
             print('Error has occured! The specified file name is invalid')
             result_file = f'result_{FLAGS.da_type}_{FLAGS.year}.txt'
