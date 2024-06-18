@@ -4,7 +4,7 @@
 # https://github.com/NUSTM/ABSC
 
 import tensorflow.compat.v1 as tf
-from OntologyReasoner import OntReasoner
+# from OntologyReasoner import OntReasoner
 from loadData import *
 
 #import parameter configuration and data paths
