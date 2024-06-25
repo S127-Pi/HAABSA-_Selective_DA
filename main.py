@@ -75,7 +75,10 @@ def main(_):
     # retrieve data and wordembeddings
     train_size, test_size, train_polarity_vector, test_polarity_vector = loadDataAndEmbeddings(FLAGS, loadData, use_eda, adjusted, 
                                                                                                use_bert, use_bert_prepend, use_bert_expand, use_c_bert, strategy)
-
+    if loadData:
+        ("Data Loaded!")
+        return 0
+    
     print(test_size)
     remaining_size = 250
     accuracyOnt = 0.87

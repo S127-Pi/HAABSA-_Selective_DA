@@ -58,10 +58,10 @@ def loadDataAndEmbeddings(config,loadData, use_eda, adjusted, use_bert, use_bert
                 CBERTaug.file_maker(train_raw_path, augment_path,
                                                                strategy)
 
-            # if EDA is used for DA, create new sentences using BERT-prepend
-            # if use_eda:
-            #     import eda
-            #     eda.file_maker_eda(train_raw_path, augment_path, FLAGS, adjusted=adjusted)
+            # if EDA is used for DA, create new sentences using EDA
+            if use_eda:
+                import eda
+                eda.file_maker_eda(train_raw_path, augment_path, FLAGS, adjusted=adjusted)
 
             # create file containing both raw train and test data; used for BERT embedings
             with open(FLAGS.complete_data_file, 'wb') as out_file:
