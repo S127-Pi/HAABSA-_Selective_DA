@@ -28,6 +28,8 @@ def file_maker(in_file, out_file, strategy):
     
     if strategy == "adverbs":
         augment_func = augment_sentence_adjective_adverbs
+    elif strategy == "all":
+        augment_func = augment_all
     elif strategy == "nouns":
         augment_func = augment_sentence_nouns
     elif strategy == "nouns_adverbs":
