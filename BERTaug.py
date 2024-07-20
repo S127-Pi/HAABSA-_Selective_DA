@@ -68,80 +68,58 @@ def augment_all(in_sentence, in_target):
     
     tar_idx = [i for i, token in enumerate(words) if any(is_similar_enough(token, t) for t in tar)]
 
-    targettoken_sen = []
+    targettoken_sen = words
     ind = 0
-
-    for wrd in words:
-        j = words.index(wrd)
-        if wrd == '$' and words[j+1]=='t' and words[j+2]=='$':
-            ind = words.index(wrd)
-    targettoken_sen.extend(words[:ind])
-    targettoken_sen.extend(tar)
-    targettoken_sen.extend(words[(ind+3):])
     augmented_sentence = []
 
     j=0
     number_not_words = 0
     while j < len(words):
-        if words[j] == '$' and words[j+1]=='t' and words[j+2]=='$':
-            j+=3
-            number_not_words +=3
-        elif words[j] in string.punctuation:
+        if words[j] in string.punctuation:
             j += 1
             number_not_words +=1
         else:
             j += 1
 
-    mask_prob = 0.15
-    total_masks = min(1,int(round((len(words)-number_not_words)*mask_prob)))
     amount_masked = 0
     vocab = tokenizer.vocab
-    real_percentage = mask_prob / ((len(words)-number_not_words)/len(words) )
-
     i=0
     while i < len(words):
-        if words[i] == '$' and words[i+1]=='t' and words[i+2]=='$':
-            augmented_sentence.append('$T$')
-            i+=3
-        elif words[i] in string.punctuation:
+        if words[i] in string.punctuation:
             augmented_sentence.append(words[i])
             i += 1
         else:
             prob1 = rd.random()
-            if prob1 <= real_percentage:
-                prob2 = rd.random()
-                if prob2 <= 0.8:
-                    amount_masked += 1
-                    cur_sent = targettoken_sen.copy()
-                    masked_word = words[i]
-                    if i < ind:
-                        cur_sent[i] = '[MASK]'
-                    else:
-                        cur_sent[i-(3-tar_length)] = '[MASK]'
-                    results = unmasker(' '.join(cur_sent))
-                    predicted_words = []
-
-                    for result in results:
-                        token_id = result['token']
-                        token_str = tokenizer.decode([token_id])
-                        predicted_words.append(token_str)
-                    if predicted_words[0]==masked_word:
-                        augmented_sentence.append(predicted_words[1])
-                        i += 1
-                    else:
-                        augmented_sentence.append(predicted_words[0])
-                        i += 1
-                elif 0.8 < prob2 <= 0.9:
-                    amount_masked += 1
-                    random_token = rd.choice(list(vocab.keys()))
-                    augmented_sentence.append(random_token)
+            if prob1 < 0.8:
+                amount_masked += 1
+                cur_sent = targettoken_sen.copy()
+                masked_word = words[i]
+                cur_sent[i] = '[MASK]'
+                results = unmasker(' '.join(cur_sent))
+                predicted_words = []
+                for result in results:
+                    token_id = result['token']
+                    token_str = tokenizer.decode([token_id])
+                    predicted_words.append(token_str)
+                if predicted_words[0]==masked_word:
+                    augmented_sentence.append(predicted_words[1])
                     i += 1
                 else:
-                    augmented_sentence.append(words[i])
+                    augmented_sentence.append(predicted_words[0])
                     i += 1
-            else:
+
+            # 10% of the time, keep original
+            elif rd.random() < 0.5:
                 augmented_sentence.append(words[i])
-                i+=1
+                i += 1
+
+             # 10% of the time, replace with random word
+            else:
+                amount_masked += 1
+                random_token = rd.choice(list(vocab.keys()))
+                augmented_sentence.append(random_token)
+                i += 1
+
     # Extract the modified_aspect based on in_target_idx in the new augmented sentence
     modified_target = tar
     modified_target = [augmented_sentence[idx] for idx in tar_idx]

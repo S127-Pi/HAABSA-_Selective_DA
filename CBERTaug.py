@@ -94,6 +94,87 @@ def is_similar_enough(str1, str2, threshold=0.70):
     ratio = Levenshtein.ratio(str1, str2)
     return ratio >= threshold 
 
+def augment_all(in_sentence, in_target, sentiment):
+    """
+    
+    This function augment the sentence according to Devlin et al.
+    """
+    # words = tokenizer.tokenize(in_sentence)
+    tar = re.findall(r'\w+|[^\s\w]+', in_target)
+    
+    words = re.sub(r'\$T\$', in_target, in_sentence) # replace $t$ with actual target
+    words = tokenizer.tokenize(words)
+    
+    for word in tar:
+        word = tokenizer.tokenize(word)
+    tar_length = len(tar)
+    
+    tar_idx = [i for i, token in enumerate(words) if any(is_similar_enough(token, t) for t in tar)]
+
+    targettoken_sen = words
+    ind = 0
+    augmented_sentence = []
+
+    j=0
+    number_not_words = 0
+    while j < len(words):
+        if words[j] in string.punctuation:
+            j += 1
+            number_not_words +=1
+        else:
+            j += 1
+
+    amount_masked = 0
+    vocab = tokenizer.vocab
+    i=0
+    while i < len(words):
+        if words[i] in string.punctuation:
+            augmented_sentence.append(words[i])
+            i += 1
+        else:
+            prob1 = rd.random()
+            if prob1 < 0.8:
+                amount_masked += 1
+                cur_sent = targettoken_sen.copy()
+                masked_word = words[i]
+                cur_sent[i] = '[MASK]'
+                results = unmasker(' '.join(cur_sent), sentiment)
+                predicted_words = []
+                for result in results:
+                    predicted_words.append(result)
+                if predicted_words[0]==masked_word:
+                    augmented_sentence.append(predicted_words[1])
+                    i += 1
+                else:
+                    augmented_sentence.append(predicted_words[0])
+                    i += 1
+
+            # 10% of the time, keep original
+            elif rd.random() < 0.5:
+                augmented_sentence.append(words[i])
+                i += 1
+
+             # 10% of the time, replace with random word
+            else:
+                amount_masked += 1
+                random_token = rd.choice(list(vocab.keys()))
+                augmented_sentence.append(random_token)
+                i += 1
+
+    # Extract the modified_aspect based on in_target_idx in the new augmented sentence
+    modified_target = tar
+    modified_target = [augmented_sentence[idx] for idx in tar_idx]
+    modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
+    
+    # Replace the target words with '$T$'
+    start_index = tar_idx[0]
+    end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
+    augmented_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
+
+    # Join the masked tokens to form the masked sequence
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
+    
+    return augmented_sentence_str, modified_target_str
 
 def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
@@ -295,15 +376,16 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
 if __name__ == '__main__':
 
     print("CBERT")
-    # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
-    # in_target = "mens bathroom"
-    # sentiment = "-1"
-    # # aug, aspect = augment_all_noun_adj_adv(in_sentence, in_target, sentiment)
-    # # aug, aspect = augment_sentence_nouns(in_sentence, in_target, sentiment)
-    # # aug, aspect = augment_sentence_aspect(in_sentence, in_target, sentiment)
+    in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
+    in_target = "mens bathroom"
+    sentiment = "-1"
+    # aug, aspect = augment_all_noun_adj_adv(in_sentence, in_target, sentiment)
+    # aug, aspect = augment_sentence_nouns(in_sentence, in_target, sentiment)
+    # aug, aspect = augment_sentence_aspect(in_sentence, in_target, sentiment)
     # aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, sentiment)
-    # # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
-    # print(in_sentence)
-    # print(in_target)
-    # print(aug)
-    # print(aspect)
+    # aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
+    aug, aspect = augment_all(in_sentence, in_target, sentiment)
+    print(in_sentence)
+    print(in_target)
+    print(aug)
+    print(aspect)
