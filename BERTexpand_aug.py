@@ -31,8 +31,8 @@ def file_maker(in_file, out_file, strategy):
 
     if strategy == "adverbs":
         augment_func = augment_sentence_adjective_adverbs
-    elif strategy == "all":
-        augment_func = augment_all
+    elif strategy == "random":
+        augment_func = augment_random
     elif strategy == "nouns":
         augment_func = augment_sentence_nouns
     elif strategy == "nouns_adverbs":
@@ -98,51 +98,78 @@ def is_similar_enough(str1, str2, threshold=0.78):
     ratio = Levenshtein.ratio(str1, str2)
     return ratio >= threshold
 
-def augment_all(in_sentence, in_target, sentiment):
+def augment_random(in_sentence, in_target, sentiment):
     """
     
     This function augment the sentence according to Devlin et al.
     """
-    # words = tokenizer.tokenize(in_sentence)
+
+    words = tokenizer.tokenize(in_sentence)
     tar = re.findall(r'\w+|[^\s\w]+', in_target)
-    
-    words = re.sub(r'\$T\$', in_target, in_sentence) # replace $t$ with actual target
-    words = tokenizer.tokenize(words)
     
     for word in tar:
         word = tokenizer.tokenize(word)
     tar_length = len(tar)
-    
-    tar_idx = [i for i, token in enumerate(words) if any(is_similar_enough(token, t) for t in tar)]
 
-    targettoken_sen = words
-    ind = 0
+    targettoken_sen = []
+    ind = 0 
+
+    for wrd in words:
+        j = words.index(wrd)
+        if wrd == '$' and words[j+1]=='t' and words[j+2]=='$':
+            ind = words.index(wrd)
+            break
+
+    targettoken_sen.extend(words[:ind])
+    targettoken_sen.extend(tar)
+    targettoken_sen.extend(words[(ind+3):])
     augmented_sentence = []
 
     j=0
     number_not_words = 0
     while j < len(words):
-        if words[j] in string.punctuation:
+        if words[j] == '$' and words[j+1]=='t' and words[j+2]=='$':
+            j+=3
+            number_not_words +=3
+        elif words[j] in string.punctuation:
             j += 1
             number_not_words +=1
         else:
             j += 1
 
+
+    mask_prob = 0.15
     amount_masked = 0
     vocab = tokenizer.vocab
-    i=0
+    real_percentage = mask_prob / ((len(words)-number_not_words)/len(words))
+    total_masks = max(1,int(round((len(words)-number_not_words)*mask_prob)))
+
+    i = 0
     while i < len(words):
-        if words[i] in string.punctuation:
+        if words[i] == '$' and words[i+1]=='t' and words[i+2]=='$':
+            augmented_sentence.append('$T$')
+            i+=3
+        elif words[i] in string.punctuation:
             augmented_sentence.append(words[i])
             i += 1
+        elif amount_masked >= total_masks: # reach maximun number of total_mask
+            if words[i] == '$' and words[i+1]=='t' and words[i+2]=='$':
+                augmented_sentence.append('$T$')
+                i+=3
+            else:
+                augmented_sentence.append(words[i])
+                i+=1
         else:
             prob1 = rd.random()
             if prob1 < 0.8:
                 amount_masked += 1
                 cur_sent = targettoken_sen.copy()
                 masked_word = words[i]
-                cur_sent[i] = '[MASK]'
-                results = unmasker(' '.join(cur_sent), sentiment)
+                if i < ind:
+                    cur_sent[i] = '[MASK]'
+                else:
+                    cur_sent[i-(3-tar_length)] = '[MASK]'
+                results = unmasker(tokenizer.convert_tokens_to_string(cur_sent), sentiment)
                 predicted_words = []
                 for result in results:
                     predicted_words.append(result)
@@ -160,25 +187,36 @@ def augment_all(in_sentence, in_target, sentiment):
 
              # 10% of the time, replace with random word
             else:
-                amount_masked += 1
                 random_token = rd.choice(list(vocab.keys()))
                 augmented_sentence.append(random_token)
                 i += 1
 
-    # Extract the modified_aspect based on in_target_idx in the new augmented sentence
-    modified_target = tar
-    modified_target = [augmented_sentence[idx] for idx in tar_idx]
-    modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
-    
-    # Replace the target words with '$T$'
-    start_index = tar_idx[0]
-    end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
-    augmented_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
 
-    # Join the masked tokens to form the masked sequence
-    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    
-    return augmented_sentence_str, modified_target_str
+    # augmented_sentence_str = " ".join(augmented_sentence)
+    augmented_sentence_str = tokenizer.convert_tokens_to_string(augmented_sentence)
+
+    return augmented_sentence_str, in_target
+
+def augment_sentence_aspect(in_sentence, in_target):
+    """
+    This function selective substitute all aspects occuring in a sentence
+    """
+    masked_word = in_target
+    sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence, count=1) # mask only the first occurence
+
+    results = unmasker(sentence_mask_target)
+    predicted_words = []
+    target = ""
+    for result in results: # decode predicted tokens
+        token_id = result['token']
+        token_str = tokenizer.decode([token_id])
+        predicted_words.append(token_str)
+    if predicted_words[0] == masked_word: # skip to the next predicted word
+        target = predicted_words[1]
+    else:
+        target = predicted_words[0]
+
+    return in_sentence, target
 
 def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
@@ -388,7 +426,7 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
 if __name__ == '__main__':
     in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
     in_target = "mens bathroom"
-    aug, aspect = augment_all(in_sentence, in_target, "-1")
+    aug, aspect = augment_random(in_sentence, in_target, "-1")
     print(aug)
     print(aspect)
 
