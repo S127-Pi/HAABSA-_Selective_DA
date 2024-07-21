@@ -69,6 +69,7 @@ context_embeddings = []
 context_tokens = []
 # Change outfile name to embedding_path in config
 lines = open(f'{FLAGS.complete_data_file}', errors='replace').readlines()
+firstline = True
 with open(f'{FLAGS.bert_embedding_path}', 'w', encoding='utf-8') as f:
     word_counts = {}
     for i in tqdm(range(0 * 3, sentences * 3, 3), desc=f"Creating BERT Embeddings of {FLAGS.complete_data_file}", unit="sentence"):  # len(lines): 2530 for 2016, 4410 for BERT-models, 8170 for EDA-adjusted, 10050 for EDA-original
@@ -111,9 +112,13 @@ with open(f'{FLAGS.bert_embedding_path}', 'w', encoding='utf-8') as f:
         # save values
         #  context_tokens.append(token)
         #  context_embeddings.append(token_vec)
-
-          f.write('\n%s_%s ' % (token, count))
-          f.write(' '.join(map(str, token_vec_array)))
+          if not firstline:
+            f.write('\n%s_%s ' % (token, count))
+            f.write(' '.join(map(str, token_vec_array)))
+          else:
+             f.write('%s_%s ' % (token, count))
+             f.write(' '.join(map(str, token_vec_array)))
+             firstline = False
 
 #Change filename to file for download
 # files.download('BERT768embedding2015_none.txt')
