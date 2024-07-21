@@ -319,25 +319,26 @@ def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning
             FLAGS.l2_reg
         ))
         
-        # Save results to file name
-        try:
-            result_file = f'results/result_{FLAGS.da_type}_{FLAGS.year}.txt'
-            print("File exists")
-        except Exception as e:
-            print('Error has occured! The specified file name is invalid')
-            result_file = f'result_{FLAGS.da_type}_{FLAGS.year}.txt'
+        if tuning is False:
+            # Save results to file name
+            try:
+                result_file = f'results/evaluation/result_{FLAGS.da_type}_{FLAGS.year}.txt'
+                print("Result file created")
+            except Exception as e:
+                print('Error has occured! The specified file name is invalid')
+                result_file = f'result_{FLAGS.da_type}_{FLAGS.year}.txt'
 
-        # Open the file in write mode and save the value of totalacc
-        with open(result_file, 'w') as file:
-            file.write(f"trainacc={trainacc}\n")
-            file.write(f"totalacc={totalacc}\n")
-            file.write(f"--------------------------------\n")
-            file.write(f"max_acc={max_acc}\n")
-            file.write(f"max_train_accuracy={max_train_accuracy}\n")
-            file.write(f"max_total_accuracy={max_total_accuracy}\n")
-            file.write(f"{P=}, 'avg=', {sum(P) / FLAGS.n_class}")
+            # Open the file in write mode and save the value of totalacc
+            with open(result_file, 'w') as file:
+                file.write(f"trainacc={trainacc}\n")
+                file.write(f"totalacc={totalacc}\n")
+                file.write(f"--------------------------------\n")
+                file.write(f"max_acc={max_acc}\n")
+                file.write(f"max_train_accuracy={max_train_accuracy}\n")
+                file.write(f"max_total_accuracy={max_total_accuracy}\n")
+                file.write(f"{P=}, 'avg=', {sum(P) / FLAGS.n_class}")
 
-        print(f'totalacc value total accuracy has been saved to {result_file}')
+            print(f'totalacc value total accuracy has been saved to {result_file}')
 
         return max_acc, np.where(np.subtract(max_py, max_ty) == 0, 0, 1), max_fw.tolist(), max_bw.tolist(), max_tl.tolist(), max_tr.tolist()
 
