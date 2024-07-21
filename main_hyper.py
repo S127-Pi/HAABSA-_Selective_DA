@@ -105,7 +105,7 @@ def lcr_alt_objective(hyperparams):
     (learning_rate, keep_prob, momentum, l2) = hyperparams
     print(hyperparams)
 
-    l, pred1, fw1, bw1, tl1, tr1 = lcrModelAlt_hierarchical_v4.main(FLAGS.hyper_train_path, FLAGS.hyper_eval_path, accuracyOnt, test_size, remaining_size, learning_rate, keep_prob, momentum, l2)
+    l, pred1, fw1, bw1, tl1, tr1 = lcrModelAlt_hierarchical_v4.main(FLAGS.hyper_train_path, FLAGS.hyper_eval_path, accuracyOnt, test_size, remaining_size, learning_rate, keep_prob, momentum, l2, tuning=True)
     tf.reset_default_graph()
 
     # Save training results to disks with unique filenames

@@ -93,33 +93,34 @@ def lcr_rot(input_fw, input_bw, sen_len_fw, sen_len_bw, target, sen_len_tr, keep
     prob = softmax_layer(outputs_fin, 8 * FLAGS.n_hidden, FLAGS.random_base, keep_prob2, l2, FLAGS.n_class)
     return prob, att_l, att_r, att_t_l, att_t_r
 
-def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning_rate=0.09, keep_prob=0.3, momentum=0.85, l2=0.00001):
+def main(train_path, test_path, accuracyOnt, test_size, remaining_size, learning_rate=0.09, keep_prob=0.3, momentum=0.85, l2=0.00001, tuning=False):
     
     # Load tuned hyperparameters if exists
-    try:
-        if FLAGS.year == 2015:# same optimized hyperparameters for 2015
-            file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year+1}.txt'
-            print("Hyperparameter file loaded for 2015")
-            
-        if FLAGS.year == 2016:
-            file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
-            print("Hyperparameter file loaded for 2016")
-            
-        with open(file_path, 'r') as file:
-            content = file.read()
+    if tuning is False:
+        try:
+            if FLAGS.year == 2015:# same optimized hyperparameters for 2015
+                file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year+1}.txt'
+                print("Hyperparameter file loaded for 2015")
+                
+            if FLAGS.year == 2016:
+                file_path = f'results/best_hyperparameter/best_parameter_{FLAGS.da_type}_{FLAGS.year}.txt'
+                print("Hyperparameter file loaded for 2016")
+                
+            with open(file_path, 'r') as file:
+                content = file.read()
 
-        # Parse the content into a list of floats
-        values = eval(content)
+            # Parse the content into a list of floats
+            values = eval(content)
 
-        # Extract distinct values using a set
-        distinct_values = list(set(values))
-        learning_rate, keep_prob, momentum, l2 = distinct_values
-        FLAGS.learning_rate = learning_rate
-        FLAGS.l2_reg = l2
-        FLAGS.momentum = momentum
-    
-    except Exception as e:
-        print(f"{file_path} not found. The program proceed with the default settings.")
+            # Extract distinct values using a set
+            distinct_values = list(set(values))
+            learning_rate, keep_prob, momentum, l2 = distinct_values
+            FLAGS.learning_rate = learning_rate
+            FLAGS.l2_reg = l2
+            FLAGS.momentum = momentum
+        
+        except Exception as e:
+            print(f"{file_path} not found. The program proceed with the default settings.")
         
     print_config()    
     with tf.device('/GPU:0'):
