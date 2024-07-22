@@ -197,26 +197,6 @@ def augment_random(in_sentence, in_target, sentiment):
 
     return augmented_sentence_str, in_target
 
-def augment_sentence_aspect(in_sentence, in_target):
-    """
-    This function selective substitute all aspects occuring in a sentence
-    """
-    masked_word = in_target
-    sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence, count=1) # mask only the first occurence
-
-    results = unmasker(sentence_mask_target)
-    predicted_words = []
-    target = ""
-    for result in results: # decode predicted tokens
-        token_id = result['token']
-        token_str = tokenizer.decode([token_id])
-        predicted_words.append(token_str)
-    if predicted_words[0] == masked_word: # skip to the next predicted word
-        target = predicted_words[1]
-    else:
-        target = predicted_words[0]
-
-    return in_sentence, target
 
 def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
@@ -239,9 +219,6 @@ def augment_sentence_aspect(in_sentence, in_target, sentiment):
 
     return in_sentence, target
 
-
-
-
 def augment_sentence_nouns(in_sentence, in_target,sentiment):
     """
     This function selective substitute all nouns occuring in a sentence
@@ -253,6 +230,17 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
     tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)] # obtain target indices 
+    
+    non_cand_idx = []
+    substring = ""
+    for idx, tar_id in enumerate(tar_idx):
+        if substring == in_target: 
+            non_cand_idx.extend(tar_idx[idx:])
+            tar_idx = tar_idx[:idx]
+        if idx == 0:
+            substring += doc_tokens[tar_id]
+        else:
+            substring = substring + " " +  doc_tokens[tar_id]
 
     noun_idx = []
     j = 0
@@ -274,15 +262,16 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     i = 0
     augmented_sentence = []
     amount_masked = 0
-    cur_sent = doc_tokens.copy()
-
+    # cur_sent = doc_tokens.copy()
+    j = 0
     while i < len(doc_tokens):
         if doc_tokens[i] in string.punctuation:
             augmented_sentence.append(doc_tokens[i])
             i += 1
         else:
-            if doc[i].pos_ in ['NOUN', 'PRON']:
+            if doc[i].pos_ in ['NOUN', 'PRON'] and i not in non_cand_idx:
                 amount_masked += 1
+                cur_sent = doc_tokens.copy()
                 masked_word = doc_tokens[i]
                 cur_sent[i] = '[MASK]'
                 predicted_words = unmasker(' '.join(cur_sent), sentiment)
@@ -295,23 +284,26 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
                     augmented_sentence.append(predicted_words[0])
                     cur_sent[i] = predicted_words[0]
                     i += 1
+            if i in non_cand_idx:
+                sub_target = augmented_sentence[tar_idx[j]]
+                augmented_sentence.append(sub_target)
+                j+=1
+                i+=1
             else:
                 augmented_sentence.append(doc_tokens[i])
                 i += 1
 
     # Extract the modified_aspect based on in_target_idx in the new augmented sentence
+    # Extract the modified_aspect based on in_target_idx in the new augmented sentence
     modified_target = tar
     modified_target = [augmented_sentence[idx] for idx in tar_idx]
     modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
 
-    # Replace the target words with '$t$'
-    start_index = tar_idx[0]
-    end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
-    augmented_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
-
     # Join the masked tokens to form the masked sequence
     augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    # modified_target_str = ' '.join(modified_target)
+    augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
+    if '$T$' not in augmented_sentence_str:
+        raise ValueError
     return augmented_sentence_str, modified_target_str
 
 
@@ -332,6 +324,17 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     doc_tokens = [token.text for token in doc] # list of tokens
     tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
 
+    non_cand_idx = []
+    substring = ""
+    for idx, tar_id in enumerate(tar_idx):
+        if substring == in_target: 
+            non_cand_idx.extend(tar_idx[idx:])
+            tar_idx = tar_idx[:idx]
+        if idx == 0:
+            substring += doc_tokens[tar_id]
+        else:
+            substring = substring + " " +  doc_tokens[tar_id]
+
     j = 0
     number_not_words = 0
     number_adj_adv = 0
@@ -349,6 +352,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
 
     if adj_adv_ind == []:
         return in_sentence, in_target
+
     # Mask tokens tagged as ADJ or ADV
     masked_sequence = []
     mask_prob = 0.2
@@ -360,7 +364,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     i = 0
     amount_masked = 0
     augmented_sentence = []
-    cur_sent = doc_tokens.copy()
+    # cur_sent = doc_tokens.copy()
 
     while i < len(doc_tokens):
         if doc_tokens[i] in string.punctuation:
@@ -369,12 +373,14 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
         else:
             #maximum of 15% of adjectives and adverbs can be masked in the sentence
             # if amount_masked < num_to_mask and doc[i].pos_ in ['ADJ', 'ADV'] and rd.random() > mask_prob:
-            if i in mask_indices:
+            if i in mask_indices and i not in non_cand_idx:
+                cur_sent = doc_tokens.copy()
                 amount_masked += 1
                 masked_word = doc_tokens[i]
                 cur_sent[i] = '[MASK]'
                 amount_masked += 1
                 predicted_words = unmasker(' '.join(cur_sent), sentiment)
+                # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
                     cur_sent[i] = predicted_words[1]
@@ -383,50 +389,228 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
                     augmented_sentence.append(predicted_words[0])
                     cur_sent[i] = predicted_words[0]
                     i += 1
+            if i in non_cand_idx:
+                sub_target = augmented_sentence[tar_idx[j]]
+                augmented_sentence.append(sub_target)
+                j+=1
+                i+=1
             else:
                 augmented_sentence.append(doc_tokens[i])
                 i += 1
 
-    # Extract the modified_aspect based on in_target_idx
+    # Extract the modified_aspect based on in_target_idx in the new augmented sentence
     modified_target = tar
     modified_target = [augmented_sentence[idx] for idx in tar_idx]
     modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
 
-    # Replace the target words with '$t$'
-    start_index = tar_idx[0]
-    end_index = tar_idx[-1] + 1  # +1 because list slicing is exclusive of the end index
-    augmented_sentence = augmented_sentence[:start_index] + ['$T$'] + augmented_sentence[end_index:]
-
+    # Join the masked tokens to form the masked sequence
     augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    # modified_target_str = ' '.join(modified_target)
+    augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
+    if '$T$' not in augmented_sentence_str:
+        raise ValueError
     return augmented_sentence_str, modified_target_str
 
 def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all aspect, adjectives and adverbs (15%) occuring in a sentence
     """
-    
-    aug, aspect = augment_sentence_aspect(in_sentence, in_target, sentiment)
-    aug, aspect = augment_sentence_adjective_adverbs(aug, aspect, sentiment)
+    tar = re.findall(r'\w+|[^\s\w]+', in_target) # extract target
+    sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # substitute $t$ with autual target
 
-    return aug, aspect
+    # Tokenize the sequence using spaCy
+    doc = nlp(sentence_w_target)
+    doc_tokens = [token.text for token in doc] # list of tokens
+    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
+
+    non_cand_idx = []
+    substring = ""
+    for idx, tar_id in enumerate(tar_idx):
+        if substring == in_target: 
+            non_cand_idx.extend(tar_idx[idx:])
+            tar_idx = tar_idx[:idx]
+        if idx == 0:
+            substring += doc_tokens[tar_id]
+        else:
+            substring = substring + " " +  doc_tokens[tar_id]
+
+    j = 0
+    number_not_words = 0
+    number_adj_adv = 0
+    adj_adv_ind = []
+    while j < len(doc_tokens):
+        if doc[j].pos_ in ['ADJ', 'ADV'] and j not in tar_idx:
+            adj_adv_ind.append(j)
+            j += 1
+            number_adj_adv += 1
+        elif doc_tokens[j] in string.punctuation:
+            j += 1
+            number_not_words += 1
+        else:
+            j += 1
+
+
+    # Mask tokens tagged as ADJ or ADV
+    max_total_mask = 0.15
+    mask_indices = []
+    if len(adj_adv_ind) >= 1:
+        num_to_mask = max(1, int(0.15 * number_adj_adv)) #maximum of 15% of adjectives and adverbs can be masked in the sentence
+        mask_indices = rd.sample(adj_adv_ind, num_to_mask)
+    # print(f"{num_to_mask=}")
+
+    i = 0
+    amount_masked = 0
+    augmented_sentence = []
+    j = 0
+    target = False
+    modified_target = tar
+    while i < len(doc_tokens):
+        if doc_tokens[i] in string.punctuation:
+            augmented_sentence.append(doc_tokens[i])
+            i += 1
+        else:
+            if (i in mask_indices or i == tar_idx[0]) and i not in non_cand_idx:
+                amount_masked += 1
+                cur_sent = doc_tokens.copy()
+                masked_word = doc_tokens[i]
+                if i == tar_idx[0]:
+                    target = True
+                    cur_sent[i:tar_idx[-1]+1] = ['[MASK]']
+                    i = tar_idx[-1]+1
+                else:
+                    cur_sent[i] = '[MASK]'
+                    i += 1
+                amount_masked += 1
+                predicted_words = unmasker(' '.join(cur_sent),sentiment)
+                # print(f"{predicted_words=}")
+                if predicted_words[0] == masked_word: # skip to the next predicted word
+                    augmented_sentence.append(predicted_words[1])
+                    cur_sent[i] = predicted_words[1]
+                    if target:
+                        modified_target = cur_sent[i]
+                        target = False
+                else:
+                    augmented_sentence.append(predicted_words[0])
+                    cur_sent[i] = predicted_words[0]
+                    if target:
+                        modified_target = cur_sent[i]
+                        target = False
+            if i in non_cand_idx:
+                augmented_sentence.append(modified_target)
+                i = non_cand_idx[-1]+1
+            else:
+                augmented_sentence.append(doc_tokens[i])
+                i += 1
+
+
+    # Join the masked tokens to form the masked sequence
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
+    augmented_sentence_str = re.sub(modified_target,'$T$', augmented_sentence_str)
+    if '$T$' not in augmented_sentence_str:
+        raise ValueError
+    return augmented_sentence_str, modified_target
 
 def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all nouns, adjectives and adverbs (15%) occuring in a sentence
     """
+    tar = re.findall(r'\w+|[^\s\w]+', in_target)
+    sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # replace $t$ with actual target
+
+    # Tokenize the sequence using spaCy
+    doc = nlp(sentence_w_target)
+    doc_tokens = [token.text for token in doc] # list of tokens
+    # tar_idx = [i for i, token in enumerate(doc_tokens) if token in tar] # obtain target indices 
+    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
+    non_cand_idx = []
+    substring = ""
+    for idx, tar_id in enumerate(tar_idx):
+        if substring == in_target: 
+            non_cand_idx.extend(tar_idx[idx:])
+            tar_idx = tar_idx[:idx]
+        if idx == 0:
+            substring += doc_tokens[tar_id]
+        else:
+            substring = substring + " " +  doc_tokens[tar_id]
+
+    noun_idx = []
+    j = 0
+    number_not_words = 0
+    number_nouns = 0
+    adj_adv_ind = []
+    number_adj_adv = 0
+    while j < len(doc_tokens):
+        if doc[j].pos_ in ['NOUN','PRON']:
+            noun_idx.append(j)
+            j += 1
+            number_nouns += 1
+        elif doc[j].pos_ in ['ADJ', 'ADV'] and j not in non_cand_idx:
+            adj_adv_ind.append(j)
+            j += 1
+            number_adj_adv += 1
+        elif doc_tokens[j] in string.punctuation:
+            j += 1
+            number_not_words += 1
+        else:
+            j += 1
     
-    aug, aspect = augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment)
-    aug, aspect = augment_sentence_nouns(aug, aspect, sentiment)
 
-    return aug, aspect
+    i = 0
+    j = 0
+    augmented_sentence = []
+    amount_masked = 0
+    # cur_sent = doc_tokens.copy()
 
+    if len(adj_adv_ind) >= 1:
+        num_to_mask = max(1, int(0.15 * number_adj_adv)) #maximum of 15% of adjectives and adverbs can be masked in the sentence
+        mask_indices = rd.sample(adj_adv_ind, num_to_mask)
+
+    while i < len(doc_tokens):
+        if doc_tokens[i] in string.punctuation:
+            augmented_sentence.append(doc_tokens[i])
+            i += 1
+        else:
+            if (doc[i].pos_ in ['NOUN', 'PRON'] or i in mask_indices) and i not in non_cand_idx :
+                amount_masked += 1
+                cur_sent = doc_tokens.copy()
+                masked_word = doc_tokens[i]
+                cur_sent[i] = '[MASK]'
+                predicted_words = unmasker(' '.join(cur_sent),sentiment)
+                if predicted_words[0] == masked_word: # skip to the next predicted word
+                    augmented_sentence.append(predicted_words[1])
+                    cur_sent[i] = predicted_words[1]
+                    i += 1
+                else:
+                    augmented_sentence.append(predicted_words[0])
+                    cur_sent[i] = predicted_words[0]
+                    i += 1
+            if i in non_cand_idx:
+                sub_target = augmented_sentence[tar_idx[j]]
+                augmented_sentence.append(sub_target)
+                j+=1
+                i+=1
+            else:
+                augmented_sentence.append(doc_tokens[i])
+                i += 1
+
+    # Extract the modified_aspect based on in_target_idx in the new augmented sentence
+    modified_target = tar
+    modified_target = [augmented_sentence[idx] for idx in tar_idx]
+    modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
+
+    # Join the masked tokens to form the masked sequence
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
+    augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
+
+    if '$T$' not in augmented_sentence_str:
+        raise ValueError
+    # modified_target_str = ' '.join(modified_target)
+    return augmented_sentence_str, modified_target_str
 
 
 if __name__ == '__main__':
     in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
     in_target = "mens bathroom"
-    aug, aspect = augment_random(in_sentence, in_target, "-1")
+    aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, "-1")
     print(aug)
     print(aspect)
 
