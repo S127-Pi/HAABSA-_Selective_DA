@@ -151,7 +151,7 @@ food
 the food is very average ... the $T$ is a bit too sweet , every thing they serve is too sweet here .
 thai fusion stuff
 -1
-the food is very average... the $T$ is a bit too sweet, every thing they serve is too ##ggy here.
+the food is very average... the $T$ is a bit too sweet, every thing they serve is tooggy here.
 thai fusion stuff
 -1
 the only thing i moderately enjoyed was their $T$ .
@@ -265,8 +265,8 @@ service
 i happen to have a policy that goes along with a little bit of self-respect , which includes not letting a $T$ intimidate me , i.e . make me feel bad asking for trivialities like water , or the check .
 waiter
 -1
-i happen to have a policy that goes along with a little bit of self - respect, which includes not letting a $T$, or the check.
-waiter water
+i happen to have a policy that goes along with a little bit of self - respect, which includes not letting a $T$ intimidate me, i.e. make me feel like asking for trivialities like $T$, or the check.
+waiter
 -1
 this $T$ has got to be the best japanese restaurant in the new york area .
 place
@@ -307,8 +307,8 @@ sushi
 the $T$ was also good -- they did n't try to overpack the rice .
 rice to fish ration
 1
-the $T$.
-rice to fish ration to rice
+the $T$ was pretty good -- they did n't try to overpack the rice.
+rice to fish ration
 1
 we took advanatage of the $T$ on saturday so it was well worth it .
 half price sushi deal
@@ -547,8 +547,8 @@ pizza
 yes , they use fancy $T$ , but even fancy $T$ do n't make for good pizza unless someone knows how to get the crust right .
 ingredients
 1
-yes, they use fancy $T$ do n't make for good pizza unless someone knows how to get the crust right.
-ingredients ingredients
+yes, they use fancy $T$, but the fancy $T$ do n't make for good pizza unless someone knows how to get the crust right.
+ingredients
 1
 yes , they use fancy ingredients , but even fancy ingredients do n't make for good $T$ unless someone knows how to get the crust right .
 pizza
@@ -1087,8 +1087,8 @@ crust
 $T$ - the only $T$ in nyc that should not have additional toppings - the crust tastes like the best , freshly baked bread !
 pizza
 1
-$T$ in nyc that should not have additional toppings - the crust tastes like the best, freshly baked bread!
-pizza pizza
+$T$ - the best $T$ in nyc that should not have additional toppings - the crust tastes like the best, freshly baked bread!
+pizza
 1
 i take all my nyc guests to $T$ .
 vt 's
@@ -1195,8 +1195,8 @@ downstairs lounge
 $T$ is a romantic , cozy restaurant .
 raga 's
 1
-$T$ 's is a small, cozy restaurant.
-raga
+$T$ is a small, cozy restaurant.
+raga 's
 1
 the $T$ is beautifully presented and is a delight in delicious combinations .
 exotic food
@@ -1381,19 +1381,19 @@ chicken pot pie
 the chicken pot pie is excpetiona , the $T$ huge and delictable , and the service professional wan warm .
 cheeseburger
 1
-the chicken pot pie is excpetiona, the $T$ huge and delictable, and the service professional wan ##ing.
+the chicken pot pie is excpetiona, the $T$ huge and delictable, and the service professional waning.
 cheeseburger
 1
 the chicken pot pie is excpetiona , the $T$ huge and delictable , and the service professional wan warm .
 cheeseburger
 1
-the chicken pot pie is excpetiona, the $T$ huge and delictable, and the service professional wan ##ing.
+the chicken pot pie is excpetiona, the $T$ huge and delictable, and the service professional waning.
 cheeseburger
 1
 the chicken pot pie is excpetiona , the cheeseburger huge and delictable , and the $T$ professional wan warm .
 service
 1
-the chicken pot pie is excpetiona, the cheeseburger huge and delictable, and the $T$ professional wan ##ing.
+the chicken pot pie is excpetiona, the cheeseburger huge and delictable, and the $T$ professional waning.
 service
 1
 the $T$ is no nonsense .
@@ -1465,14 +1465,14 @@ pork belly
 $T$ is good and wine-by-the-glass was generously filled to the top .
 wine list selection
 1
-$T$ - by - the - glass was well filled to the top.
-wine list selection wine
+$T$ is good and wine - by - the - glass was well filled to the top.
+wine list selection
 1
 wine list selection is good and $T$ was generously filled to the top .
 wine-by-the-glass
 1
-$T$ top.
-wine wine - by - the - glass the
+wine list selection is extensive and $T$ was generously filled to the top.
+wine - by - the - glass
 1
 $T$ was pleasant though the hall was rather noisy - the restaurant was full and we had to raise our voices to be able to maintain a conversation .
 traditional french decour
@@ -1525,8 +1525,8 @@ decor
 the decor is vibrant and eye-pleasing with several $T$ on the right side of the dining hall , which are great for a date .
 semi-private boths
 1
-the decor is vibrant and eye $T$ on the right side of the dining hall, which are great for a date.
-- semi - private boths
+the decor is vibrant and eye - pleasing with the $T$ on the right side of the dining hall, which are great for a date.
+semi - private boths
 1
 i have never been disappointed in the $T$ .
 red eye
@@ -1573,14 +1573,14 @@ restaurant
 the $T$ is a diamond in rough -- the $T$ is delicious and homemade with the perfect balance of herbs and tomatoes .
 food
 1
-the $T$ is fresh and homemade with the perfect balance of herbs and tomatoes.
-food food
+the $T$ is a diamond in rough -- the $T$ is fresh and homemade with the perfect balance of herbs and tomatoes.
+food
 1
 the food is a diamond in rough -- the food is delicious and homemade with the perfect $T$ .
 balance of herbs and tomatoes
 1
-the food is a diamond in itself -- the food is delicious $T$.
-and balance of herbs and tomatoes
+the food is a diamond in itself -- the food is delicious and homemade with the perfect $T$.
+balance of herbs and tomatoes
 1
 we had a great time at the $T$ last night .
 jekyll and hyde pub
@@ -1597,7 +1597,7 @@ bar
 the $T$ was really cool and served us our food and drinks with a smile .
 server
 1
-the $T$ was very cool and served us our food and drinks with a smile.
+the $T$ was very cool and $T$ us our food and drinks with a smile.
 server
 1
 the place 's $T$ and hidden bathrooms made for a good laugh .
@@ -1627,8 +1627,8 @@ place
 my husband and i thougt it would be great to go to the $T$ for our anniversary , and to our surprise it was fantastic .
 jekyll and hyde pub
 1
-my husband $T$ to our surprise it was fantastic.
-and jekyll and hyde pub and
+my husband and i thougt it would be fun to go to the $T$ for our anniversary, and to our surprise it was fantastic.
+jekyll and hyde pub
 1
 the have over 100 different $T$ to offer thier guest so that made my husband very happy and the food was delicious , if i must recommend a dish it must be the pumkin tortelini .
 beers
@@ -1681,14 +1681,14 @@ service
 i have to highly recommend the $T$ - not to much mayo ; you can tell it was a fresh lobster .
 lobster roll
 1
-i have to seriously recommend the $T$.
-lobster roll lobster
+i have to seriously recommend the $T$ - not to much mayo; you can tell it was a fresh lobster.
+lobster roll
 1
 i have to highly recommend the $T$ roll - not to much mayo ; you can tell it was a fresh $T$ .
 lobster
 1
-i have to seriously recommend the $T$.
-lobster lobster
+i have to seriously recommend the $T$ roll - not to much mayo; you can tell it was a fresh $T$.
+lobster
 1
 other guests enjoyed $T$ , santa fe chopped salad and fish and chips .
 pizza
@@ -1705,8 +1705,8 @@ santa fe chopped salad
 other guests enjoyed pizza , santa fe chopped salad and $T$ .
 fish and chips
 1
-the guests enjoyed pizza, santa fe chopped salad $T$.
-and fish and chips
+the guests enjoyed pizza, santa fe chopped salad and $T$.
+fish and chips
 1
 i highly recommend cafe st. bart 's for their $T$ , the ambience and wonderful service .
 food
@@ -1741,8 +1741,8 @@ restaurant
 my $T$ was really bland and oily .
 chow fun and chow see
 -1
-my $T$ disgusting.
-chow fun and chow see and
+my $T$ was really bland and disgusting.
+chow fun and chow see
 -1
 the $T$ and fried dumplings were nothing out of the ordinary .
 scallion pancakes
@@ -1801,8 +1801,8 @@ service
 $T$ was amazing ........ food was delicious and of course fresh .
 fresh restaurant
 1
-$T$.
-the restaurant fresh
+$T$ was amazing........ food was delicious and of course fresh.
+the restaurant
 1
 fresh restaurant was amazing ........ $T$ was delicious and of course fresh .
 food
@@ -1826,7 +1826,7 @@ we had $T$ and it was amazing .
 pam 's special fried fish
 1
 we had $T$ and it was amazing.
-pam deep fried fish
+pam 's deep fried fish
 1
 great $T$ , lots of people .
 vibe
@@ -1903,14 +1903,14 @@ yellowtail
 i have reservations about the $T$ , however -- the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by just going off the menu .
 all you can eat deal
 -1
-i have reservations about the $T$ for less than $ 18 by simply going off the menu.
-all you can eat deal you can you can eat
+i have reservations about the $T$, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by simply going off the menu.
+all you can eat deal
 -1
 i have reservations about the $T$ , however -- the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by just going off the menu .
 all you can eat deal
 -1
-i have reservations about the $T$ for less than $ 18 by simply going off the menu.
-all you can eat deal you can you can eat
+i have reservations about the $T$, however -- the choices are fairly limited and you can probably order more food than you can eat for less than $ 18 by simply going off the menu.
+all you can eat deal
 -1
 in any event , this is a $T$ i 'll be sure to stop by again when i 'm in this part of town .
 place
@@ -1921,8 +1921,8 @@ place
 $T$ gets big ups for a fine establishment .
 big wong
 1
-$T$ ups for a good establishment.
-big wong big
+$T$ gets big ups for a good establishment.
+big wong
 1
 they have it all -- great price , $T$ , and service .
 food
@@ -2059,20 +2059,20 @@ food
 sometimes i get bad food and bad $T$ , sometimes i get good good and bad $T$ .
 service
 -1
-sometimes i get bad food and bad $T$.
-service service
+sometimes i get bad food and bad $T$, sometimes i get bad good and bad $T$.
+service
 -1
 sometimes i get bad food and bad $T$ , sometimes i get good good and bad $T$ .
 service
 -1
-sometimes i get bad food and bad $T$.
-service service
+sometimes i get bad food and bad $T$, sometimes i get bad good and bad $T$.
+service
 -1
 sometimes i get bad food and bad service , sometimes i get $T$ $T$ and bad service .
 good
 1
-sometimes i get good food and bad service, sometimes i get $T$ and bad service.
-good good
+sometimes i get good food and bad service, sometimes i get $T$ $T$ and bad service.
+good
 1
 the place is a bistro which means : simple $T$ and wine served efficiently in a bustling atmosphere .
 dishes
@@ -2503,8 +2503,8 @@ food
 a restaurant that does n't try to do anything except serve great food with great $T$ in a pleasant atmosphere .
 service
 1
-a restaurant that does n't try to do anything except serve good food with great $T$ in a pleasant atmosphere.
-service
+a restaurant that does n't try to do anything except $T$ good food with great $T$ in a pleasant atmosphere.
+serve
 1
 a restaurant that does n't try to do anything except serve great food with great service in a pleasant $T$ .
 atmosphere
@@ -2599,8 +2599,8 @@ a rib
 we did n't want a bottle of bubbly on a weekday so we each got little $T$ it was just enough .
 bottles of korbett
 1
-we did n't want a $T$ it was just enough.
-bottle of bottles of korbett
+we did n't want a bottle of bubbly on a weekday so we each got two $T$ it was just enough.
+bottles of korbett
 1
 my wife and i ate here earlier this week and have not stopped ranting and raving about the $T$ .
 food
@@ -2653,14 +2653,14 @@ food
 the food is amazing ... especially if you get the chef 's tasting menu and your favourite bottle ( or two ! ) of wine from an extensive $T$ .
 selection of wines
 1
-the food is amazing... especially if you get the chef 's tasting menu and your favourite bottle ( or two! ) $T$.
-of selection of wines
+the food is amazing... especially if you get the chef 's tasting menu and your favourite bottle ( or two! ) of wine from an amazing $T$.
+selection of wines
 1
 the food is amazing ... especially if you get the $T$ and your favourite bottle ( or two ! ) of wine from an extensive selection of wines .
 chef 's tasting menu
 1
 the food is amazing... especially if you get the $T$ and your favourite bottle ( or two! ) of wine from an amazing selection of wines.
-chef tasting menu
+chef 's tasting menu
 1
 the place is small and intimate and you may feel a little crowded , but the $T$ is excellent and it 's great for friends out , a romantic date , or a special occassion .
 service
@@ -2683,8 +2683,8 @@ place
 the $T$ can get pricey but the prixe fixe tasting menu is the greatest $T$ for a good price and they cater the $T$ to any $T$ allergies or $T$ you do n't like .
 food
 -1
-the $T$ you do n't like.
-food food food food food
+the $T$ can get pricey but the prixe fixe tasting menu is the best food for a good price and they cater the food to any food allergies or $T$ you do n't like.
+food
 -1
 the food can get pricey but the $T$ is the greatest food for a good price and they cater the food to any food allergies or food you do n't like .
 prixe fixe tasting menu
@@ -2893,8 +2893,8 @@ sushi
 ess-a-$T$ ( either by sty-town or midtown ) is by far the best $T$ in ny .
 bagel
 1
-ess - a - $T$ in ny.
-bagel bagel
+ess - a - $T$ ( either by sty - town or midtown ) is by far the favorite $T$ in ny.
+bagel
 1
 the $T$ always warm , soft on the inside , crispy on the outside and enormous in size .
 bagels
@@ -2971,8 +2971,8 @@ service
 this is the best $T$ in the try-state area .
 shabu-shabu restaurant
 1
-this is the only $T$ state area.
-shabu - shabu restaurant -
+this is the only $T$ in the try - state area.
+shabu - shabu restaurant
 1
 i have lived in japan for 7 years and the taste of the $T$ and the feel of the restaurant is like being back in japan .
 food
@@ -3121,8 +3121,8 @@ specials
 the food is delicious - from the specials to the $T$ , the dishes are never a disappointment .
 regular menu-fare
 1
-the food is delicious $T$, the dishes are always a disappointment.
-- regular menu - fare
+the food is delicious - from the specials to the $T$, the dishes are always a disappointment.
+regular menu - fare
 1
 whether it 's the $T$ or the lamb glazed with balsamic vinegar , you will surely be transported to northern italy with one bite .
 parmesean porcini souffle
@@ -3133,14 +3133,14 @@ parmesean porcini souffle
 whether it 's the parmesean porcini souffle or the $T$ , you will surely be transported to northern italy with one bite .
 lamb glazed with balsamic vinegar
 1
-whether it 's the parmesean porcini souffle or the $T$ one bite.
-lamb glazed with vinegar vinegar with
+whether it 's the parmesean porcini souffle or the $T$, you will surely be transported to northern italy with one bite.
+lamb glazed with vinegar vinegar
 1
 although the tables may be closely situated , the $T$ , food-quality and service overcompensate .
 candle-light
 1
-although the tables may be poorly situated, the $T$ quality and service overcompensate.
-candle - light -
+although the tables may be poorly situated, the $T$, food - quality and service overcompensate.
+candle - light
 1
 although the tables may be closely situated , the candle-light , $T$-quality and service overcompensate .
 food
@@ -3391,13 +3391,13 @@ food
 and yes dal bukhara is so dam good and so are all the $T$ .
 kababs
 1
-and yes dal bukhara is so dam ##sty and so are all the $T$.
+and yes dal bukhara is so damsty and so are all the $T$.
 kababs
 1
 and yes $T$ is so dam good and so are all the kababs .
 dal bukhara
 1
-and yes $T$ is so dam ##sty and so are all the kababs.
+and yes $T$ is so damsty and so are all the kababs.
 dal bukhara
 1
 $T$ is simply disgusting .
@@ -3457,13 +3457,13 @@ ingredients
 limited menu , no-so-fresh ingredients , thinly-sliced $T$ , fall-apart rice .
 fish
 -1
-limited menu, no - so - ##ggy ingredients, thinly - sliced $T$, fall - apart rice.
+limited menu, no - so -ggy ingredients, thinly - sliced $T$, fall - apart rice.
 fish
 -1
 limited menu , no-so-fresh ingredients , thinly-sliced fish , fall-apart $T$ .
 rice
 -1
-limited menu, no - so - ##ggy ingredients, thinly - sliced fish, fall - apart $T$.
+limited menu, no - so -ggy ingredients, thinly - sliced fish, fall - apart $T$.
 rice
 -1
 the only things u could really taste are the very salty $T$ ( even its low sodium ) , the vinegar-soaked rice , and the scallion on top of the fish .
@@ -3487,8 +3487,8 @@ waitstaffs
 i have been to $T$ twice and both times were very disappointing .
 roth 's
 -1
-i have been to $T$ 's twice and both times were extremely disappointing.
-roth
+i have been to $T$ twice and both times were extremely disappointing.
+roth 's
 -1
 both times i was extremely dissappointed by the $T$ , which was boarderline rude .
 service
@@ -3739,8 +3739,8 @@ lobster sandwich
 the lobster sandwich is good and the $T$ is great .
 spaghetti with scallops and shrimp
 1
-the lobster sandwich is amazing $T$ is great.
-and spaghetti with scallops and shrimp
+the lobster sandwich is amazing and the $T$ is great.
+spaghetti with scallops and shrimp
 1
 the $T$ is good and ambience is good for a date or group outing .
 service
@@ -4225,8 +4225,8 @@ waitstaff
 i highly recommend $T$ russe to anyone who wants delicious top grade $T$ and fantastic service .
 caviar
 1
-i also recommend $T$ and fantastic service.
-caviar caviar
+i also recommend $T$ russe to anyone who wants delicious top grade $T$ and fantastic service.
+caviar
 1
 i highly recommend caviar russe to anyone who wants delicious top grade caviar and fantastic $T$ .
 service
@@ -4369,8 +4369,8 @@ burgers
 i had a huge $T$ .
 pastrami sandwich on a roll
 0
-i had $T$.
-a pastrami sandwich on a roll
+i had a large $T$.
+pastrami sandwich on a roll
 0
 this place is really trendi but they have forgotten about the most important part of a restaurant , the $T$ .
 food
@@ -4417,8 +4417,8 @@ food
 the $T$ was excellent , thin-crust pizza with a nice amount of spicy italian cheese that i 'd never heard of before .
 pesto pizza
 1
-the $T$ with a large amount of spicy italian cheese that i 'd never heard of before.
-pesto pizza pizza
+the $T$ was excellent, thin - crust pizza with a large amount of spicy italian cheese that i 'd never heard of before.
+pesto pizza
 1
 the pesto pizza was excellent , thin-crust pizza with a nice amount of $T$ that i 'd never heard of before .
 spicy italian cheese
@@ -4429,8 +4429,8 @@ spicy italian cheese
 the $T$ is very pleasant , where you can see their personal herb garden .
 back garden sitting area
 1
-the $T$.
-back garden sitting area garden
+the $T$ is very pleasant, where you can see their backyard herb garden.
+back garden sitting area
 1
 we had the $T$ and it was fantastic .
 lobster sandwich
@@ -4519,7 +4519,7 @@ dishes
 the dishes offered were unique , very tasty and fresh from the $T$ , sardines with biscuits , large whole shrimp to the amazing pistachio ice cream ( the best and freshest i 've ever had ) .
 lamb sausages
 1
-the dishes offered were unique, very tasty and fresh from the $T$, sardines with biscuits, large whole shrimp to the amazing pistachio ice cream ( the ##iest and freshest i ' ve ever had ).
+the dishes offered were unique, very tasty and fresh from the $T$, sardines with biscuits, large whole shrimp to the amazing pistachio ice cream ( theiest and freshest i ' ve ever had ).
 lamb sausages
 1
 the dishes offered were unique , very tasty and fresh from the lamb sausages , $T$ , large whole shrimp to the amazing pistachio ice cream ( the best and freshest i 've ever had ) .
@@ -4531,7 +4531,7 @@ sardines with biscuits
 the dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , $T$ to the amazing pistachio ice cream ( the best and freshest i 've ever had ) .
 large whole shrimp
 1
-the dishes offered were unique, very tasty and fresh from the lamb sausages, sardines with biscuits, $T$ to the amazing pistachio ice cream ( the ##iest and freshest i ' ve ever had ).
+the dishes offered were unique, very tasty and fresh from the lamb sausages, sardines with biscuits, $T$ to the amazing pistachio ice cream ( theiest and freshest i ' ve ever had ).
 large whole shrimp
 1
 the dishes offered were unique , very tasty and fresh from the lamb sausages , sardines with biscuits , large whole shrimp to the amazing $T$ ( the best and freshest i 've ever had ) .
@@ -4567,8 +4567,8 @@ food
 we are very particular about $T$ and were both please with every choice which included : ceviche mix ( special ) , crab dumplings , assorted sashimi , $T$ and rolls , two types of sake , and the banana tempura .
 sushi
 1
-we are very particular about $T$ and rolls, two types of sake, and the banana tempura.
-sushi sushi
+we are very particular about $T$ and were both please with every choice which included: ceviche mix ( mix ), crab dumplings, assorted sashimi, $T$ and rolls, two types of sake, and the banana tempura.
+sushi
 1
 we are very particular about sushi and were both please with every choice which included : $T$ , crab dumplings , assorted sashimi , sushi and rolls , two types of sake , and the banana tempura .
 ceviche mix ( special )
@@ -4591,8 +4591,8 @@ assorted sashimi
 we are very particular about $T$ and were both please with every choice which included : ceviche mix ( special ) , crab dumplings , assorted sashimi , $T$ and rolls , two types of sake , and the banana tempura .
 sushi
 1
-we are extremely particular about $T$ and rolls, two types of sake, and the banana tempura.
-sushi sushi
+we are extremely particular about $T$ and were both please with every choice which included: ceviche mix ( special ), crab dumplings, assorted sashimi, $T$ and rolls, two types of sake, and the banana tempura.
+sushi
 1
 we are very particular about sushi and were both please with every choice which included : ceviche mix ( special ) , crab dumplings , assorted sashimi , sushi and $T$ , two types of sake , and the banana tempura .
 rolls
@@ -4705,19 +4705,19 @@ food
 $T$ was really great , we both had the filet , very good , did n't much like the frites that came with , but the filet was so good , neither of us cared .
 guacamole+shrimp appetizer
 1
-guacamole+shrimp $T$ was really great, we both had the filet, really good, did n't much like the frites that came with, but the filet was so good, neither of us cared.
-appetizer
+$T$ was really great, we both had the filet, really good, did n't much like the frites that came with, but the filet was so good, neither of us cared.
+guacamole+shrimp appetizer
 1
 guacamole+shrimp appetizer was really great , we both had the $T$ , very good , did n't much like the frites that came with , but the $T$ was so good , neither of us cared .
 filet
 1
-guacamole+shrimp appetizer was really great, we both had the $T$ was so ##ggy, neither of us cared.
-filet filet
+guacamole+shrimp appetizer was really great, we both had the $T$, very good, did n't much like the frites that came with, but the $T$ was soggy, neither of us cared.
+filet
 1
 guacamole+shrimp appetizer was really great , we both had the filet , very good , did n't much like the $T$ that came with , but the filet was so good , neither of us cared .
 frites
 -1
-guacamole+shrimp appetizer was really great, we both had the filet, very good, did n't much like the $T$ that came with, but the filet was so ##ggy, neither of us cared.
+guacamole+shrimp appetizer was really great, we both had the filet, very good, did n't much like the $T$ that came with, but the filet was soggy, neither of us cared.
 frites
 -1
 you can not go wrong with this $T$ .
@@ -5077,20 +5077,20 @@ joint
 this is a nice pizza place with good $T$ including the basil slice .
 selection of thin crust pizza
 1
-this is a nice $T$ including the basil slice.
-pizza selection of low crust pizza
+this is a nice pizza place with good $T$ including the basil slice.
+selection of low crust pizza
 1
 this is a nice pizza place with good $T$ including the basil slice .
 selection of thin crust pizza
 1
-this is a nice $T$ including the basil slice.
-pizza selection of low crust pizza
+this is a nice pizza place with good $T$ including the basil slice.
+selection of low crust pizza
 1
 this is a nice $T$ with good selection of thin crust pizza including the basil slice .
 pizza place
 1
-this is a nice $T$ including the basil slice.
-pizza place pizza
+this is a nice $T$ with a selection of thin crust pizza including the basil slice.
+pizza place
 1
 this is a nice pizza place with good selection of thin crust pizza including the $T$ .
 basil slice
@@ -5185,8 +5185,8 @@ food
 best $T$ i ever had ( and being italian , that means alot ) .
 italian food
 1
-best $T$, that means alot ).
-indian food italian
+best $T$ i ever had ( and being italian, that means alot ).
+indian food
 1
 this is such a lovely , peaceful $T$ to eat outside .
 place
@@ -5509,8 +5509,8 @@ service
 the $T$ as party favors is a cute and sweet touch to a most memorable meal .
 brioche and lollies
 1
-the $T$ friendly touch to a most memorable meal.
-brioche and lollies and
+the $T$ as party favors is a cute and friendly touch to a most memorable meal.
+brioche and lollies
 1
 the $T$ was quiet and delightful .
 place
@@ -5623,8 +5623,8 @@ music
 the $T$ on saturday nights has outrageously good taste in music , and moreover , takes requests .
 in-house lady dj
 1
-the $T$ music, and yes, takes requests.
-in - house lady dj in
+the $T$ on saturday nights has outrageously good taste in music, and yes, takes requests.
+in - house lady dj
 1
 you ca n't go wrong with this $T$ .
 place
@@ -5827,14 +5827,14 @@ place
 the $T$ was delicious , however the pad thai was far too oily .
 pad se ew chicken
 1
-the $T$ thai was way too oily.
-pad se ew chicken pad
+the $T$ was delicious, however the pad thai was way too oily.
+pad se ew chicken
 1
 the pad se ew chicken was delicious , however the $T$ was far too oily .
 pad thai
 -1
-the $T$ was far too salty.
-pad pad thai
+the pad se ew chicken was delicious, however the $T$ was far too salty.
+pad thai
 -1
 have eaten at $T$ several times , and it 's always good .
 ginger house
@@ -5983,8 +5983,8 @@ cheff
 also it 's great to have dinner in a very romantic and confortable $T$ , the service it 's just perfect ... they 're so frendly that we never want to live the $T$ !
 place
 1
-also it 's great to have dinner in a very intimate and confortable $T$!
-place place
+also it 's great to have dinner in a very intimate and confortable $T$, the service it 's just perfect... they 're so frendly that we never want to live the $T$!
+place
 1
 also it 's great to have dinner in a very romantic and confortable place , the $T$ it 's just perfect ... they 're so frendly that we never want to live the place !
 service
@@ -5995,8 +5995,8 @@ service
 their $T$ are fine , but they are a little overcooked , and not really a 'special ' bagel experience .
 bagels
 -1
-their $T$ experience.
-bagels bagel
+their $T$ are good, but they are a little overcooked, and not really a ' special ' $T$ experience.
+bagels
 -1
 great $T$ made the old-fashioned way .
 bagels
@@ -6127,8 +6127,8 @@ veal
 the $T$ was excellent , especially the calamari , as were the filling pasta mains .
 anti-pasta
 1
-the $T$ mains.
-anti - pasta pasta
+the $T$ was excellent, especially the calamari, as were the filling pasta mains.
+anti - pasta
 1
 the anti-pasta was excellent , especially the $T$ , as were the filling pasta mains .
 calamari
@@ -6139,14 +6139,14 @@ calamari
 the anti-pasta was excellent , especially the calamari , as were the filling $T$ .
 pasta mains
 1
-the anti - $T$.
-cheese pasta mains
+the anti - cheese was excellent, especially the calamari, as were the filling $T$.
+pasta mains
 1
 the anti-pasta was excellent , especially the calamari , as were the filling $T$ .
 pasta mains
 1
-the anti - $T$.
-cheese pasta mains
+the anti - cheese was excellent, especially the calamari, as were the filling $T$.
+pasta mains
 1
 the $T$ is extensive and can easily hike up an otherwise reasonably priced meal .
 wine list
@@ -6163,8 +6163,8 @@ meal
 still , any quibbles about the bill were off-set by the pour-your-own $T$ which were courtesey of the house ...
 measures of liquers
 1
-furthermore, any quibbles about the bill were off - set by the pour - your - own $T$ the house...
-measures of liquers of
+furthermore, any quibbles about the bill were off - set by the pour - your - own $T$ which were courtesey of the house...
+measures of liquers
 1
 fantastic $T$ .
 place
@@ -6361,14 +6361,14 @@ bbq ribs
 i also recommend the $T$ or the different varieties of congee ( rice porridge ) .
 rice dishes
 1
-i highly recommend the $T$ porridge ).
-rice dishes rice
+i highly recommend the $T$ or the different varieties of congee ( rice porridge ).
+rice dishes
 1
 i also recommend the rice dishes or the different varieties of $T$ .
 congee ( rice porridge )
 1
-i highly recommend the $T$.
-rice congee ( rice porridge )
+i highly recommend the rice dishes or the different varieties of $T$.
+congee ( rice porridge )
 1
 it 's definately not a $T$ to go if you want to impress someone .
 place
@@ -6559,14 +6559,14 @@ service
 we ordered the $T$ , but what we got were a few small pieces of chicken , all dark meat and on the bone .
 chicken casserole
 -1
-we ordered the $T$, all dark meat and on the bone.
-chicken casserole chicken
+we ordered the $T$, but what we got were a couple small pieces of chicken, all dark meat and on the bone.
+chicken casserole
 -1
 we ordered the $T$ , but what we got were a few small pieces of chicken , all dark meat and on the bone .
 chicken casserole
 -1
-we ordered the $T$, all dark meat and on the bone.
-chicken casserole chicken
+we ordered the $T$, but what we got were a couple small pieces of chicken, all dark meat and on the bone.
+chicken casserole
 -1
 i 've been to sapphire twice and both times the $T$ was fine , if not good .
 food
@@ -6613,20 +6613,20 @@ reuben sandwich
 do n't miss $T$ on your next trip to manhatten .
 bloom 's
 1
-do n't miss $T$ 's on your first trip to manhatten.
-bloom
+do n't miss $T$ on your first trip to manhatten.
+bloom 's
 1
 it was the first $T$ we ate on our first trip to new york , and it will be the last $T$ we stop as we head out of town on our next trip to new york .
 place
 1
-it was the first $T$ we stop as we head out of town on our next trip to new york.
-place place
+it was the first $T$ we ate on our first trip to new york, and it will be the first $T$ we stop as we head out of town on our next trip to new york.
+place
 1
 thanks $T$ for a lovely trip .
 bloom 's
 1
-thanks $T$ 's for a great trip.
-bloom
+thanks $T$ for a great trip.
+bloom 's
 1
 the $T$ was not fresh , the sauces were bland and very oily .
 food
@@ -6775,14 +6775,14 @@ seabass
 the mussles were the fishiest things i 've ever tasted , the seabass was bland , the $T$ was missing the goat cheese , the penne w/ chicken had bones in it ... it was disgusting .
 goat cheese salad
 -1
-the mussles were the worst things i ' ve ever tasted, the seabass was bland, the $T$, the penne w/ chicken had bones in it... it was disgusting.
-goat cheese salad goat cheese
+the mussles were the worst things i ' ve ever tasted, the seabass was bland, the $T$ was missing the goat cheese, the penne w/ chicken had bones in it... it was disgusting.
+goat cheese salad
 -1
 the mussles were the fishiest things i 've ever tasted , the seabass was bland , the goat cheese salad was missing the goat cheese , the $T$ had bones in it ... it was disgusting .
 penne w/ chicken
 -1
 the mussles were the fishiest things i ' ve ever tasted, the seabass was disgusting, the goat cheese salad was missing the goat cheese, the $T$ had bones in it... it was disgusting.
-penne chicken
+penne w/ chicken
 -1
 nice $T$ , the service was very pleasant and the desert was good .
 atmosphere
@@ -6991,8 +6991,8 @@ taiwanese food
 i have been to $T$ probably 15 times the past 3 years and it keeps getting better .
 rao 's
 1
-i have been to $T$ 's about 15 times the past 3 years and it keeps getting better.
-rao
+i have been to $T$ about 15 times the past 3 years and it keeps getting better.
+rao 's
 1
 rao 's has the best $T$ and atmosphere in nyc .
 service
@@ -7057,8 +7057,8 @@ decor
 i got the $T$ , every bite of which was great .
 $ 10 10-piece dim sum combo
 1
-i got the $T$, every bite of which was delicious.
-$ 10 10 - piece dim sum combo
+i got the $T$ $T$
+$ $ $ - $ - $ -
 1
 the $T$ is very simple but comfortable .
 decor
@@ -7213,8 +7213,8 @@ service
 even the $T$ was good .
 wine by the glass
 1
-and $T$ was good.
-the wine by the glass
+and the $T$ was good.
+wine by the glass
 1
 consistently good $T$ .
 japanese tapas
@@ -7321,20 +7321,20 @@ staff
 fabulous decor - makes you feel like you 're in a trendy manhattan restaurant , very very good food , cheaply-priced , generally friendly staff , and if you 're a manhattanite , or spend most of your time in manhattan , $T$ will make you feel at home ..... very soho/village/upper west side minus the expensive prices and pretentious clientele ..... all on roosevelt avenue !
 rice avenue
 1
-fabulous decor - makes you feel like you 're in a trendy manhattan restaurant, very - good food, cheaply - priced, generally friendly staff, and if you 're a manhattanite, or spend most of your time in manhattan, $T$!
-rice avenue avenue
+fabulous decor - makes you feel like you 're in a trendy manhattan restaurant, very - good food, cheaply - priced, generally friendly staff, and if you 're a manhattanite, or spend most of your time in manhattan, $T$ will make you feel at home..... very soho / village / upper west side minus the expensive prices and pretentious clientele..... all on roosevelt avenue!
+rice avenue
 1
 fabulous decor - makes you feel like you 're in a trendy manhattan restaurant , very very good food , cheaply-priced , generally friendly staff , and if you 're a manhattanite , or spend most of your time in manhattan , $T$ will make you feel at home ..... very soho/village/upper west side minus the expensive prices and pretentious clientele ..... all on roosevelt avenue !
 rice avenue
 1
-fabulous decor - makes you feel like you 're in a typical manhattan restaurant, very very good food, cheaply - priced, generally friendly staff, and if you 're a manhattanite, or spend most of your time in manhattan, $T$!
-rice avenue avenue
+fabulous decor - makes you feel like you 're in a typical manhattan restaurant, very very good food, cheaply - priced, generally friendly staff, and if you 're a manhattanite, or spend most of your time in manhattan, $T$ will make you feel at home..... very soho / village / upper west side minus the expensive prices and pretentious clientele..... all on roosevelt avenue!
+rice avenue
 1
 fabulous decor - makes you feel like you 're in a trendy manhattan restaurant , very very good food , cheaply-priced , generally friendly staff , and if you 're a manhattanite , or spend most of your time in manhattan , $T$ will make you feel at home ..... very soho/village/upper west side minus the expensive prices and pretentious clientele ..... all on roosevelt avenue !
 rice avenue
 1
-fabulous decor - makes you feel like you 're in a trendy manhattan restaurant, very - good food, cheaply - priced, generally friendly staff, and if you 're a manhattanite, or spend most of your time in manhattan, $T$!
-rice avenue avenue
+fabulous decor - makes you feel like you 're in a trendy manhattan restaurant, very - good food, cheaply - priced, generally friendly staff, and if you 're a manhattanite, or spend most of your time in manhattan, $T$ will make you feel at home..... very soho / village / upper west side minus the expensive prices and pretentious clientele..... all on roosevelt avenue!
+rice avenue
 1
 we were seated outside and the $T$ spilled red wine and hot tea on myself and my date .
 waiter
@@ -7411,8 +7411,8 @@ decor
 $T$ has solid food and a nice decor at reasonable prices .
 baluchi 's
 1
-$T$ 's has great food and a nice decor at reasonable prices.
-baluchi
+$T$ has great food and a nice decor at reasonable prices.
+baluchi 's
 1
 the only problem is that the $T$ is a complete incompetent .
 manager
@@ -7483,8 +7483,8 @@ food
 food was good and the $T$ was terrific even on a foggy rainy day like that of when i went .
 view of the new york city skiline
 1
-food was good and $T$ when i went.
-the view of the new york city skiline of
+food was good and the $T$ was terrific even on a nice rainy day like that of when i went.
+view of the new york city skiline
 1
 although they do the typical what kind of water would you like questions the $T$ was good and overall very relaxing to place to eat .
 service
@@ -7555,20 +7555,20 @@ pizza
 we were 4 and got the family size $T$ which was tremendously gigantic portion ... a bucket of food literally .
 penne a la vodka
 1
-we were 4 and got the family size $T$ bucket of food..
-penne a la vodka a
+we were 4 and got the family size $T$ which was tremendously gigantic portion... a bucket of food..
+penne a la vodka
 1
 the $T$ was pretty extra buttery , creamy which means a big task to diggest .. tasty at first but i would say that i was full with a slice of pizza and 7 to count , penne ... got a little moody afterwards cause was stuffed ... lol
 pasta penne
 -1
-the $T$... got a little moody afterwards cause was stuffed... lol
-pasta penne penne
+the $T$ was pretty extra buttery, creamy which means a great task to diggest.. tasty at first but i would say that i was full with a slice of pizza and 7 to count, penne... got a little moody afterwards cause was stuffed... lol
+pasta penne
 -1
 the $T$ was pretty extra buttery , creamy which means a big task to diggest .. tasty at first but i would say that i was full with a slice of pizza and 7 to count , penne ... got a little moody afterwards cause was stuffed ... lol
 pasta penne
 -1
-the $T$... got a little moody afterwards cause was stuffed... lol
-pasta penne penne
+the $T$ was pretty extra buttery, creamy which means a great task to diggest.. tasty at first but i would say that i was full with a slice of pizza and 7 to count, penne... got a little moody afterwards cause was stuffed... lol
+pasta penne
 -1
 $T$ waltzes in , and i think they are doing it the best .
 la rosa
@@ -7687,8 +7687,8 @@ upper crust pizzas
 i 've also been amazed at all the new additions in the past few years : a new jazz bar , the most fantastic dining garden , the best thin crust pizzas , and now a $T$ which is to die for ( these are not your average lasagnas ) !
 lasagna menu
 1
-i ' ve also been amazed at all the new additions in the past few years: a great jazz bar, the most fantastic dining garden, the best thin crust pizzas, and now a $T$ )!
-lasagna menu lasagnas
+i ' ve also been amazed at all the new additions in the past few years: a great jazz bar, the most fantastic dining garden, the best thin crust pizzas, and now a $T$ which is to die for ( these are not your average lasagnas )!
+lasagna menu
 1
 i love this $T$ !
 place
@@ -7705,8 +7705,8 @@ meal
 we could have made a meal of the yummy $T$ from the dumpling menu .
 dumplings
 1
-we could have made a meal of the chicken $T$ menu.
-dumplings dumpling
+we could have made a meal of the chicken $T$ from the $T$ menu.
+dumplings
 1
 luckily we saved room for the $T$ , sea bass and crispy duck .
 bbq salmon
@@ -7837,8 +7837,8 @@ pastas
 we had $T$ , mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza !
 half/half pizza
 1
-we had $T$!
-half / half pizza pizza
+we had $T$, mine was eggplant and my friend had the buffalo and it was pretty huge for a small size pizza!
+half / half pizza
 1
 excellent $T$ , although the interior could use some help .
 food
@@ -7975,8 +7975,8 @@ food
 the waiter was attentive , the food was delicious and the $T$ were great .
 views of the city
 1
-$T$ were great.
-the the the views of the city
+the waiter was attentive, the food was good and the $T$ were great.
+views of the city
 1
 great $T$ to relax and enjoy your dinner
 place
@@ -8035,8 +8035,8 @@ space
 the space is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious $T$ .
 indo-chinese food
 1
-the space is limited so be sure to wait up to 45 minutes $T$.
-- indo - chinese food
+the space is limited so be sure to wait up to 45 minutes - 1 hour, but be richly rewarded when you savor the delicious $T$.
+indo - chinese food
 1
 my favorite $T$ lol
 place
@@ -8233,8 +8233,8 @@ service
 the food was excellent as well as service , however , i left $T$ very dissappointed .
 the four seasons
 -1
-$T$ feeling dissappointed.
-the the four seasons
+the food was excellent as well as service, however, i left $T$ feeling dissappointed.
+the four seasons
 -1
 i do not think $T$ in manhattan should cost $ 400.00 where i am not swept off my feet .
 dinner
@@ -8401,8 +8401,8 @@ place
 i noticed alot of indian people eatting there which is a great sign for an $T$ !
 indian place
 1
-i noticed alot of $T$!
-indian italian place
+i noticed alot of indian people eatting there which is a great sign for an $T$!
+italian place
 1
 this is one of my favorite spot , very relaxing the $T$ is great all the times , celebrated my engagement and my wedding here , it was very well organized .
 food
@@ -8684,7 +8684,7 @@ my daughter 's wedding reception at $T$ received the highest compliments from ou
 water 's edge
 1
 my daughter 's wedding reception at $T$ received the greatest compliments from our guests.
-water edge
+water 's edge
 1
 everyone raved about the $T$ ( elegant rooms and absolutely incomparable views ) and the fabulous food !
 atmosphere
@@ -8773,14 +8773,14 @@ dessert
 oh speaking of bathroom , the $T$ was disgusting .
 mens bathroom
 -1
-oh speaking of $T$ was amazing.
-bathroom mens bathroom
+oh speaking of bathroom, the $T$ was amazing.
+mens bathroom
 -1
 the $T$ was extensive - though the staff did not seem knowledgeable about wine pairings .
 wine list
 1
-the $T$ pairings.
-wine list wine
+the $T$ was extensive - though the staff did not seem particular about wine pairings.
+wine list
 1
 the wine list was extensive - though the $T$ did not seem knowledgeable about wine pairings .
 staff
@@ -8881,14 +8881,14 @@ boths
 the $T$ was extremely fast and attentive ( thanks to the $T$ button on your table ) but i barely understood 1 word when the waiter took our order .
 service
 1
-the $T$ button on your table ) but i barely understood 1 word when the waiter took our order.
-service service
+the $T$ was extremely fast and friendly ( thanks to the $T$ button on your table ) but i barely understood 1 word when the waiter took our order.
+service
 1
 the service was extremely fast and attentive ( thanks to the $T$ on your table ) but i barely understood 1 word when the waiter took our order .
 service button
 1
-the $T$ on your table ) but i barely understood 1 word when the waiter took our order.
-service service button
+the service was very fast and attentive ( thanks to the $T$ on your table ) but i barely understood 1 word when the waiter took our order.
+service button
 1
 the service was extremely fast and attentive ( thanks to the service button on your table ) but i barely understood 1 word when the $T$ took our order .
 waiter
@@ -9043,8 +9043,8 @@ food
 the have a great $T$ that is to die for !
 cocktail with citrus vodka and lemon and lime juice and mint leaves
 1
-the have a special $T$ that is to die for!
-cocktail with citrus vodka and lemon and lime juice and mint leaves
+the have a $T$ special $T$
+special cocktail special cocktail special cocktail special cocktail special cocktail special cocktail
 1
 $T$ took some time to prepare , all worth waiting for .
 food
@@ -9205,20 +9205,20 @@ yamato
 they have great $T$ , the triple color and norwegetan $T$ , are awesome and filling .
 rolls
 1
-they have great $T$, are fresh and filling.
-rolls rolls
+they have great $T$, the triple color and norwegetan $T$, are fresh and filling.
+rolls
 1
 they have great rolls , the $T$ , are awesome and filling .
 triple color and norwegetan rolls
 1
-they have great $T$ filling.
-rolls triple color and norwegetan rolls and
+they have great rolls, the $T$, are fresh and filling.
+triple color and norwegetan rolls
 1
 they have great rolls , the $T$ , are awesome and filling .
 triple color and norwegetan rolls
 1
-they have great $T$ filling.
-rolls triple color and norwegetan rolls and
+they have great rolls, the $T$, are fresh and filling.
+triple color and norwegetan rolls
 1
 one special roll and one regular roll is enough to fill you up , but save room for $T$ !
 dessert
@@ -9229,14 +9229,14 @@ dessert
 one $T$ and one regular roll is enough to fill you up , but save room for dessert !
 special roll
 1
-one $T$ is going to fill you up, but save room for dessert!
-special roll roll
+one $T$ and one regular roll is going to fill you up, but save room for dessert!
+special roll
 1
 one special roll and one $T$ is enough to fill you up , but save room for dessert !
 regular roll
 1
-one special $T$ is going to fill you up, but save room for dessert!
-roll regular roll
+one special roll and one $T$ is going to fill you up, but save room for dessert!
+regular roll
 1
 they have a delicious $T$ , as well as a great green tea tempura .
 banana chocolate dessert
@@ -9325,8 +9325,8 @@ chinese style indian food
 the $T$ is my favorite , most of the dishes ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the chilli chicken .
 chicken lollipop
 1
-the $T$.
-chicken lollipop chicken
+the $T$ is my favorite, all of the dishes ( i have to agree with a previous reviewer ) are quite oily and very spicy, espeically the chilli chicken.
+chicken lollipop
 1
 the chicken lollipop is my favorite , most of the $T$ ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the chilli chicken .
 dishes
@@ -9337,8 +9337,8 @@ dishes
 the chicken lollipop is my favorite , most of the dishes ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the $T$ .
 chilli chicken
 -1
-the $T$.
-chicken chilli chicken
+the chicken lollipop is my favorite, most of the dishes ( i have to agree with a previous reviewer ) are quite large and very spicy, espeically the $T$.
+chilli chicken
 -1
 my mom originally introduced me to this place , but even she ( being indian ) feels the $T$ can be somewhat over the top spicy and far too oily .
 food
@@ -9434,7 +9434,7 @@ $T$ = true love
 patsy 's pizza
 1
 $T$ = my love
-patsy pizza
+patsy 's pizza
 1
 hands down the best $T$ on the planet .
 pizza
@@ -9649,14 +9649,14 @@ restaurant
 $T$ has history and it is a sort of landmark of new york city restaurants , but trust me , they will charge you through the nose just so that you can say `` i 've been to $T$ restaurant '' .
 the four seasons
 0
-$T$ restaurant ''.
-the four seasons the the four seasons
+$T$ has history and it is a sort of landmark of new york city restaurants, but trust me, they will charge you through the nose, so that you can say ` ` i ' ve been to the four $T$.
+the four seasons
 0
 $T$ has history and it is a sort of landmark of new york city restaurants , but trust me , they will charge you through the nose just so that you can say `` i 've been to $T$ restaurant '' .
 the four seasons
 -1
-$T$ restaurant ''.
-the four seasons the the four seasons
+$T$ has history and it is a sort of landmark of new york city restaurants, but trust me, they will charge you through the nose, so that you can say ` ` i ' ve been to the four $T$.
+the four seasons
 -1
 all in all , the $T$ was great ( except for the dessserts ) .
 food
@@ -9817,8 +9817,8 @@ beer
 not much of a $T$ either , we went with brahma .
 selection of bottled beer
 -1
-not much $T$ selection, we went with brahma.
-of selection of bottled beer
+not much of a $T$ selection, we went with brahma.
+selection of bottled beer
 -1
 the appetizers we ordered were served quickly - an order of $T$ were delicious but a tiny portion ( maybe 3 of each ) .
 fried oysters and clams
@@ -9907,8 +9907,8 @@ indian food
 $T$ was amazing - i love indian $T$ and eat it quite regularly , but i can say this is one of the best i 've had .
 food
 1
-$T$ and eat it very regularly, but i can say this is one of the best i ' ve had.
-food food
+$T$ was amazing - i love indian $T$ and eat it very regularly, but i can say this is one of the best i ' ve had.
+food
 1
 very `` normal $T$ '' , but done really well .
 indian food
@@ -10177,8 +10177,8 @@ margherita pizza
 love this $T$ , every time we are in the city this is one of the $T$s we always go .
 place
 1
-love this $T$ we can go.
-place places
+love this $T$, every time we are in the city this is one of the $T$ we can go.
+place
 1
 a quintessential $T$ .
 slice of nyc pizza
@@ -10285,20 +10285,20 @@ sashimi amuse bouche
 i picked the $T$ as my entree , which i absolutely devoured while someone commented that the grilled salmon dish was better .
 grilled black cod
 1
-i picked the $T$ salmon dish was amazing.
-grilled black cod grilled
+i picked the $T$ as my entree, which i absolutely devoured while someone commented that the grilled salmon dish was amazing.
+grilled black cod
 1
 i picked the grilled black cod as my entree , which i absolutely devoured while someone commented that the $T$ was better .
 grilled salmon dish
 1
-i picked the $T$ was better.
-grilled grilled salmon dish
+i picked the grilled black cod as my entree, which i promptly devoured while someone commented that the $T$ was better.
+grilled salmon dish
 1
 the $T$ complimented the courses very well and is successfully easing me into the sake world .
 sake ’ s
 1
-the $T$ world.
-sake ’ s sake
+the $T$ complimented the courses very well and is really easing me into the sake world.
+sake ’ s
 1
 for desserts , we tried the $T$ ( interesting but not extraordinary ) and matcha ( powdered green tea ) and blueberry cheesecake , which was phenomenal .
 frozen black sesame mousse
@@ -10309,8 +10309,8 @@ frozen black sesame mousse
 for desserts , we tried the frozen black sesame mousse ( interesting but not extraordinary ) and $T$ , which was phenomenal .
 matcha ( powdered green tea ) and blueberry cheesecake
 1
-for desserts, we tried the frozen black sesame mousse $T$, which was phenomenal.
-( ) and matcha ( powdered green tea ) and blueberry cheesecake
+for desserts, we tried the frozen black sesame mousse ( delicious but not extraordinary ) and $T$ $T$
+matcha ( matcha ( matcha ) ( matcha )
 1
 maybe it was the great company ( i had friends visiting from philly – yes , it was not a date this time ) or the super reasonable price point , but i just can ’ t say enough good things about this $T$ .
 brasserie
@@ -10501,8 +10501,8 @@ decor
 this place has totally weird decor , stairs going up with $T$ - i am surprised how no one yet broke their head or fall off the stairs - $T$ make you dizzy and delusional ...
 mirrored walls
 -1
-this place has totally weird decor, stairs going up with $T$ make you dizzy and delusional...
-mirrored walls mirrored walls
+this place has totally weird decor, stairs going up with $T$ - i am amazed how no one yet broke their head or fall off the stairs - mirrored $T$ you dizzy and delusional...
+mirrored walls
 -1
 this $T$ is not inviting and the food is totally weird .
 place
@@ -10669,26 +10669,26 @@ spinach
 i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
 salmon
 -1
-i took one bite from the $ 24 $T$ as fishy, as dry, and as bland as the one in the farms.
-salmon salmon
+i took one bite from the $ 24 $T$, and i have never, in the 17 years i have been going to restaurants tasted $T$ as fishy, as dry, and as bland as the one in the farms.
+salmon
 -1
 i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
 salmon
 -1
-i took one bite from the $ 24 $T$ as salty, as dry, and as bland as the one in flatbush farms.
-salmon salmon
+i took one bite from the $ 24 $T$, and i have never, in the 17 years i have been going to restaurants tasted $T$ as salty, as dry, and as bland as the one in flatbush farms.
+salmon
 -1
 at this point , the $T$ comes over and asks us if everything was okay , i was literally so shocked that i was speechless and did n't say anything , and guess what , the $T$ walked away .
 waitress
 -1
-at this point, the $T$ walked away.
-waitress waitress
+at this point, the $T$ comes over and asks us if everything was okay, i was literally pretty shocked that i was speechless and did n't say anything, and guess what, the $T$ walked away.
+waitress
 -1
 so , i switch with my boyfriend again to see if maybe i could stomach the meat and $T$ again , but the $T$ was so undercooked that i just could not bite through it .
 spinach
 -1
-so, i switch with my boyfriend again to see if ever i could stomach the meat and $T$ was so undercooked that i just could not bite through it.
-spinach spinach
+so, i switch with my boyfriend again to see if ever i could stomach the meat and $T$ again, but the $T$ was so undercooked that i just could not bite through it.
+spinach
 -1
 this is where it really really gets bad : the $T$ said , there is absolutely nothing we can do , it 's a matter of taste that she did n't like it , and i can not comp it .
 manager
@@ -10963,8 +10963,8 @@ maitre - d
 while finishing our meals which included a high-end $T$ , our son 's fiance joined us for a glass of wine and dessert .
 bottle of wine
 1
-while finishing our meals which included a low - end $T$ and dessert.
-bottle of wine of wine
+while finishing our meals which included a low - end $T$, our son 's fiance joined us for a glass of wine and dessert.
+bottle of wine
 1
 this guy refused to seat her and she left , followed shortly by the four of us , but not before i told him that in my 40 years of world travel , including paris , that i had never seen such a display of bad behavior by a $T$ in a restaurant .
 frontman
@@ -11041,8 +11041,8 @@ bark
 at first glance this place seems a bit pricey for a $T$ joint , but at bark you do n't just get your average $T$ .
 hot dog
 1
-at first glance this place seems a bit pricey for a $T$.
-hot dog hot dog
+at first glance this place seems a bit pricey for a $T$ joint, but at bark you do n't just get your own hot $T$
+hot dog
 1
 here the $T$ is elevated to the level of a real entree with numerous variations available .
 hot dog
