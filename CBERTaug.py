@@ -92,7 +92,7 @@ def unmasker(text, sentiment):
         preds.append(decoded_word)
     return preds
 
-def is_similar_enough(str1, str2, threshold=0.70):
+def is_similar_enough(str1, str2, threshold=0.95):
     ratio = Levenshtein.ratio(str1, str2)
     return ratio >= threshold 
 
@@ -189,7 +189,6 @@ def augment_random(in_sentence, in_target, sentiment):
                 augmented_sentence.append(random_token)
                 i += 1
 
-    # augmented_sentence_str = " ".join(augmented_sentence)
     augmented_sentence_str = tokenizer.convert_tokens_to_string(augmented_sentence)
 
     return augmented_sentence_str, in_target
@@ -217,31 +216,39 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     """
     This function selective substitute all nouns occuring in a sentence
     """
-    tar = re.findall(r'\w+|[^\s\w]+', in_target)
+    
+    tar = nlp(in_target)
+    tar = [token.text for token in tar]
     sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # replace $t$ with actual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
-    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)] # obtain target indices 
     
+    n = len(doc_tokens)
+    m = len(tar)
     non_cand_idx = []
-    substring = ""
-    for idx, tar_id in enumerate(tar_idx):
-        if substring == in_target: 
-            non_cand_idx.extend(tar_idx[idx:])
-            tar_idx = tar_idx[:idx]
-        if idx == 0:
-            substring += doc_tokens[tar_id]
-        else:
-            substring = substring + " " +  doc_tokens[tar_id]
+    count_tar = 0
+    for i in range(n - m + 1): # Slide windows to obtain target indices
+        if len(doc_tokens[i:i + m]) == len(tar) and count_tar == 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                tar_idx = list(range(i, i + m))
+                count_tar += 1
+        elif len(doc_tokens[i:i + m]) == len(tar) and count_tar > 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                non_cand_idx = list(range(i, i + m))
+    tar_set = set(tar_idx)
+    non_cand_set = set(non_cand_idx)
+    # Check if there is any intersection (tar_idx and non_cand_idx should be disjoint!)
+    if tar_set & non_cand_set:
+        non_cand_idx = []
 
     noun_idx = []
     j = 0
     number_not_words = 0
     number_nouns = 0
     while j < len(doc_tokens):
-        if doc[j].pos_ in ['NOUN','PRON']:
+        if doc[j].pos_ in ['NOUN','PRON'] and j not in non_cand_idx:
             noun_idx.append(j)
             j += 1
             number_nouns += 1
@@ -250,7 +257,6 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
             number_not_words += 1
         else:
             j += 1
-    # print(F"{number_nouns=}")
     
 
     i = 0
@@ -272,16 +278,16 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
                 # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
-                    cur_sent[i] = predicted_words[1]
                     i += 1
                 else:
                     augmented_sentence.append(predicted_words[0])
-                    cur_sent[i] = predicted_words[0]
                     i += 1
-            if i in non_cand_idx:
+            elif i in non_cand_idx:
                 sub_target = augmented_sentence[tar_idx[j]]
                 augmented_sentence.append(sub_target)
                 j+=1
+                if j >= len(tar_idx): # reset index
+                    j = 0
                 i+=1
             else:
                 augmented_sentence.append(doc_tokens[i])
@@ -293,9 +299,16 @@ def augment_sentence_nouns(in_sentence, in_target,sentiment):
     modified_target = [augmented_sentence[idx] for idx in tar_idx]
     modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
 
+    start = tar_idx[0]
+    end = tar_idx[-1]+1
+    augmented_sentence [start:end] = ["$T$"]
+    if len(non_cand_idx) > 0:
+        start = non_cand_idx[0]
+        end = non_cand_idx[-1] + 1
+        augmented_sentence[start:end] = ["$T$"]
+
     # Join the masked tokens to form the masked sequence
-    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', tokenizer.convert_tokens_to_string(augmented_sentence))
     if '$T$' not in augmented_sentence_str:
         raise ValueError
     return augmented_sentence_str, modified_target_str
@@ -310,31 +323,38 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     This function selective substitute 15% of adverbs or adjectives occuring in a sentence
     """
 
-    tar = re.findall(r'\w+|[^\s\w]+', in_target) # extract target
+    tar = nlp(in_target)
+    tar = [token.text for token in tar]
     sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # substitute $t$ with autual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
-    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
 
+    n = len(doc_tokens)
+    m = len(tar)
     non_cand_idx = []
-    substring = ""
-    for idx, tar_id in enumerate(tar_idx):
-        if substring == in_target: 
-            non_cand_idx.extend(tar_idx[idx:])
-            tar_idx = tar_idx[:idx]
-        if idx == 0:
-            substring += doc_tokens[tar_id]
-        else:
-            substring = substring + " " +  doc_tokens[tar_id]
+    count_tar = 0 # count occurences of target within a sentence
+    for i in range(n - m + 1): # Slide windows to obtain target indices
+        if len(doc_tokens[i:i + m]) == len(tar) and count_tar == 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                tar_idx = list(range(i, i + m))
+                count_tar += 1
+        elif len(doc_tokens[i:i + m]) == len(tar) and count_tar > 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                non_cand_idx = list(range(i, i + m))
+    tar_set = set(tar_idx)
+    non_cand_set = set(non_cand_idx)
+    # Check if there is any intersection (tar_idx and non_cand_idx should be disjoint!)
+    if tar_set & non_cand_set:
+        non_cand_idx = []
 
     j = 0
     number_not_words = 0
     number_adj_adv = 0
     adj_adv_ind = []
     while j < len(doc_tokens):
-        if doc[j].pos_ in ['ADJ', 'ADV']:
+        if doc[j].pos_ in ['ADJ', 'ADV'] and j not in non_cand_idx:
             adj_adv_ind.append(j)
             j += 1
             number_adj_adv += 1
@@ -358,7 +378,7 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     i = 0
     amount_masked = 0
     augmented_sentence = []
-    # cur_sent = doc_tokens.copy()
+    j = 0
 
     while i < len(doc_tokens):
         if doc_tokens[i] in string.punctuation:
@@ -377,16 +397,16 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
                 # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
-                    cur_sent[i] = predicted_words[1]
                     i += 1
                 else:
                     augmented_sentence.append(predicted_words[0])
-                    cur_sent[i] = predicted_words[0]
                     i += 1
-            if i in non_cand_idx:
+            elif i in non_cand_idx:
                 sub_target = augmented_sentence[tar_idx[j]]
                 augmented_sentence.append(sub_target)
                 j+=1
+                if j >= len(tar_idx): # reset index
+                    j = 0
                 i+=1
             else:
                 augmented_sentence.append(doc_tokens[i])
@@ -396,10 +416,18 @@ def augment_sentence_adjective_adverbs(in_sentence, in_target, sentiment):
     modified_target = tar
     modified_target = [augmented_sentence[idx] for idx in tar_idx]
     modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
+    
+    start = tar_idx[0]
+    end = tar_idx[-1]+1
+    augmented_sentence [start:end] = ["$T$"]
+    if len(non_cand_idx) > 0:
+        start = non_cand_idx[0]
+        end = non_cand_idx[-1] + 1
+        augmented_sentence[start:end] = ["$T$"]
 
     # Join the masked tokens to form the masked sequence
-    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', tokenizer.convert_tokens_to_string(augmented_sentence))
+    # augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
     if '$T$' not in augmented_sentence_str:
         raise ValueError
     return augmented_sentence_str, modified_target_str
@@ -408,31 +436,38 @@ def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all aspect, adjectives and adverbs (15%) occuring in a sentence
     """
-    tar = re.findall(r'\w+|[^\s\w]+', in_target) # extract target
+    tar = nlp(in_target)
+    tar = [token.text for token in tar]
     sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # substitute $t$ with autual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
-    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
 
+    n = len(doc_tokens)
+    m = len(tar)
     non_cand_idx = []
-    substring = ""
-    for idx, tar_id in enumerate(tar_idx):
-        if substring == in_target: 
-            non_cand_idx.extend(tar_idx[idx:])
-            tar_idx = tar_idx[:idx]
-        if idx == 0:
-            substring += doc_tokens[tar_id]
-        else:
-            substring = substring + " " +  doc_tokens[tar_id]
+    count_tar = 0 # count occurences of target within a sentence
+    for i in range(n - m + 1): # Slide windows to obtain target indices
+        if len(doc_tokens[i:i + m]) == len(tar) and count_tar == 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                tar_idx = list(range(i, i + m))
+                count_tar += 1
+        elif len(doc_tokens[i:i + m]) == len(tar) and count_tar > 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                non_cand_idx = list(range(i, i + m))
+    tar_set = set(tar_idx)
+    non_cand_set = set(non_cand_idx)
+    # Check if there is any intersection (tar_idx and non_cand_idx should be disjoint!)
+    if tar_set & non_cand_set:
+        non_cand_idx = []
 
     j = 0
     number_not_words = 0
     number_adj_adv = 0
     adj_adv_ind = []
     while j < len(doc_tokens):
-        if doc[j].pos_ in ['ADJ', 'ADV'] and j not in tar_idx:
+        if doc[j].pos_ in ['ADJ', 'ADV'] and j not in tar_idx and j not in non_cand_idx:
             adj_adv_ind.append(j)
             j += 1
             number_adj_adv += 1
@@ -458,7 +493,7 @@ def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
     target = False
     modified_target = tar
     while i < len(doc_tokens):
-        if doc_tokens[i] in string.punctuation:
+        if doc_tokens[i] in string.punctuation and i not in tar_idx and i not in non_cand_idx:
             augmented_sentence.append(doc_tokens[i])
             i += 1
         else:
@@ -469,7 +504,9 @@ def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
                 if i == tar_idx[0]:
                     target = True
                     cur_sent[i:tar_idx[-1]+1] = ['[MASK]']
+                    curr_idx = i
                     i = tar_idx[-1]+1
+                    tar_idx = [curr_idx]
                 else:
                     cur_sent[i] = '[MASK]'
                     i += 1
@@ -478,27 +515,34 @@ def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
                 # print(f"{predicted_words=}")
                 if predicted_words[0] == masked_word: # skip to the next predicted word
                     augmented_sentence.append(predicted_words[1])
-                    cur_sent[i] = predicted_words[1]
                     if target:
-                        modified_target = cur_sent[i]
+                        modified_target = augmented_sentence[-1]
                         target = False
                 else:
                     augmented_sentence.append(predicted_words[0])
-                    cur_sent[i] = predicted_words[0]
                     if target:
-                        modified_target = cur_sent[i]
+                        modified_target = augmented_sentence[-1]
                         target = False
-            if i in non_cand_idx:
+            elif i in non_cand_idx:
                 augmented_sentence.append(modified_target)
+                curr_idx = len(augmented_sentence) - 1
                 i = non_cand_idx[-1]+1
+                non_cand_idx = [curr_idx]
             else:
                 augmented_sentence.append(doc_tokens[i])
                 i += 1
-
+    
+    start = tar_idx[0]
+    end = tar_idx[-1]+1
+    augmented_sentence [start:end] = ["$T$"]
+    if len(non_cand_idx) > 0:
+        start = non_cand_idx[0]
+        end = non_cand_idx[-1] + 1
+        augmented_sentence[start:end] = ["$T$"]
 
     # Join the masked tokens to form the masked sequence
-    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    augmented_sentence_str = re.sub(modified_target,'$T$', augmented_sentence_str)
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', tokenizer.convert_tokens_to_string(augmented_sentence))
+    # augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
     if '$T$' not in augmented_sentence_str:
         raise ValueError
     return augmented_sentence_str, modified_target
@@ -507,24 +551,31 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     """
     This function selective substitute all nouns, adjectives and adverbs (15%) occuring in a sentence
     """
-    tar = re.findall(r'\w+|[^\s\w]+', in_target)
+    tar = nlp(in_target)
+    tar = [token.text for token in tar]
     sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # replace $t$ with actual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
     doc_tokens = [token.text for token in doc] # list of tokens
-    # tar_idx = [i for i, token in enumerate(doc_tokens) if token in tar] # obtain target indices 
-    tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
+    # tar_idx = [i for i, token in enumerate(doc_tokens) if any(is_similar_enough(token, t) for t in tar)]
+    n = len(doc_tokens)
+    m = len(tar)
     non_cand_idx = []
-    substring = ""
-    for idx, tar_id in enumerate(tar_idx):
-        if substring == in_target: 
-            non_cand_idx.extend(tar_idx[idx:])
-            tar_idx = tar_idx[:idx]
-        if idx == 0:
-            substring += doc_tokens[tar_id]
-        else:
-            substring = substring + " " +  doc_tokens[tar_id]
+    count_tar = 0 # count occurences of target within a sentence
+    for i in range(n - m + 1): # Slide windows to obtain target indices
+        if len(doc_tokens[i:i + m]) == len(tar) and count_tar == 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                tar_idx = list(range(i, i + m))
+                count_tar += 1
+        elif len(doc_tokens[i:i + m]) == len(tar) and count_tar > 0:
+            if is_similar_enough(str(doc_tokens[i:i + m]), str(tar)):
+                non_cand_idx = list(range(i, i + m))
+    tar_set = set(tar_idx)
+    non_cand_set = set(non_cand_idx)
+    # Check if there is any intersection (tar_idx and non_cand_idx should be disjoint!)
+    if tar_set & non_cand_set:
+        non_cand_idx = []
 
     noun_idx = []
     j = 0
@@ -533,7 +584,7 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     adj_adv_ind = []
     number_adj_adv = 0
     while j < len(doc_tokens):
-        if doc[j].pos_ in ['NOUN','PRON']:
+        if doc[j].pos_ in ['NOUN','PRON'] and j not in non_cand_idx:
             noun_idx.append(j)
             j += 1
             number_nouns += 1
@@ -553,7 +604,7 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     augmented_sentence = []
     amount_masked = 0
     # cur_sent = doc_tokens.copy()
-
+    mask_indices = []
     if len(adj_adv_ind) >= 1:
         num_to_mask = max(1, int(0.15 * number_adj_adv)) #maximum of 15% of adjectives and adverbs can be masked in the sentence
         mask_indices = rd.sample(adj_adv_ind, num_to_mask)
@@ -577,7 +628,7 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
                     augmented_sentence.append(predicted_words[0])
                     cur_sent[i] = predicted_words[0]
                     i += 1
-            if i in non_cand_idx:
+            elif i in non_cand_idx:
                 sub_target = augmented_sentence[tar_idx[j]]
                 augmented_sentence.append(sub_target)
                 j+=1
@@ -591,13 +642,19 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
     modified_target = [augmented_sentence[idx] for idx in tar_idx]
     modified_target_str = tokenizer.convert_tokens_to_string(modified_target)
 
-    # Join the masked tokens to form the masked sequence
-    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', " ".join(augmented_sentence))
-    augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
+    start = tar_idx[0]
+    end = tar_idx[-1]+1
+    augmented_sentence [start:end] = ["$T$"]
+    if len(non_cand_idx) > 0:
+        start = non_cand_idx[0]
+        end = non_cand_idx[-1] + 1
+        augmented_sentence[start:end] = ["$T$"]
 
+    # Join the masked tokens to form the masked sequence
+    augmented_sentence_str = re.sub(r'\s([,.:;!])', r'\1', tokenizer.convert_tokens_to_string(augmented_sentence))
+    # augmented_sentence_str = re.sub(modified_target_str,'$T$', augmented_sentence_str)
     if '$T$' not in augmented_sentence_str:
         raise ValueError
-    # modified_target_str = ' '.join(modified_target)
     return augmented_sentence_str, modified_target_str
 
 if __name__ == '__main__':
