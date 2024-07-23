@@ -355,6 +355,7 @@ class OntReasoner():
         self.remaining_polarity_vector = np.array(self.remaining_polarity_vector)
         self.remaining_pos_vector = np.array(self.remaining_pos_vector)
 
+            
         # Save the outputs to .txt file
         if use_backup == True:
             print(self.remaining_pos_vector)
@@ -364,6 +365,13 @@ class OntReasoner():
                     if i in self.remaining_pos_vector:
                         outF.write(line)
             outF.close()
+        
+        # Save the remaining test indices for each year
+        try:
+            np.save(f"remaining_test_indices_{FLAGS.year}", self.remaining_pos_vector)
+        except IOError:
+            print('Error writing remaining test indices')
+            
         if use_svm == True:
             print(self.remaining_pos_vector)
             outF= open(FLAGS.remaining_svm_test_path, "w")
