@@ -1,1791 +1,1791 @@
-love $T$
-al di la
+love_42 $T$
+al_2 di_14 la_8
 1
-i recommend this $T$ to everyone .
-place
+i_628 recommend_68 this_340 $T$ to_577 everyone_2 ._2965
+place_332
 1
-great $T$ .
-food
+great_522 $T$ ._2966
+food_693
 1
-the $T$ are incredible , the risottos ( particularly the sepia ) are fantastic and the braised rabbit is amazing .
-pastas
+the_2968 $T$ are_271 incredible_13 ,_1990 the_2969 ri_6 ##so_4 ##tto_4 ##s_241 (_168 particularly_8 the_2970 sep_0 ##ia_0 )_166 are_272 fantastic_35 and_1728 the_2971 bra_2 ##ised_2 rabbit_0 is_1060 amazing_62 ._2967
+pasta_35 ##s_242
 1
-the pastas are incredible , the $T$ ( particularly the sepia ) are fantastic and the braised rabbit is amazing .
-risottos
+the_2972 pasta_36 ##s_243 are_273 incredible_14 ,_1991 the_2973 $T$ (_169 particularly_9 the_2974 sep_1 ##ia_1 )_167 are_274 fantastic_36 and_1729 the_2975 bra_3 ##ised_3 rabbit_1 is_1061 amazing_63 ._2968
+ri_7 ##so_5 ##tto_5 ##s_244
 1
-the pastas are incredible , the risottos ( particularly the $T$ ) are fantastic and the braised rabbit is amazing .
-sepia
+the_2976 pasta_37 ##s_245 are_275 incredible_15 ,_1992 the_2977 ri_8 ##so_6 ##tto_6 ##s_246 (_170 particularly_10 the_2978 $T$ )_168 are_276 fantastic_37 and_1730 the_2979 bra_4 ##ised_4 rabbit_2 is_1062 amazing_64 ._2969
+sep_2 ##ia_2
 1
-the pastas are incredible , the risottos ( particularly the sepia ) are fantastic and the $T$ is amazing .
-braised rabbit
+the_2980 pasta_38 ##s_247 are_277 incredible_16 ,_1993 the_2981 ri_9 ##so_7 ##tto_7 ##s_248 (_171 particularly_11 the_2982 sep_3 ##ia_3 )_169 are_278 fantastic_38 and_1731 the_2983 $T$ is_1063 amazing_65 ._2970
+bra_5 ##ised_5 rabbit_3
 1
-the $T$ here was mediocre at best .
-food
+the_2984 $T$ here_65 was_810 med_11 ##io_8 ##cre_8 at_216 best_131 ._2971
+food_694
 -1
-it was totally overpriced- $T$ was about $ 15 ....
-fish and chips
+it_383 was_811 totally_10 over_90 ##pr_30 ##ice_30 ##d_45 -_550 $T$ was_812 about_79 15_6 ._2972 ._2973 ._2974 ._2975
+fish_73 and_1732 chips_10
 -1
-tasty $T$ !
-dog
+ta_52 ##sty_52 $T$ !_288
+dog_0
 1
-an awesome organic $T$ , and a conscious eco friendly establishment .
-dog
+an_76 awesome_11 organic_3 $T$ ,_1994 and_1733 a_923 conscious_0 eco_0 friendly_82 establishment_4 ._2976
+dog_1
 1
-an awesome organic dog , and a conscious eco friendly $T$ .
-establishment
+an_77 awesome_12 organic_4 dog_2 ,_1995 and_1734 a_924 conscious_1 eco_1 friendly_83 $T$ ._2977
+establishment_5
 1
-the $T$ has a lot going for it .
-cypriot restaurant
+the_2985 $T$ has_98 a_925 lot_27 going_10 for_339 it_384 ._2978
+cypriot_0 restaurant_176
 1
-but the best $T$ i ever had is the main thing .
-pork souvlaki
+but_300 the_2986 best_132 $T$ i_629 ever_43 had_216 is_1064 the_2987 main_18 thing_26 ._2979
+pork_16 so_158 ##u_4 ##v_4 ##lak_0 ##i_40
 1
-super yummy $T$ !
-pizza
+super_9 yu_24 ##mmy_11 $T$ !_289
+pizza_141
 1
-i was visiting new york city with a friend and we discovered this really warm and inviting $T$ .
-restaurant
+i_630 was_813 visiting_4 new_52 york_22 city_24 with_294 a_926 friend_14 and_1735 we_225 discovered_0 this_341 really_92 warm_33 and_1736 inviting_0 $T$ ._2980
+restaurant_177
 1
-i looove their $T$ , as well as their pastas !
-eggplant pizza
+i_631 lo_11 ##oo_4 ##ve_2 their_91 $T$ ,_1996 as_97 well_66 as_98 their_92 pasta_39 ##s_249 !_290
+egg_10 ##pl_0 ##ant_0 pizza_142
 1
-i looove their eggplant pizza , as well as their $T$ !
-pastas
+i_632 lo_12 ##oo_5 ##ve_3 their_93 egg_11 ##pl_1 ##ant_1 pizza_143 ,_1997 as_99 well_67 as_100 their_94 $T$ !_291
+pasta_40 ##s_250
 1
-we had $T$ , mine was eggplant and my friend had the buffalo and it was sooo huge for a small size pizza !
-half/half pizza
+we_226 had_217 $T$ ,_1998 mine_2 was_814 egg_12 ##pl_2 ##ant_2 and_1737 my_134 friend_15 had_218 the_2988 buffalo_0 and_1738 it_385 was_815 soo_6 ##o_22 huge_31 for_340 a_927 small_46 size_17 pizza_144 !_292
+half_6 /_67 half_7 pizza_145
 1
-excellent $T$ , although the interior could use some help .
-food
+excellent_138 $T$ ,_1999 although_28 the_2989 interior_4 could_42 use_12 some_58 help_0 ._2981
+food_695
 1
-excellent food , although the $T$ could use some help .
-interior
+excellent_139 food_696 ,_2000 although_29 the_2990 $T$ could_43 use_13 some_59 help_1 ._2982
+interior_5
 -1
-the $T$ kind of feels like an alice in wonderland setting , without it trying to be that .
-space
+the_2991 $T$ kind_14 of_469 feels_2 like_138 an_78 alice_0 in_375 wonderland_0 setting_30 ,_2001 without_10 it_386 trying_5 to_578 be_125 that_256 ._2983
+space_2
 -1
-i paid just about $ 60 for a good $T$ , though : )
-meal
+i_633 paid_3 just_58 about_80 $T$ 60_0 for_341 a_928 good_403 ,_2002 though_37 :_64 )_170
+meal_34
 1
-i paid just about $ 60 for a good $T$ , though : )
-meal
+i_634 paid_4 just_59 about_81 $T$ 60_1 for_342 a_929 good_404 ,_2003 though_38 :_65 )_171
+meal_35
 1
-great $T$ !
-sake
+great_523 $T$ !_293
+sake_26
 1
-reliable , fresh $T$
-sushi
+reliable_2 ,_2004 fresh_107 $T$
+su_121 ##shi_109
 1
-the $T$ is always fresh and the rolls are innovative and delicious .
-sashimi
+the_2992 $T$ is_1065 always_82 fresh_108 and_1739 the_2993 rolls_35 are_279 innovative_3 and_1740 delicious_139 ._2984
+sash_22 ##imi_24
 1
-the sashimi is always fresh and the $T$ are innovative and delicious .
-rolls
+the_2994 sash_23 ##imi_25 is_1066 always_83 fresh_109 and_1741 the_2995 $T$ are_280 innovative_4 and_1742 delicious_140 ._2985
+rolls_36
 1
-the sashimi is always fresh and the $T$ are innovative and delicious .
-rolls
+the_2996 sash_24 ##imi_26 is_1067 always_84 fresh_110 and_1743 the_2997 $T$ are_281 innovative_5 and_1744 delicious_141 ._2986
+rolls_37
 1
-have never had a problem with $T$ save a missing rice once .
-service
+have_201 never_61 had_219 a_930 problem_6 with_295 $T$ save_0 a_931 missing_8 rice_66 once_11 ._2987
+service_480
 1
-$T$ can be spot on or lacking depending on the weather and the day of the week .
-delivery
+$T$ can_93 be_126 spot_25 on_190 or_112 lacking_2 depending_2 on_191 the_2998 weather_2 and_1745 the_2999 day_16 of_470 the_3000 week_6 ._2988
+delivery_23
 -1
-$T$ sometimes get upset if you do n't tip more than 10 % .
-delivery guy
+$T$ sometimes_26 get_108 upset_0 if_112 you_342 do_58 n_84 '_504 tip_2 more_65 than_52 10_10 %_0 ._2989
+delivery_24 guy_0
 -1
-best . $T$ . ever .
-sushi
+best_133 ._2990 $T$ ._2991 ever_44 ._2992
+su_122 ##shi_110
 1
-this place has ruined me for neighborhood $T$ .
-sushi
+this_342 place_333 has_99 ruined_0 me_52 for_343 neighborhood_10 $T$ ._2993
+su_123 ##shi_111
 1
-excellent $T$ , and the millennium roll is beyond delicious .
-sashimi
+excellent_140 $T$ ,_2005 and_1746 the_3001 millennium_0 roll_26 is_1068 beyond_0 delicious_142 ._2994
+sash_25 ##imi_27
 1
-excellent sashimi , and the $T$ is beyond delicious .
-millennium roll
+excellent_141 sash_26 ##imi_28 ,_2006 and_1747 the_3002 $T$ is_1069 beyond_1 delicious_143 ._2995
+millennium_1 roll_27
 1
-the $T$ is a bit hidden away , but once you get there , it 's all worth it .
-place
+the_3003 $T$ is_1070 a_932 bit_50 hidden_3 away_20 ,_2007 but_301 once_12 you_343 get_109 there_92 ,_2008 it_387 '_505 s_175 all_151 worth_32 it_388 ._2996
+place_334
 0
-the $T$ is a bit hidden away , but once you get there , it 's all worth it .
-place
+the_3004 $T$ is_1071 a_933 bit_51 hidden_4 away_21 ,_2009 but_302 once_13 you_344 get_110 there_93 ,_2010 it_389 '_506 s_176 all_152 worth_33 it_390 ._2997
+place_335
 1
-not only is the $T$
-food
+not_244 only_42 is_1072 the_3005 $T$
+food_697
 1
-the $T$ was attentive , the food was delicious and the views of the city were great .
-waiter
+the_3006 $T$ was_816 at_217 ##ten_40 ##tive_25 ,_2011 the_3007 food_698 was_817 delicious_144 and_1748 the_3008 views_0 of_471 the_3009 city_25 were_197 great_524 ._2998
+waiter_36
 1
-the waiter was attentive , the $T$ was delicious and the views of the city were great .
-food
+the_3010 waiter_37 was_818 at_218 ##ten_41 ##tive_26 ,_2012 the_3011 $T$ was_819 delicious_145 and_1749 the_3012 views_1 of_472 the_3013 city_26 were_198 great_525 ._2999
+food_699
 1
-the waiter was attentive , the food was delicious and the $T$ were great .
-views of the city
+the_3014 waiter_38 was_820 at_219 ##ten_42 ##tive_27 ,_2013 the_3015 food_700 was_821 delicious_146 and_1750 the_3016 $T$ were_199 great_526 ._3000
+views_2 of_473 the_3017 city_27
 1
-great $T$ to relax and enjoy your dinner
-place
+great_527 $T$ to_579 relax_6 and_1751 enjoy_12 your_94 dinner_34
+place_336
 1
-there is something about their $T$ that makes me come back nearly every week .
-atmosphere
+there_94 is_1073 something_7 about_82 their_95 $T$ that_257 makes_34 me_53 come_16 back_34 nearly_5 every_47 week_7 ._3001
+atmosphere_106
 1
-$T$ is open till late , no dress code .
-place
+$T$ is_1074 open_8 till_4 late_5 ,_2014 no_54 dress_0 code_0 ._3002
+place_337
 1
-good $T$ : my favorite is the sea$T$ spaghetti .
-food
+good_405 $T$ :_66 my_135 favorite_11 is_1075 the_3018 sea_21 spaghetti_4 ._3003
+food_701
 1
-good food : my favorite is the $T$ .
-seafood spaghetti
+good_406 food_702 :_67 my_136 favorite_12 is_1076 the_3019 $T$ ._3004
+seafood_19 spaghetti_5
 1
-excellent $T$ for great prices
-food
+excellent_142 $T$ for_344 great_528 prices_95
+food_703
 1
-excellent $T$ for great prices
-food
+excellent_143 $T$ for_345 great_529 prices_96
+food_704
 1
-the $T$ is very courteous and accomodating .
-wait staff
+the_3020 $T$ is_1077 very_248 court_4 ##eous_2 and_1752 acc_7 ##omo_7 ##dating_7 ._3005
+wait_42 staff_128
 1
-the $T$ is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious indo-chinese food .
-space
+the_3021 $T$ is_1078 limited_20 so_159 be_127 prepared_12 to_580 wait_43 up_51 to_581 45_0 minutes_4 -_551 1_12 hour_2 ,_2015 but_303 be_128 richly_1 rewarded_0 when_36 you_345 sa_4 ##vor_0 the_3022 delicious_147 indo_0 -_552 chinese_11 food_705 ._3006
+space_3
 0
-the $T$ is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious indo-chinese food .
-space
+the_3023 $T$ is_1079 limited_21 so_160 be_129 prepared_13 to_582 wait_44 up_52 to_583 45_1 minutes_5 -_553 1_13 hour_3 ,_2016 but_304 be_130 richly_2 rewarded_1 when_37 you_346 sa_5 ##vor_1 the_3024 delicious_148 indo_1 -_554 chinese_12 food_706 ._3007
+space_4
 -1
-the space is limited so be prepared to wait up to 45 minutes - 1 hour , but be richly rewarded when you savor the delicious $T$ .
-indo-chinese food
+the_3025 space_5 is_1080 limited_22 so_161 be_131 prepared_14 to_584 wait_45 up_53 to_585 45_2 minutes_6 -_555 1_14 hour_4 ,_2017 but_305 be_132 richly_3 rewarded_2 when_38 you_347 sa_6 ##vor_2 the_3026 delicious_149 $T$ ._3008
+indo_2 -_556 chinese_13 food_707
 1
-my favorite $T$ lol
-place
+my_137 favorite_13 $T$ lo_13 ##l_14
+place_338
 1
-i love their $T$ cant remember the name but is sooo good
-chicken pasta
+i_635 love_43 their_96 $T$ can_94 ##t_46 remember_6 the_3027 name_4 but_306 is_1081 soo_7 ##o_23 good_407
+chicken_58 pasta_41
 1
-im not necessarily fanatical about this $T$ , but it was a fun time for low pirces .
-place
+im_0 not_245 necessarily_0 fan_0 ##atic_0 ##al_20 about_83 this_343 $T$ ,_2018 but_307 it_391 was_822 a_934 fun_31 time_54 for_346 low_12 pi_14 ##rce_0 ##s_251 ._3009
+place_339
 1
-im not necessarily fanatical about this $T$ , but it was a fun time for low pirces .
-place
+im_1 not_246 necessarily_1 fan_1 ##atic_1 ##al_21 about_84 this_344 $T$ ,_2019 but_308 it_392 was_823 a_935 fun_32 time_55 for_347 low_13 pi_15 ##rce_1 ##s_252 ._3010
+place_340
 1
-$T$ was good , nothing spectacular .
-lobster
+$T$ was_824 good_408 ,_2020 nothing_26 spectacular_9 ._3011
+lobster_36
 0
-its just a fun place to go , not a five star $T$ .
-restaraunt
+its_34 just_60 a_936 fun_33 place_341 to_586 go_82 ,_2021 not_247 a_937 five_2 star_2 $T$ ._3012
+rest_12 ##ara_0 ##unt_0
 0
-i think the $T$ is so overrated and was under cooked .
-pizza
+i_636 think_16 the_3028 $T$ is_1082 so_162 over_91 ##rated_2 and_1753 was_825 under_7 cooked_14 ._3013
+pizza_146
 -1
-had no flavor and the $T$ is rude and not attentive .
-staff
+had_220 no_55 flavor_28 and_1754 the_3029 $T$ is_1083 rude_24 and_1755 not_248 at_220 ##ten_43 ##tive_28 ._3014
+staff_129
 -1
-i love this $T$
-place
+i_637 love_44 this_345 $T$
+place_342
 1
-the $T$ was quick and friendly .
-service
+the_3030 $T$ was_826 quick_10 and_1756 friendly_84 ._3015
+service_481
 1
-i thought the $T$ was nice and clean .
-restaurant
+i_638 thought_22 the_3031 $T$ was_827 nice_113 and_1757 clean_15 ._3016
+restaurant_178
 1
-i thought the $T$ was nice and clean .
-restaurant
+i_639 thought_23 the_3032 $T$ was_828 nice_114 and_1758 clean_16 ._3017
+restaurant_179
 1
-i ordered the $T$ and i was pretty impressed .
-vitello alla marsala
+i_640 ordered_24 the_3033 $T$ and_1759 i_641 was_829 pretty_32 impressed_8 ._3018
+vi_0 ##tell_4 ##o_24 alla_0 mars_0 ##ala_0
 1
-the $T$ and the mushrooms were cooked perfectly .
-veal
+the_3034 $T$ and_1760 the_3035 mushrooms_0 were_200 cooked_15 perfectly_1 ._3019
+ve_71 ##al_22
 1
-the veal and the $T$ were cooked perfectly .
-mushrooms
+the_3036 ve_72 ##al_23 and_1761 the_3037 $T$ were_201 cooked_16 perfectly_2 ._3020
+mushrooms_1
 1
-the $T$ were not dry at all ... in fact it was buttery .
-potato balls
+the_3038 $T$ were_202 not_249 dry_7 at_221 all_153 ._3021 ._3022 ._3023 in_376 fact_8 it_393 was_830 butter_5 ##y_109 ._3024
+potato_8 balls_0
 1
-worst $T$ on smith street in brooklyn
-place
+worst_7 $T$ on_192 smith_4 street_4 in_377 brooklyn_6
+place_343
 -1
-very immature $T$ , didnt know how to make specific drinks , service was so slowwwww , the food was not fresh or warm , waitresses were busy flirting with men at the bar and werent very attentive to all the customers .
-bartender
+very_249 immature_0 $T$ ,_2022 didn_11 ##t_47 know_10 how_18 to_587 make_52 specific_0 drinks_64 ,_2023 service_482 was_831 so_163 slow_10 ##w_4 ##w_5 ##w_6 ##w_7 ,_2024 the_3039 food_708 was_832 not_250 fresh_111 or_113 warm_34 ,_2025 waitress_17 ##es_6 were_203 busy_8 flirting_0 with_296 men_0 at_222 the_3040 bar_36 and_1762 weren_1 ##t_48 very_250 at_223 ##ten_44 ##tive_29 to_588 all_154 the_3041 customers_2 ._3025
+bartender_4
 -1
-very immature bartender , didnt know how to make specific drinks , $T$ was so slowwwww , the food was not fresh or warm , waitresses were busy flirting with men at the bar and werent very attentive to all the customers .
-service
+very_251 immature_1 bartender_5 ,_2026 didn_12 ##t_49 know_11 how_19 to_589 make_53 specific_1 drinks_65 ,_2027 $T$ was_833 so_164 slow_11 ##w_8 ##w_9 ##w_10 ##w_11 ,_2028 the_3042 food_709 was_834 not_251 fresh_112 or_114 warm_35 ,_2029 waitress_18 ##es_7 were_204 busy_9 flirting_1 with_297 men_1 at_224 the_3043 bar_37 and_1763 weren_2 ##t_50 very_252 at_225 ##ten_45 ##tive_30 to_590 all_155 the_3044 customers_3 ._3026
+service_483
 -1
-very immature bartender , didnt know how to make specific drinks , service was so slowwwww , the $T$ was not fresh or warm , waitresses were busy flirting with men at the bar and werent very attentive to all the customers .
-food
+very_253 immature_2 bartender_6 ,_2030 didn_13 ##t_51 know_12 how_20 to_591 make_54 specific_2 drinks_66 ,_2031 service_484 was_835 so_165 slow_12 ##w_12 ##w_13 ##w_14 ##w_15 ,_2032 the_3045 $T$ was_836 not_252 fresh_113 or_115 warm_36 ,_2033 waitress_19 ##es_8 were_205 busy_10 flirting_2 with_298 men_2 at_226 the_3046 bar_38 and_1764 weren_3 ##t_52 very_254 at_227 ##ten_46 ##tive_31 to_592 all_156 the_3047 customers_4 ._3027
+food_710
 -1
-very immature bartender , didnt know how to make specific drinks , service was so slowwwww , the food was not fresh or warm , $T$ were busy flirting with men at the bar and werent very attentive to all the customers .
-waitresses
+very_255 immature_3 bartender_7 ,_2034 didn_14 ##t_53 know_13 how_21 to_593 make_55 specific_3 drinks_67 ,_2035 service_485 was_837 so_166 slow_13 ##w_16 ##w_17 ##w_18 ##w_19 ,_2036 the_3048 food_711 was_838 not_253 fresh_114 or_116 warm_37 ,_2037 $T$ were_206 busy_11 flirting_3 with_299 men_3 at_228 the_3049 bar_39 and_1765 weren_4 ##t_54 very_256 at_229 ##ten_47 ##tive_32 to_594 all_157 the_3050 customers_5 ._3028
+waitress_20 ##es_9
 -1
-i would never recommend this $T$ to anybody even for a casual dinner .
-place
+i_642 would_63 never_62 recommend_69 this_346 $T$ to_595 anybody_0 even_44 for_348 a_938 casual_20 dinner_35 ._3029
+place_344
 -1
-i would never recommend this $T$ to anybody even for a casual dinner .
-place
+i_643 would_64 never_63 recommend_70 this_347 $T$ to_596 anybody_1 even_45 for_349 a_939 casual_21 dinner_36 ._3030
+place_345
 -1
-the $T$ is always fresh ...
-food
+the_3051 $T$ is_1084 always_85 fresh_115 ._3031 ._3032 ._3033
+food_712
 1
-overpriced $T$ with mediocre service
-japanese food
+over_92 ##pr_31 ##ice_31 ##d_46 $T$ with_300 med_12 ##io_9 ##cre_9 service_486
+japanese_23 food_713
 -1
-overpriced japanese food with mediocre $T$
-service
+over_93 ##pr_32 ##ice_32 ##d_47 japanese_24 food_714 with_301 med_13 ##io_10 ##cre_10 $T$
+service_487
 0
-$T$ had tomato or pimentos on top ? ?
-chicken teriyaki
+$T$ had_221 tomato_7 or_117 pi_16 ##mento_0 ##s_253 on_193 top_35 ?_6 ?_7
+chicken_59 ter_4 ##iya_4 ##ki_4
 -1
-$T$ was luke warm .
-food
+$T$ was_839 luke_0 warm_38 ._3034
+food_715
 -1
-the $T$ was not attentive at all .
-waitress
+the_3052 $T$ was_840 not_254 at_230 ##ten_48 ##tive_33 at_231 all_158 ._3035
+waitress_21
 -1
-i was looking for banana tempura for $T$ and they dont have .
-dessert
+i_644 was_841 looking_22 for_350 banana_16 te_24 ##mp_23 ##ura_28 for_351 $T$ and_1766 they_158 don_38 ##t_55 have_202 ._3036
+dessert_49
 -1
-not because you are `` $T$ '' ... – you are allowed to charge an arm and a leg for a romatic dinner .
-the four seasons
+not_255 because_28 you_348 are_282 `_0 `_1 $T$ '_507 '_508 ._3037 ._3038 ._3039 –_0 you_349 are_283 allowed_2 to_597 charge_0 an_79 arm_0 and_1767 a_940 leg_0 for_352 a_941 roma_0 ##tic_0 dinner_37 ._3040
+the_3053 four_4 seasons_0
 -1
-the $T$ was excellent as well as service , however , i left the four seasons very dissappointed .
-food
+the_3054 $T$ was_842 excellent_144 as_101 well_68 as_102 service_488 ,_2038 however_31 ,_2039 i_645 left_2 the_3055 four_5 seasons_1 very_257 di_15 ##ssa_12 ##pp_6 ##oint_2 ##ed_20 ._3041
+food_716
 1
-the food was excellent as well as $T$ , however , i left the four seasons very dissappointed .
-service
+the_3056 food_717 was_843 excellent_145 as_103 well_69 as_104 $T$ ,_2040 however_32 ,_2041 i_646 left_3 the_3057 four_6 seasons_2 very_258 di_16 ##ssa_13 ##pp_7 ##oint_3 ##ed_21 ._3042
+service_489
 1
-the food was excellent as well as service , however , i left $T$ very dissappointed .
-the four seasons
+the_3058 food_718 was_844 excellent_146 as_105 well_70 as_106 service_490 ,_2042 however_33 ,_2043 i_647 left_4 $T$ very_259 di_17 ##ssa_14 ##pp_8 ##oint_4 ##ed_22 ._3043
+the_3059 four_7 seasons_3
 -1
-i do not think $T$ in manhattan should cost $ 400.00 where i am not swept off my feet .
-dinner
+i_648 do_59 not_256 think_17 $T$ in_378 manhattan_52 should_18 cost_0 400_0 ._3044 00_6 where_20 i_649 am_94 not_257 swept_0 off_27 my_138 feet_2 ._3045
+dinner_38
 -1
-$T$ - my favorite thing to eat , of any food group - hands down
-red dragon roll
+$T$ -_557 my_139 favorite_14 thing_27 to_598 eat_42 ,_2044 of_474 any_33 food_719 group_12 -_558 hands_4 down_20
+red_13 dragon_0 roll_28
 1
-just go to $T$ and order the red dragon roll .
-yamato
+just_61 go_83 to_599 $T$ and_1768 order_18 the_3060 red_14 dragon_1 roll_29 ._3046
+ya_2 ##mat_0 ##o_25
 1
-just go to yamato and order the $T$ .
-red dragon roll
+just_62 go_84 to_600 ya_3 ##mat_1 ##o_26 and_1769 order_19 the_3061 $T$ ._3047
+red_15 dragon_2 roll_30
 1
-the $T$ is also otherworldly .
-seafood dynamite
+the_3062 $T$ is_1085 also_41 other_24 ##world_0 ##ly_61 ._3048
+seafood_20 dynamite_0
 1
-favorite $T$ in nyc
-sushi
+favorite_15 $T$ in_379 nyc_20
+su_124 ##shi_112
 1
-an unpretentious $T$ in park slope , the sushi is consistently good , the service is pleasant , effective and unassuming .
-spot
+an_80 un_41 ##pre_7 ##ten_49 ##tious_14 $T$ in_380 park_2 slope_0 ,_2045 the_3063 su_125 ##shi_113 is_1086 consistently_4 good_409 ,_2046 the_3064 service_491 is_1087 pleasant_17 ,_2047 effective_0 and_1770 una_19 ##ss_8 ##uming_0 ._3049
+spot_26
 1
-an unpretentious spot in park slope , the $T$ is consistently good , the service is pleasant , effective and unassuming .
-sushi
+an_81 un_42 ##pre_8 ##ten_50 ##tious_15 spot_27 in_381 park_3 slope_1 ,_2048 the_3065 $T$ is_1088 consistently_5 good_410 ,_2049 the_3066 service_492 is_1089 pleasant_18 ,_2050 effective_1 and_1771 una_20 ##ss_9 ##uming_1 ._3050
+su_126 ##shi_114
 1
-an unpretentious spot in park slope , the sushi is consistently good , the $T$ is pleasant , effective and unassuming .
-service
+an_82 un_43 ##pre_9 ##ten_51 ##tious_16 spot_28 in_382 park_4 slope_2 ,_2051 the_3067 su_127 ##shi_115 is_1090 consistently_6 good_411 ,_2052 the_3068 $T$ is_1091 pleasant_19 ,_2053 effective_2 and_1772 una_21 ##ss_10 ##uming_2 ._3051
+service_493
 1
-in the summer months , the $T$ is really nice .
-back garden area
+in_383 the_3069 summer_4 months_8 ,_2054 the_3070 $T$ is_1092 really_93 nice_115 ._3052
+back_35 garden_20 area_28
 1
-the $T$ are creative and i have yet to find another sushi place that serves up more inventive yet delicious japanese food .
-rolls
+the_3071 $T$ are_284 creative_2 and_1773 i_650 have_203 yet_11 to_601 find_16 another_10 su_128 ##shi_116 place_346 that_258 serves_0 up_54 more_66 in_384 ##vent_0 ##ive_6 yet_12 delicious_150 japanese_25 food_720 ._3053
+rolls_38
 1
-the rolls are creative and i have yet to find another sushi place that serves up more inventive yet delicious $T$ .
-japanese food
+the_3072 rolls_39 are_285 creative_3 and_1774 i_651 have_204 yet_13 to_602 find_17 another_11 su_129 ##shi_117 place_347 that_259 serves_1 up_55 more_67 in_385 ##vent_1 ##ive_7 yet_14 delicious_151 $T$ ._3054
+japanese_26 food_721
 1
-the rolls are creative and i have yet to find another sushi place that serves up more inventive yet delicious $T$ .
-japanese food
+the_3073 rolls_40 are_286 creative_4 and_1775 i_652 have_205 yet_15 to_603 find_18 another_12 su_130 ##shi_118 place_348 that_260 serves_2 up_56 more_68 in_386 ##vent_2 ##ive_8 yet_16 delicious_152 $T$ ._3055
+japanese_27 food_722
 1
-the $T$ are musts .
-dancing , white river and millenium rolls
+the_3074 $T$ are_287 must_32 ##s_254 ._3056
+dancing_0 ,_2055 white_1 river_4 and_1776 mill_2 ##eni_0 ##um_0 rolls_41
 1
-i can eat here every day of the week really lol love this $T$ ... )
-place
+i_653 can_95 eat_43 here_66 every_48 day_17 of_475 the_3075 week_8 really_94 lo_14 ##l_15 love_45 this_348 $T$ ._3057 ._3058 ._3059 )_172
+place_349
 1
-gross $T$ – wow-
-food
+gross_1 $T$ –_1 wow_0 -_559
+food_723
 -1
-i ca n't remember the last time i had such gross $T$ in new york .
-food
+i_654 ca_24 n_85 '_509 remember_7 the_3076 last_32 time_56 i_655 had_222 such_13 gross_2 $T$ in_387 new_53 york_23 ._3060
+food_724
 -1
-my $T$ tasted like it had been made by a three-year old with no sense of proportion or flavor .
-quesadilla
+my_140 $T$ tasted_18 like_139 it_394 had_223 been_71 made_44 by_58 a_942 three_4 -_560 year_2 old_10 with_302 no_56 sense_0 of_476 proportion_4 or_118 flavor_29 ._3061
+que_0 ##sa_2 ##di_0 ##lla_0
 -1
-my $T$ tasted like it had been made by a three-year old with no sense of proportion or flavor .
-quesadilla
+my_141 $T$ tasted_19 like_140 it_395 had_224 been_72 made_45 by_59 a_943 three_5 -_561 year_3 old_11 with_303 no_57 sense_1 of_477 proportion_5 or_119 flavor_30 ._3062
+que_1 ##sa_3 ##di_1 ##lla_1
 -1
-and $ 11 for a plate of bland $T$ ?
-guacamole
+and_1777 $T$ 11_0 for_353 a_944 plate_6 of_478 bland_33 ?_8
+gu_8 ##aca_6 ##mo_8 ##le_26
 -1
-and $ 11 for a plate of bland $T$ ?
-guacamole
+and_1778 $T$ 11_1 for_354 a_945 plate_7 of_479 bland_34 ?_9
+gu_9 ##aca_7 ##mo_9 ##le_27
 -1
-do n't get me started on the $T$ , either .
-margaritas
+do_60 n_86 '_510 get_111 me_54 started_6 on_194 the_3077 $T$ ,_2056 either_4 ._3063
+margarita_0 ##s_255
 -1
-oh , and i never write reviews -- i just was so moved by how bad this $T$ was , i felt it was my duty to spread the word .
-place
+oh_1 ,_2057 and_1779 i_656 never_64 write_4 reviews_8 -_562 -_563 i_657 just_63 was_845 so_167 moved_2 by_60 how_22 bad_34 this_349 $T$ was_846 ,_2058 i_658 felt_6 it_396 was_847 my_142 duty_1 to_604 spread_0 the_3078 word_0 ._3064
+place_350
 -1
-great $T$ !
-indian food
+great_530 $T$ !_294
+indian_18 food_725
 1
-the $T$ was good , the place was clean and affordable .
-food
+the_3079 $T$ was_848 good_412 ,_2059 the_3080 place_351 was_849 clean_17 and_1780 affordable_10 ._3065
+food_726
 1
-the food was good , the $T$ was clean and affordable .
-place
+the_3081 food_727 was_850 good_413 ,_2060 the_3082 $T$ was_851 clean_18 and_1781 affordable_11 ._3066
+place_352
 1
-the food was good , the $T$ was clean and affordable .
-place
+the_3083 food_728 was_852 good_414 ,_2061 the_3084 $T$ was_853 clean_19 and_1782 affordable_12 ._3067
+place_353
 1
-i noticed alot of indian people eatting there which is a great sign for an $T$ !
-indian place
+i_659 noticed_0 al_3 ##ot_2 of_480 indian_19 people_31 eat_44 ##ting_2 there_95 which_108 is_1093 a_946 great_531 sign_0 for_355 an_83 $T$ !_295
+indian_20 place_354
 1
-this is one of my favorite spot , very relaxing the $T$ is great all the times , celebrated my engagement and my wedding here , it was very well organized .
-food
+this_350 is_1094 one_69 of_481 my_143 favorite_16 spot_29 ,_2062 very_260 relaxing_5 the_3085 $T$ is_1095 great_532 all_159 the_3086 times_32 ,_2063 celebrated_0 my_144 engagement_0 and_1783 my_145 wedding_0 here_67 ,_2064 it_397 was_854 very_261 well_71 organized_0 ._3068
+food_729
 1
-the $T$ is very good .
-staff
+the_3087 $T$ is_1096 very_262 good_415 ._3069
+staff_130
 1
-love their $T$ .
-drink menu
+love_46 their_97 $T$ ._3070
+drink_6 menu_108
 1
-i highly recommend this beautiful $T$ .
-place
+i_660 highly_23 recommend_71 this_351 beautiful_21 $T$ ._3071
+place_355
 1
-i highly recommend this beautiful $T$ .
-place
+i_661 highly_24 recommend_72 this_352 beautiful_22 $T$ ._3072
+place_356
 1
-we were offered water for the table but were not told the $T$ were $ 8 a piece .
-voss bottles of water
+we_227 were_207 offered_10 water_8 for_356 the_3088 table_18 but_309 were_208 not_258 told_5 the_3089 $T$ were_209 8_26 a_947 piece_10 ._3073
+voss_0 bottles_6 of_482 water_9
 -1
-$T$ was ok .
-food
+$T$ was_855 ok_20 ._3074
+food_730
 0
-nice $T$ .
-view of river and nyc
+nice_116 $T$ ._3075
+view_16 of_483 river_5 and_1784 nyc_21
 1
-great $T$
-survice
+great_533 $T$
+sur_0 ##vic_0 ##e_104
 1
-a beautifully designed dreamy $T$ that gets sceney at night .
-egyptian restaurant
+a_948 beautifully_5 designed_0 dream_0 ##y_110 $T$ that_261 gets_10 scene_10 ##y_111 at_232 night_26 ._3076
+egyptian_0 restaurant_180
 1
-watch the talented belly dancers as you enjoy delicious $T$ that 's more lemony than smoky .
-baba ganoush
+watch_0 the_3090 talented_1 belly_4 dancers_0 as_107 you_350 enjoy_13 delicious_153 $T$ that_262 '_511 s_177 more_69 lemon_4 ##y_112 than_53 smoky_0 ._3077
+baba_1 gan_0 ##ous_4 ##h_7
 1
-watch the talented $T$ as you enjoy delicious baba ganoush that 's more lemony than smoky .
-belly dancers
+watch_1 the_3091 talented_2 $T$ as_108 you_351 enjoy_14 delicious_154 baba_2 gan_1 ##ous_5 ##h_8 that_263 '_512 s_178 more_70 lemon_5 ##y_113 than_54 smoky_1 ._3078
+belly_5 dancers_1
 1
-oh , and there 's $T$ .
-hookah
+oh_2 ,_2065 and_1785 there_96 '_513 s_179 $T$ ._3079
+hook_0 ##ah_0
 1
-$T$ the bartender rocks !
-raymond
+$T$ the_3092 bartender_8 rocks_2 !_296
+raymond_0
 1
-$T$ is a great place to casually hang out .
-pacifico
+$T$ is_1097 a_949 great_534 place_357 to_605 casually_0 hang_5 out_64 ._3080
+pacific_0 ##o_27
 1
-the $T$ are great , especially when made by raymond .
-drinks
+the_3093 $T$ are_288 great_535 ,_2066 especially_35 when_39 made_46 by_61 raymond_1 ._3081
+drinks_68
 1
-the drinks are great , especially when made by $T$ .
-raymond
+the_3094 drinks_69 are_289 great_536 ,_2067 especially_36 when_40 made_47 by_62 $T$ ._3082
+raymond_2
 1
-the $T$ is great ...
-omlette for brunch
+the_3095 $T$ is_1098 great_537 ._3083 ._3084 ._3085
+om_0 ##lette_0 for_357 br_12 ##un_4 ##ch_2
 1
-the $T$ is fresh , definately not frozen ...
-spinach
+the_3096 $T$ is_1099 fresh_116 ,_2068 def_5 ##inate_1 ##ly_62 not_259 frozen_4 ._3086 ._3087 ._3088
+spin_0 ##ach_0
 1
-$T$ at pacifico is yummy , as are the wings with chimmichuri .
-quacamole
+$T$ at_233 pacific_1 ##o_28 is_1100 yu_25 ##mmy_12 ,_2069 as_109 are_290 the_3097 wings_0 with_304 chi_3 ##mm_12 ##ich_0 ##uri_0 ._3089
+qu_12 ##aca_8 ##mo_10 ##le_28
 1
-quacamole at pacifico is yummy , as are the $T$ .
-wings with chimmichuri
+qu_13 ##aca_9 ##mo_11 ##le_29 at_234 pacific_2 ##o_29 is_1101 yu_26 ##mmy_13 ,_2070 as_110 are_291 the_3098 $T$ ._3090
+wings_1 with_305 chi_4 ##mm_13 ##ich_1 ##uri_1
 1
-a weakness is the $T$ .
-chicken in the salads
+a_950 weakness_0 is_1102 the_3099 $T$ ._3091
+chicken_60 in_388 the_3100 salad_50 ##s_256
 -1
-also , i personally was n't a fan of the $T$ .
-portobello and asparagus mole
+also_42 ,_2071 i_662 personally_4 was_856 n_87 '_514 a_951 fan_2 of_484 the_3101 $T$ ._3092
+porto_0 ##bell_0 ##o_30 and_1786 as_111 ##para_2 ##gus_2 mole_0
 -1
-overall , decent $T$ at a good price , with friendly people .
-food
+overall_12 ,_2072 decent_16 $T$ at_235 a_952 good_416 price_97 ,_2073 with_306 friendly_85 people_32 ._3093
+food_731
 0
-overall , decent $T$ at a good price , with friendly people .
-food
+overall_13 ,_2074 decent_17 $T$ at_236 a_953 good_417 price_98 ,_2075 with_307 friendly_86 people_33 ._3094
+food_732
 1
-overall , decent food at a good price , with friendly $T$ .
-people
+overall_14 ,_2076 decent_18 food_733 at_237 a_954 good_418 price_99 ,_2077 with_308 friendly_87 $T$ ._3095
+people_34
 1
-best $T$ in the city
-indian restaurant
+best_134 $T$ in_389 the_3102 city_28
+indian_21 restaurant_181
 1
-$T$ needs to be upgraded but the food is amazing !
-decor
+$T$ needs_10 to_606 be_133 upgraded_0 but_310 the_3103 food_734 is_1103 amazing_66 !_297
+decor_96
 -1
-decor needs to be upgraded but the $T$ is amazing !
-food
+decor_97 needs_11 to_607 be_134 upgraded_1 but_311 the_3104 $T$ is_1104 amazing_67 !_298
+food_735
 1
-this small astoria souvlaki spot makes what many consider the best $T$ in new york .
-gyros
+this_353 small_47 astoria_0 so_168 ##u_5 ##v_5 ##lak_1 ##i_41 spot_30 makes_35 what_52 many_24 consider_10 the_3105 best_135 $T$ in_390 new_54 york_24 ._3096
+g_10 ##yr_0 ##os_0
 1
-what really makes it shine is the $T$ , which is aggressively seasoned with cyrpriot spices , and all made in-house ( even the gyro meat and sausages ) , and made of much higher quality ingredients that might otherwise be expected .
-food
+what_53 really_95 makes_36 it_398 shine_0 is_1105 the_3106 $T$ ,_2078 which_109 is_1106 aggressively_0 seasoned_0 with_309 cy_0 ##rp_0 ##rio_0 ##t_56 spices_8 ,_2079 and_1787 all_160 made_48 in_391 -_564 house_14 (_172 even_46 the_3107 g_11 ##yr_1 ##o_31 meat_8 and_1788 sausage_12 ##s_257 )_173 ,_2080 and_1789 made_49 of_485 much_32 higher_0 quality_46 ingredients_30 that_264 might_6 otherwise_4 be_135 expected_11 ._3097
+food_736
 1
-what really makes it shine is the food , which is aggressively seasoned with cyrpriot spices , and all made in-house ( even the $T$ and sausages ) , and made of much higher quality ingredients that might otherwise be expected .
-gyro meat
+what_54 really_96 makes_37 it_399 shine_1 is_1107 the_3108 food_737 ,_2081 which_110 is_1108 aggressively_1 seasoned_1 with_310 cy_1 ##rp_1 ##rio_1 ##t_57 spices_9 ,_2082 and_1790 all_161 made_50 in_392 -_565 house_15 (_173 even_47 the_3109 $T$ and_1791 sausage_13 ##s_258 )_174 ,_2083 and_1792 made_51 of_486 much_33 higher_1 quality_47 ingredients_31 that_265 might_7 otherwise_5 be_136 expected_12 ._3098
+g_12 ##yr_2 ##o_32 meat_9
 1
-what really makes it shine is the food , which is aggressively seasoned with cyrpriot spices , and all made in-house ( even the gyro meat and $T$ ) , and made of much higher quality ingredients that might otherwise be expected .
-sausages
+what_55 really_97 makes_38 it_400 shine_2 is_1109 the_3110 food_738 ,_2084 which_111 is_1110 aggressively_2 seasoned_2 with_311 cy_2 ##rp_2 ##rio_2 ##t_58 spices_10 ,_2085 and_1793 all_162 made_52 in_393 -_566 house_16 (_174 even_48 the_3111 g_13 ##yr_3 ##o_33 meat_10 and_1794 $T$ )_175 ,_2086 and_1795 made_53 of_487 much_34 higher_2 quality_48 ingredients_32 that_266 might_8 otherwise_6 be_137 expected_13 ._3099
+sausage_14 ##s_259
 1
-what really makes it shine is the food , which is aggressively seasoned with cyrpriot spices , and all made in-house ( even the gyro meat and sausages ) , and made of much higher quality $T$ that might otherwise be expected .
-ingredients
+what_56 really_98 makes_39 it_401 shine_3 is_1111 the_3112 food_739 ,_2087 which_112 is_1112 aggressively_3 seasoned_3 with_312 cy_3 ##rp_3 ##rio_3 ##t_59 spices_11 ,_2088 and_1796 all_163 made_54 in_394 -_567 house_17 (_175 even_49 the_3113 g_14 ##yr_4 ##o_34 meat_11 and_1797 sausage_15 ##s_260 )_176 ,_2089 and_1798 made_55 of_488 much_35 higher_3 quality_49 $T$ that_267 might_9 otherwise_7 be_138 expected_14 ._3100
+ingredients_33
 1
-all the various $T$ are excellent , but the gyro is the reason to come -- if you do n't eat one your trip was wasted .
-greek and cypriot dishes
+all_164 the_3114 various_0 $T$ are_292 excellent_147 ,_2090 but_312 the_3115 g_15 ##yr_5 ##o_35 is_1113 the_3116 reason_0 to_608 come_17 -_568 -_569 if_113 you_352 do_61 n_88 '_515 eat_45 one_70 your_95 trip_14 was_857 wasted_0 ._3101
+greek_0 and_1799 cypriot_1 dishes_83
 1
-all the various greek and cypriot dishes are excellent , but the $T$ is the reason to come -- if you do n't eat one your trip was wasted .
-gyro
+all_165 the_3117 various_1 greek_1 and_1800 cypriot_2 dishes_84 are_293 excellent_148 ,_2091 but_313 the_3118 $T$ is_1114 the_3119 reason_1 to_609 come_18 -_570 -_571 if_114 you_353 do_62 n_89 '_516 eat_46 one_71 your_96 trip_15 was_858 wasted_1 ._3102
+g_16 ##yr_6 ##o_36
 1
-best $T$ in brooklyn
-restaurant
+best_136 $T$ in_395 brooklyn_7
+restaurant_182
 1
-great $T$ , amazing service , this place is a class act .
-food
+great_538 $T$ ,_2092 amazing_68 service_494 ,_2093 this_354 place_358 is_1115 a_955 class_4 act_0 ._3103
+food_740
 1
-great food , amazing $T$ , this place is a class act .
-service
+great_539 food_741 ,_2094 amazing_69 $T$ ,_2095 this_355 place_359 is_1116 a_956 class_5 act_1 ._3104
+service_495
 1
-great food , amazing service , this $T$ is a class act .
-place
+great_540 food_742 ,_2096 amazing_70 service_496 ,_2097 this_356 $T$ is_1117 a_957 class_6 act_2 ._3105
+place_360
 1
-the $T$ was incredible last night .
-veal
+the_3120 $T$ was_859 incredible_17 last_33 night_27 ._3106
+ve_73 ##al_24
 1
-this $T$ is a must visit !
-place
+this_357 $T$ is_1118 a_958 must_33 visit_14 !_299
+place_361
 1
-most of the $T$ allow you to sit next to eachother without looking like 'that ' couple .
-booths
+most_47 of_489 the_3121 $T$ allow_0 you_354 to_610 sit_8 next_2 to_611 each_8 ##oth_0 ##er_19 without_11 looking_23 like_141 '_517 that_268 '_518 couple_9 ._3107
+booths_0
 1
-the $T$ is all shared so we get to order together and eat together .
-food
+the_3122 $T$ is_1119 all_166 shared_2 so_169 we_228 get_112 to_612 order_20 together_2 and_1801 eat_47 together_3 ._3108
+food_743
 1
-i 've enjoyed 99 % of the $T$ we 've ordered with the only exceptions being the occasional too-authentic-for-me dish ( i 'm a daring eater but not that daring ) .
-dishes
+i_663 '_519 ve_74 enjoyed_16 99_0 %_1 of_490 the_3123 $T$ we_229 '_520 ve_75 ordered_25 with_313 the_3124 only_43 exceptions_0 being_25 the_3125 occasional_0 too_85 -_572 authentic_17 -_573 for_358 -_574 me_55 dish_20 (_176 i_664 '_521 m_14 a_959 daring_2 eater_0 but_314 not_260 that_269 daring_3 )_177 ._3109
+dishes_85
 1
-i 've enjoyed 99 % of the $T$es we 've ordered with the only exceptions being the occasional too-authentic-for-me $T$ ( i 'm a daring eater but not that daring ) .
-dish
+i_665 '_522 ve_76 enjoyed_17 99_1 %_2 of_491 the_3126 $T$ es_6 we_230 '_523 ve_77 ordered_26 with_314 the_3127 only_44 exceptions_1 being_26 the_3128 occasional_1 too_86 -_575 authentic_18 -_576 for_359 -_577 me_56 (_177 i_666 '_524 m_15 a_960 daring_4 eater_1 but_315 not_261 that_270 daring_5 )_178 ._3110
+dish_21
 -1
-my daughter 's wedding reception at $T$ received the highest compliments from our guests .
-water 's edge
+my_146 daughter_0 '_525 s_180 wedding_1 reception_0 at_238 $T$ received_0 the_3129 highest_0 compliment_2 ##s_261 from_84 our_61 guests_8 ._3111
+water_10 '_526 s_181 edge_0
 1
-everyone raved about the $T$ ( elegant rooms and absolutely incomparable views ) and the fabulous food !
-atmosphere
+everyone_3 rave_0 ##d_48 about_85 the_3130 $T$ (_178 elegant_1 rooms_0 and_1802 absolutely_14 inc_7 ##omp_6 ##arable_0 views_3 )_179 and_1803 the_3131 fabulous_22 food_744 !_300
+atmosphere_107
 1
-everyone raved about the atmosphere ( elegant $T$ and absolutely incomparable views ) and the fabulous food !
-rooms
+everyone_4 rave_1 ##d_49 about_86 the_3132 atmosphere_108 (_179 elegant_2 $T$ and_1804 absolutely_15 inc_8 ##omp_7 ##arable_1 views_4 )_180 and_1805 the_3133 fabulous_23 food_745 !_301
+rooms_1
 1
-everyone raved about the atmosphere ( elegant rooms and absolutely incomparable $T$ ) and the fabulous food !
-views
+everyone_5 rave_2 ##d_50 about_87 the_3134 atmosphere_109 (_180 elegant_3 rooms_2 and_1806 absolutely_16 inc_9 ##omp_8 ##arable_2 $T$ )_181 and_1807 the_3135 fabulous_24 food_746 !_302
+views_5
 1
-everyone raved about the atmosphere ( elegant rooms and absolutely incomparable views ) and the fabulous $T$ !
-food
+everyone_6 rave_3 ##d_51 about_88 the_3136 atmosphere_110 (_181 elegant_4 rooms_3 and_1808 absolutely_17 inc_10 ##omp_9 ##arable_3 views_6 )_182 and_1809 the_3137 fabulous_25 $T$ !_303
+food_747
 1
-$T$ was wonderful ;
-service
+$T$ was_860 wonderful_50 ;_48
+service_497
 1
-$T$ , the maitre d ' , was totally professional and always on top of things .
-paul
+$T$ ,_2098 the_3138 mai_6 ##tre_2 d_26 '_527 ,_2099 was_861 totally_11 professional_17 and_1810 always_86 on_195 top_36 of_492 things_24 ._3112
+paul_0
 1
-thank you everyone at $T$ .
-water 's edge
+thank_2 you_355 everyone_7 at_239 $T$ ._3113
+water_11 '_528 s_182 edge_1
 1
-$T$ ok but unfriendly , filthy bathroom .
-service
+$T$ ok_21 but_316 un_44 ##fr_6 ##ien_6 ##dly_9 ,_2100 filthy_0 bathroom_6 ._3114
+service_498
 -1
-service ok but unfriendly , filthy $T$ .
-bathroom
+service_499 ok_22 but_317 un_45 ##fr_7 ##ien_7 ##dly_10 ,_2101 filthy_1 $T$ ._3115
+bathroom_7
 -1
-the high prices you 're going to pay is for the $T$ not for the food .
-view
+the_3139 high_21 prices_97 you_356 '_529 re_56 going_11 to_613 pay_6 is_1120 for_360 the_3140 $T$ not_262 for_361 the_3141 food_748 ._3116
+view_17
 0
-the high prices you 're going to pay is for the view not for the $T$ .
-food
+the_3142 high_22 prices_98 you_357 '_530 re_57 going_12 to_614 pay_7 is_1121 for_362 the_3143 view_18 not_263 for_363 the_3144 $T$ ._3117
+food_749
 -1
-the $T$ were eh , ok to say the least .
-bar drinks
+the_3145 $T$ were_210 eh_0 ,_2102 ok_23 to_615 say_22 the_3146 least_8 ._3118
+bar_40 drinks_70
 -1
-the $T$ was horrid ... tasted like cardboard .
-stuff tilapia
+the_3147 $T$ was_862 ho_6 ##rri_0 ##d_52 ._3119 ._3120 ._3121 tasted_20 like_142 cardboard_0 ._3122
+stuff_10 til_0 ##ap_0 ##ia_4
 -1
-we thought the $T$ would be better , wrong !
-dessert
+we_231 thought_24 the_3148 $T$ would_65 be_139 better_25 ,_2103 wrong_14 !_304
+dessert_50
 -1
-oh speaking of bathroom , the $T$ was disgusting .
-mens bathroom
+oh_3 speaking_0 of_493 bathroom_8 ,_2104 the_3149 $T$ was_863 disgusting_13 ._3123
+men_4 ##s_262 bathroom_9
 -1
-the $T$ was extensive - though the staff did not seem knowledgeable about wine pairings .
-wine list
+the_3150 $T$ was_864 extensive_15 -_578 though_39 the_3151 staff_131 did_33 not_264 seem_4 knowledge_0 ##able_4 about_89 wine_106 pairing_0 ##s_263 ._3124
+wine_107 list_41
 1
-the wine list was extensive - though the $T$ did not seem knowledgeable about wine pairings .
-staff
+the_3152 wine_108 list_42 was_865 extensive_16 -_579 though_40 the_3153 $T$ did_34 not_265 seem_5 knowledge_1 ##able_5 about_90 wine_109 pairing_1 ##s_264 ._3125
+staff_132
 -1
-the $T$ we received was horrible - rock hard and cold - and the `` free '' appetizer of olives was disappointing .
-bread
+the_3154 $T$ we_232 received_1 was_866 horrible_10 -_580 rock_4 hard_2 and_1811 cold_9 -_581 and_1812 the_3155 `_2 `_3 free_2 '_531 '_532 app_49 ##eti_55 ##zer_30 of_494 olive_0 ##s_265 was_867 disappointing_4 ._3126
+bread_12
 -1
-the bread we received was horrible - rock hard and cold - and the `` free '' $T$ was disappointing .
-appetizer of olives
+the_3156 bread_13 we_233 received_2 was_868 horrible_11 -_582 rock_5 hard_3 and_1813 cold_10 -_583 and_1814 the_3157 `_4 `_5 free_3 '_533 '_534 $T$ was_869 disappointing_5 ._3127
+app_50 ##eti_56 ##zer_31 of_495 olive_1 ##s_266
 -1
-the bread we received was horrible - rock hard and cold - and the `` free '' $T$ was disappointing .
-appetizer of olives
+the_3158 bread_14 we_234 received_3 was_870 horrible_12 -_584 rock_6 hard_4 and_1815 cold_11 -_585 and_1816 the_3159 `_6 `_7 free_4 '_535 '_536 $T$ was_871 disappointing_6 ._3128
+app_51 ##eti_57 ##zer_32 of_496 olive_2 ##s_267
 0
-however , our $T$ was wonderful .
-main course
+however_34 ,_2105 our_62 $T$ was_872 wonderful_51 ._3129
+main_19 course_8
 1
-i had $T$ and my husband had the filet - both of which exceeded our expectations .
-fish
+i_667 had_225 $T$ and_1817 my_147 husband_22 had_226 the_3160 file_12 ##t_60 -_586 both_58 of_497 which_113 exceeded_6 our_63 expectations_6 ._3130
+fish_74
 1
-i had fish and my husband had the $T$ - both of which exceeded our expectations .
-filet
+i_668 had_227 fish_75 and_1818 my_148 husband_23 had_228 the_3161 $T$ -_587 both_59 of_498 which_114 exceeded_7 our_64 expectations_7 ._3131
+file_13 ##t_61
 1
-the dessert ( we had a $T$ ) was good - but , once again , the staff was unable to provide appropriate drink suggestions .
-pear torte
+the_3162 dessert_51 (_182 we_235 had_229 a_961 $T$ )_183 was_873 good_419 -_588 but_318 ,_2106 once_14 again_19 ,_2107 the_3163 staff_133 was_874 unable_0 to_616 provide_0 appropriate_3 drink_7 suggestions_0 ._3132
+pear_0 tor_6 ##te_2
 1
-the dessert ( we had a pear torte ) was good - but , once again , the $T$ was unable to provide appropriate drink suggestions .
-staff
+the_3164 dessert_52 (_183 we_236 had_230 a_962 pear_1 tor_7 ##te_3 )_184 was_875 good_420 -_589 but_319 ,_2108 once_15 again_20 ,_2109 the_3165 $T$ was_876 unable_1 to_617 provide_1 appropriate_4 drink_8 suggestions_1 ._3133
+staff_134
 -1
-when we inquired about ports - the $T$ listed off several but did not know taste variations or cost .
-waitress
+when_41 we_237 inquired_0 about_91 ports_0 -_590 the_3166 $T$ listed_6 off_28 several_19 but_320 did_35 not_266 know_14 taste_23 variations_0 or_120 cost_1 ._3134
+waitress_22
 -1
-not what i would expect for the price and prestige of this $T$ .
-location
+not_267 what_57 i_669 would_66 expect_6 for_364 the_3167 price_100 and_1819 prestige_0 of_499 this_358 $T$ ._3135
+location_20
 0
-not what i would expect for the price and prestige of this $T$ .
-location
+not_268 what_58 i_670 would_67 expect_7 for_365 the_3168 price_101 and_1820 prestige_1 of_500 this_359 $T$ ._3136
+location_21
 0
-all in all , i would return - as it was a beautiful $T$ - but i hope the staff pays more attention to the little details in the future .
-restaurant
+all_167 in_396 all_168 ,_2110 i_671 would_68 return_4 -_591 as_112 it_402 was_877 a_963 beautiful_23 $T$ -_592 but_321 i_672 hope_0 the_3169 staff_135 pays_0 more_71 attention_0 to_618 the_3170 little_39 details_0 in_397 the_3171 future_0 ._3137
+restaurant_183
 1
-all in all , i would return - as it was a beautiful $T$ - but i hope the staff pays more attention to the little details in the future .
-restaurant
+all_169 in_398 all_170 ,_2111 i_673 would_69 return_5 -_593 as_113 it_403 was_878 a_964 beautiful_24 $T$ -_594 but_322 i_674 hope_1 the_3172 staff_136 pays_1 more_72 attention_1 to_619 the_3173 little_40 details_1 in_399 the_3174 future_1 ._3138
+restaurant_184
 1
-all in all , i would return - as it was a beautiful restaurant - but i hope the $T$ pays more attention to the little details in the future .
-staff
+all_171 in_400 all_172 ,_2112 i_675 would_70 return_6 -_595 as_114 it_404 was_879 a_965 beautiful_25 restaurant_185 -_596 but_323 i_676 hope_2 the_3175 $T$ pays_2 more_73 attention_2 to_620 the_3176 little_41 details_2 in_401 the_3177 future_2 ._3139
+staff_137
 -1
-short and sweet – $T$ is great : it 's romantic , cozy and private .
-seating
+short_3 and_1821 sweet_19 –_2 $T$ is_1122 great_541 :_68 it_405 '_537 s_183 romantic_18 ,_2113 cozy_17 and_1822 private_4 ._3140
+seating_14
 1
-the $T$ are not as small as some of the reviews make them out to look they 're perfect for 2 people .
-boths
+the_3178 $T$ are_294 not_269 as_115 small_48 as_116 some_60 of_501 the_3179 reviews_9 make_56 them_9 out_65 to_621 look_8 they_159 '_538 re_58 perfect_22 for_366 2_30 people_35 ._3141
+both_60 ##s_268
 1
-the $T$ was extremely fast and attentive ( thanks to the $T$ button on your table ) but i barely understood 1 word when the waiter took our order .
-service
+the_3180 $T$ was_880 extremely_6 fast_40 and_1823 at_240 ##ten_52 ##tive_34 (_184 thanks_2 to_622 the_3181 button_0 on_196 your_97 table_19 )_185 but_324 i_677 barely_5 understood_0 1_15 word_1 when_42 the_3182 waiter_39 took_12 our_65 order_21 ._3142
+service_500
 1
-the service was extremely fast and attentive ( thanks to the $T$ on your table ) but i barely understood 1 word when the waiter took our order .
-service button
+the_3183 service_501 was_881 extremely_7 fast_41 and_1824 at_241 ##ten_53 ##tive_35 (_185 thanks_3 to_623 the_3184 $T$ on_197 your_98 table_20 )_186 but_325 i_678 barely_6 understood_1 1_16 word_2 when_43 the_3185 waiter_40 took_13 our_66 order_22 ._3143
+service_502 button_1
 1
-the service was extremely fast and attentive ( thanks to the service button on your table ) but i barely understood 1 word when the $T$ took our order .
-waiter
+the_3186 service_503 was_882 extremely_8 fast_42 and_1825 at_242 ##ten_54 ##tive_36 (_186 thanks_4 to_624 the_3187 service_504 button_2 on_198 your_99 table_21 )_187 but_326 i_679 barely_7 understood_2 1_17 word_3 when_44 the_3188 $T$ took_14 our_67 order_23 ._3144
+waiter_41
 -1
-the $T$ was ok and fair nothing to go crazy .
-food
+the_3189 $T$ was_883 ok_24 and_1826 fair_2 nothing_27 to_625 go_85 crazy_1 ._3145
+food_750
 0
-over all the $T$ of the place exceeds the actual meals .
-looks
+over_94 all_173 the_3190 $T$ of_502 the_3191 place_362 exceeds_0 the_3192 actual_0 meals_12 ._3146
+looks_8
 1
-over all the looks of the place exceeds the actual $T$ .
-meals
+over_95 all_174 the_3193 looks_9 of_503 the_3194 place_363 exceeds_1 the_3195 actual_1 $T$ ._3147
+meals_13
 -1
-so what you really end up paying for is the $T$ not the food .
-restaurant
+so_170 what_59 you_358 really_99 end_2 up_57 paying_8 for_367 is_1123 the_3196 $T$ not_270 the_3197 food_751 ._3148
+restaurant_186
 -1
-so what you really end up paying for is the $T$ not the food .
-restaurant
+so_171 what_60 you_359 really_100 end_3 up_58 paying_9 for_368 is_1124 the_3198 $T$ not_271 the_3199 food_752 ._3149
+restaurant_187
 0
-so what you really end up paying for is the restaurant not the $T$ .
-food
+so_172 what_61 you_360 really_101 end_4 up_59 paying_10 for_369 is_1125 the_3200 restaurant_188 not_272 the_3201 $T$ ._3150
+food_753
 -1
-subtle $T$ and service
-food
+subtle_0 $T$ and_1827 service_505
+food_754
 1
-subtle food and $T$
-service
+subtle_1 food_755 and_1828 $T$
+service_506
 1
-noodle pudding is exactly the type of $T$ and food i enjoy .
-service
+no_58 ##odle_4 pudding_4 is_1126 exactly_2 the_3202 type_2 of_504 $T$ and_1829 food_756 i_680 enjoy_15 ._3151
+service_507
 1
-noodle pudding is exactly the type of service and $T$ i enjoy .
-food
+no_59 ##odle_5 pudding_5 is_1127 exactly_3 the_3203 type_3 of_505 service_508 and_1830 $T$ i_681 enjoy_16 ._3152
+food_757
 1
-servers are all different , $T$ is my favorite .
-greg
+servers_4 are_295 all_175 different_23 ,_2114 $T$ is_1128 my_149 favorite_17 ._3153
+greg_0
 1
-sometimes tables do n't understand his sense of humor but it 's refreshing to have a $T$ who has personality , professionalism , and respects the privacy of your dinner .
-server
+sometimes_27 tables_20 do_63 n_90 '_539 understand_0 his_6 sense_2 of_506 humor_0 but_327 it_406 '_540 s_184 refreshing_4 to_626 have_206 a_966 $T$ who_38 has_100 personality_2 ,_2115 professional_18 ##ism_0 ,_2116 and_1831 respects_0 the_3204 privacy_0 of_507 your_100 dinner_39 ._3154
+server_4
 1
-this is the first place i 've been that a $T$ remembers my order ... hope he likes his job because i have half a mind to steal him for my restaurant .
-runner
+this_360 is_1129 the_3205 first_37 place_364 i_682 '_541 ve_78 been_73 that_271 a_967 $T$ remembers_0 my_150 order_24 ._3155 ._3156 ._3157 hope_3 he_32 likes_2 his_7 job_0 because_29 i_683 have_207 half_8 a_968 mind_12 to_627 steal_0 him_4 for_370 my_151 restaurant_189 ._3158
+runner_0
 1
-prices are fair across the board for both $T$ and bev .
-food
+prices_99 are_296 fair_3 across_4 the_3206 board_2 for_371 both_61 $T$ and_1832 be_140 ##v_6 ._3159
+food_758
 1
-prices are fair across the board for both food and $T$ .
-bev
+prices_100 are_297 fair_4 across_5 the_3207 board_3 for_372 both_62 food_759 and_1833 $T$ ._3160
+be_141 ##v_7
 1
-i go out to eat and like my courses , $T$ are patient and never rush courses or force another drink .
-servers
+i_684 go_86 out_66 to_628 eat_48 and_1834 like_143 my_152 courses_0 ,_2117 $T$ are_298 patient_2 and_1835 never_65 rush_6 courses_1 or_121 force_0 another_13 drink_9 ._3161
+servers_5
 1
-amazing fresh $T$ but best of all endless toppings ! ! !
-dogs
+amazing_71 fresh_117 $T$ but_328 best_137 of_508 all_176 endless_0 topping_16 ##s_269 !_305 !_306 !_307
+dogs_0
 1
-amazing fresh dogs but best of all endless $T$ ! ! !
-toppings
+amazing_72 fresh_118 dogs_1 but_329 best_138 of_509 all_177 endless_1 $T$ !_308 !_309 !_310
+topping_17 ##s_270
 1
-this place had all the $T$ and i mean all .
-trimmings
+this_361 place_365 had_231 all_178 the_3208 $T$ and_1836 i_685 mean_4 all_179 ._3162
+trim_0 ##ming_0 ##s_271
 1
-amazing fun for hot dog lovers of all ages please do yourself a favor and check this $T$ out ! ! ! !
-place
+amazing_73 fun_34 for_373 hot_14 dog_3 lovers_0 of_510 all_180 ages_0 please_18 do_64 yourself_6 a_969 favor_0 and_1837 check_6 this_362 $T$ out_67 !_311 !_312 !_313 !_314
+place_366
 1
-amazing fun for $T$ lovers of all ages please do yourself a favor and check this place out ! ! ! !
-hot dog
+amazing_74 fun_35 for_374 $T$ lovers_1 of_511 all_181 ages_1 please_19 do_65 yourself_7 a_970 favor_1 and_1838 check_7 this_363 place_367 out_68 !_315 !_316 !_317 !_318
+hot_15 dog_4
 1
-stepping into $T$ last night was a true experience unlike any other in new york !
-casa la femme
+stepping_0 into_4 $T$ last_34 night_28 was_884 a_971 true_1 experience_20 unlike_0 any_34 other_25 in_402 new_55 york_25 !_319
+casa_0 la_9 femme_0
 1
-highly impressed from the $T$ to the food to the hospitality to the great night i had !
-decor
+highly_25 impressed_9 from_85 the_3209 $T$ to_629 the_3210 food_760 to_630 the_3211 hospitality_0 to_631 the_3212 great_542 night_29 i_686 had_232 !_320
+decor_98
 1
-highly impressed from the decor to the $T$ to the hospitality to the great night i had !
-food
+highly_26 impressed_10 from_86 the_3213 decor_99 to_632 the_3214 $T$ to_633 the_3215 hospitality_1 to_634 the_3216 great_543 night_30 i_687 had_233 !_321
+food_761
 1
-the have a great $T$ that is to die for !
-cocktail with citrus vodka and lemon and lime juice and mint leaves
+the_3217 have_208 a_972 great_544 $T$ that_272 is_1130 to_635 die_14 for_375 !_322
+cocktail_0 with_315 citrus_0 vodka_2 and_1839 lemon_6 and_1840 lime_0 juice_3 and_1841 mint_0 leaves_2
 1
-$T$ took some time to prepare , all worth waiting for .
-food
+$T$ took_15 some_61 time_57 to_636 prepare_0 ,_2118 all_182 worth_34 waiting_0 for_376 ._3163
+food_762
 1
-we were drawn into the $T$ that captivated the crowd .
-belly dancing show
+we_238 were_211 drawn_0 into_5 the_3218 $T$ that_273 capt_0 ##ivated_0 the_3219 crowd_4 ._3164
+belly_6 dancing_1 show_0
 1
-i never write on these sites but this $T$ is def worth commending !
-restaurant
+i_688 never_66 write_5 on_199 these_18 sites_0 but_330 this_364 $T$ is_1131 def_6 worth_35 com_0 ##men_0 ##ding_0 !_323
+restaurant_190
 1
-maggot in the $T$ !
-food
+mag_6 ##go_0 ##t_62 in_403 the_3220 $T$ !_324
+food_763
 -1
-the $T$ looked great , and the waiter was very nice , but when the food came , it was average .
-menu
+the_3221 $T$ looked_4 great_545 ,_2119 and_1842 the_3222 waiter_42 was_885 very_263 nice_117 ,_2120 but_331 when_45 the_3223 food_764 came_14 ,_2121 it_407 was_886 average_57 ._3165
+menu_109
 1
-the menu looked great , and the $T$ was very nice , but when the food came , it was average .
-waiter
+the_3224 menu_110 looked_5 great_546 ,_2122 and_1843 the_3225 $T$ was_887 very_264 nice_118 ,_2123 but_332 when_46 the_3226 food_765 came_15 ,_2124 it_408 was_888 average_58 ._3166
+waiter_43
 1
-the menu looked great , and the waiter was very nice , but when the $T$ came , it was average .
-food
+the_3227 menu_111 looked_6 great_547 ,_2125 and_1844 the_3228 waiter_44 was_889 very_265 nice_119 ,_2126 but_333 when_47 the_3229 $T$ came_16 ,_2127 it_409 was_890 average_59 ._3167
+food_766
 0
-nevertheless , i finished my plate , and that 's when i found a maggot in $T$ at the bottom .
-mushroom sauce
+nevertheless_2 ,_2128 i_689 finished_0 my_153 plate_8 ,_2129 and_1845 that_274 '_542 s_185 when_48 i_690 found_22 a_973 mag_7 ##go_1 ##t_63 in_404 $T$ at_243 the_3230 bottom_0 ._3168
+mushroom_6 sauce_36
 -1
-i showed it to the $T$ , and he smilingly apologized and brought us two free desserts ( but did not ask us what we wanted and so brought the last two desserts we would have asked for ) .
-manager
+i_691 showed_0 it_410 to_637 the_3231 $T$ ,_2130 and_1846 he_33 smiling_0 ##ly_63 apologized_0 and_1847 brought_1 us_46 two_39 free_5 dessert_53 ##s_272 (_187 but_334 did_36 not_273 ask_12 us_47 what_62 we_239 wanted_6 and_1848 so_173 brought_2 the_3232 last_35 two_40 dessert_54 ##s_273 we_240 would_71 have_209 asked_16 for_377 )_188 ._3169
+manager_12
 1
-i showed it to the $T$ , and he smilingly apologized and brought us two free desserts ( but did not ask us what we wanted and so brought the last two desserts we would have asked for ) .
-manager
+i_692 showed_1 it_411 to_638 the_3233 $T$ ,_2131 and_1849 he_34 smiling_1 ##ly_64 apologized_1 and_1850 brought_3 us_48 two_41 free_6 dessert_55 ##s_274 (_188 but_335 did_37 not_274 ask_13 us_49 what_63 we_241 wanted_7 and_1851 so_174 brought_4 the_3234 last_36 two_42 dessert_56 ##s_275 we_242 would_72 have_210 asked_17 for_378 )_189 ._3170
+manager_13
 -1
-the $T$ finally said he would comp the two glasses of wine ( which cost less than the food ) , and made it seem like a big concession .
-manager
+the_3235 $T$ finally_2 said_8 he_35 would_73 com_1 ##p_4 the_3236 two_43 glasses_0 of_512 wine_110 (_189 which_115 cost_2 less_6 than_55 the_3237 food_767 )_190 ,_2132 and_1852 made_56 it_412 seem_6 like_144 a_974 big_28 concession_0 ._3171
+manager_14
 -1
-i have worked in restaurants and cook a lot , and there is no way a maggot should be able to get into well prepared $T$ .
-food
+i_693 have_211 worked_0 in_405 restaurants_24 and_1853 cook_0 a_975 lot_28 ,_2133 and_1854 there_97 is_1132 no_60 way_42 a_976 mag_8 ##go_2 ##t_64 should_19 be_142 able_8 to_639 get_113 into_6 well_72 prepared_15 $T$ ._3172
+food_768
 -1
-for a $T$ with such a good reputation and that is usually so packed , there was no reason for such a lack of intelligent customer service .
-restaurant
+for_379 a_977 $T$ with_316 such_14 a_978 good_421 reputation_0 and_1855 that_275 is_1133 usually_18 so_175 packed_6 ,_2134 there_98 was_891 no_61 reason_2 for_380 such_15 a_979 lack_0 of_513 intelligent_0 customer_4 service_509 ._3173
+restaurant_191
 1
-for a restaurant with such a good reputation and that is usually so packed , there was no reason for such a lack of intelligent $T$ .
-customer service
+for_381 a_980 restaurant_192 with_317 such_16 a_981 good_422 reputation_1 and_1856 that_276 is_1134 usually_19 so_176 packed_7 ,_2135 there_99 was_892 no_62 reason_3 for_382 such_17 a_982 lack_1 of_514 intelligent_1 $T$ ._3174
+customer_5 service_510
 -1
-i got hair in my $T$ 2 times of then !
-food
+i_694 got_30 hair_0 in_406 my_154 $T$ 2_31 times_33 of_515 then_12 !_325
+food_769
 -1
-great $T$ , great value .
-place
+great_548 $T$ ,_2136 great_549 value_15 ._3175
+place_368
 1
-great $T$ , great value .
-place
+great_550 $T$ ,_2137 great_551 value_16 ._3176
+place_369
 1
-the $T$ is flavorful , plentiful and reasonably priced .
-food
+the_3238 $T$ is_1135 flavor_31 ##ful_2 ,_2138 pl_3 ##ent_3 ##iful_3 and_1857 reasonably_5 priced_39 ._3177
+food_770
 1
-the $T$ is flavorful , plentiful and reasonably priced .
-food
+the_3239 $T$ is_1136 flavor_32 ##ful_3 ,_2139 pl_4 ##ent_4 ##iful_4 and_1858 reasonably_6 priced_40 ._3178
+food_771
 1
-the $T$ is flavorful , plentiful and reasonably priced .
-food
+the_3240 $T$ is_1137 flavor_33 ##ful_4 ,_2140 pl_5 ##ent_5 ##iful_5 and_1859 reasonably_7 priced_41 ._3179
+food_772
 1
-the $T$ is relaxed and casual .
-atmosphere
+the_3241 $T$ is_1138 relaxed_12 and_1860 casual_22 ._3180
+atmosphere_111
 1
-it 's a great $T$ to order from or sit-in .
-place
+it_413 '_543 s_186 a_983 great_552 $T$ to_640 order_25 from_87 or_122 sit_9 -_597 in_407 ._3181
+place_370
 1
-$T$ experience was unbelievable with my fiance .
-sushi
+$T$ experience_21 was_893 unbelievable_2 with_318 my_155 fiance_0 ._3182
+su_131 ##shi_119
 1
-good creative $T$ !
-rolls
+good_423 creative_5 $T$ !_326
+rolls_42
 1
-good creative $T$ !
-rolls
+good_424 creative_6 $T$ !_327
+rolls_43
 1
-$T$ is an excellent place to go if youre not into sashimi , or if you have friends who doesnt like sushi much .
-yamato
+$T$ is_1139 an_84 excellent_149 place_371 to_641 go_87 if_115 your_101 ##e_105 not_275 into_7 sash_27 ##imi_29 ,_2141 or_123 if_116 you_361 have_212 friends_22 who_39 doesn_10 ##t_65 like_145 su_132 ##shi_120 much_36 ._3183
+ya_4 ##mat_2 ##o_37
 1
-they have great $T$ , the triple color and norwegetan $T$ , are awesome and filling .
-rolls
+they_160 have_213 great_553 $T$ ,_2142 the_3242 triple_0 color_0 and_1861 nor_0 ##we_0 ##get_0 ##an_14 ,_2143 are_299 awesome_13 and_1862 filling_22 ._3184
+rolls_44
 1
-they have great rolls , the $T$ , are awesome and filling .
-triple color and norwegetan rolls
+they_161 have_214 great_554 rolls_45 ,_2144 the_3243 $T$ ,_2145 are_300 awesome_14 and_1863 filling_23 ._3185
+triple_1 color_1 and_1864 nor_1 ##we_1 ##get_1 ##an_15 rolls_46
 1
-they have great rolls , the $T$ , are awesome and filling .
-triple color and norwegetan rolls
+they_162 have_215 great_555 rolls_47 ,_2146 the_3244 $T$ ,_2147 are_301 awesome_15 and_1865 filling_24 ._3186
+triple_2 color_2 and_1866 nor_2 ##we_2 ##get_2 ##an_16 rolls_48
 1
-one special roll and one regular roll is enough to fill you up , but save room for $T$ !
-dessert
+one_72 special_62 roll_31 and_1867 one_73 regular_12 roll_32 is_1140 enough_13 to_642 fill_4 you_362 up_60 ,_2148 but_336 save_1 room_30 for_383 $T$ !_328
+dessert_57
 1
-one $T$ and one regular roll is enough to fill you up , but save room for dessert !
-special roll
+one_74 $T$ and_1868 one_75 regular_13 roll_33 is_1141 enough_14 to_643 fill_5 you_363 up_61 ,_2149 but_337 save_2 room_31 for_384 dessert_58 !_329
+special_63 roll_34
 1
-one special roll and one $T$ is enough to fill you up , but save room for dessert !
-regular roll
+one_76 special_64 roll_35 and_1869 one_77 $T$ is_1142 enough_15 to_644 fill_6 you_364 up_62 ,_2150 but_338 save_3 room_32 for_385 dessert_59 !_330
+regular_14 roll_36
 1
-they have a delicious $T$ , as well as a great green tea tempura .
-banana chocolate dessert
+they_163 have_216 a_984 delicious_155 $T$ ,_2151 as_117 well_73 as_118 a_985 great_556 green_4 tea_2 te_25 ##mp_24 ##ura_29 ._3187
+banana_17 chocolate_6 dessert_60
 1
-they have a delicious banana chocolate dessert , as well as a great $T$ .
-green tea tempura
+they_164 have_217 a_986 delicious_156 banana_18 chocolate_7 dessert_61 ,_2152 as_119 well_74 as_120 a_987 great_557 $T$ ._3188
+green_5 tea_3 te_26 ##mp_25 ##ura_30
 1
-the $T$ are also delicious !
-appetizers
+the_3245 $T$ are_302 also_43 delicious_157 !_331
+app_52 ##eti_58 ##zers_10
 1
-amazing $T$ .
-food
+amazing_75 $T$ ._3189
+food_773
 1
-mazing $T$ .
-interior
+ma_7 ##zing_7 $T$ ._3190
+interior_6
 -1
-great $T$ !
-food
+great_558 $T$ !_332
+food_774
 1
-i 've had my fair share of $T$ and this spot delivers .
-modern japanese
+i_695 '_544 ve_79 had_234 my_156 fair_5 share_10 of_516 $T$ and_1870 this_365 spot_31 delivers_0 ._3191
+modern_6 japanese_28
 1
-the $T$ was pretty nice but had a bit lacking , which it tries to make up for with a crazy scheme of mirrors .
-atmosphere
+the_3246 $T$ was_894 pretty_33 nice_120 but_339 had_235 a_988 bit_52 lacking_3 ,_2153 which_116 it_414 tries_0 to_645 make_57 up_63 for_386 with_319 a_989 crazy_2 scheme_0 of_517 mirrors_0 ._3192
+atmosphere_112
 -1
-the atmosphere was pretty nice but had a bit lacking , which it tries to make up for with a crazy $T$ .
-scheme of mirrors
+the_3247 atmosphere_113 was_895 pretty_34 nice_121 but_340 had_236 a_990 bit_53 lacking_4 ,_2154 which_117 it_415 tries_1 to_646 make_58 up_64 for_387 with_320 a_991 crazy_3 $T$ ._3193
+scheme_1 of_518 mirrors_1
 -1
-despite the confusing mirrors this will likely be my go-to for $T$ for the foreseeable future .
-modern japanese food
+despite_6 the_3248 confusing_0 mirrors_2 this_366 will_43 likely_0 be_143 my_157 go_88 -_598 to_647 for_388 $T$ for_389 the_3249 fore_0 ##see_0 ##able_6 future_3 ._3194
+modern_7 japanese_29 food_775
 1
-despite the confusing $T$ this will likely be my go-to for modern japanese food for the foreseeable future .
-mirrors
+despite_7 the_3250 confusing_1 $T$ this_367 will_44 likely_1 be_144 my_158 go_89 -_599 to_648 for_390 modern_8 japanese_30 food_776 for_391 the_3251 fore_1 ##see_1 ##able_7 future_4 ._3195
+mirrors_3
 -1
-$T$ , pretty good ...
-indo chinese food
+$T$ ,_2155 pretty_35 good_425 ._3196 ._3197 ._3198
+indo_3 chinese_14 food_777
 1
-not a very fancy $T$ but very good chinese style indian food .
-place
+not_276 a_992 very_266 fancy_14 $T$ but_341 very_267 good_426 chinese_15 style_14 indian_22 food_778 ._3199
+place_372
 0
-not a very fancy place but very good $T$ .
-chinese style indian food
+not_277 a_993 very_268 fancy_15 place_373 but_342 very_269 good_427 $T$ ._3200
+chinese_16 style_15 indian_23 food_779
 1
-the $T$ is my favorite , most of the dishes ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the chilli chicken .
-chicken lollipop
+the_3252 $T$ is_1143 my_159 favorite_18 ,_2156 most_48 of_519 the_3253 dishes_86 (_190 i_696 have_218 to_649 agree_0 with_321 a_994 previous_6 reviewer_4 )_191 are_303 quite_23 oil_13 ##y_114 and_1871 very_270 spicy_34 ,_2157 es_7 ##pe_0 ##ically_0 the_3254 chill_0 ##i_42 chicken_61 ._3201
+chicken_62 lo_15 ##lli_0 ##pop_0
 1
-the chicken lollipop is my favorite , most of the $T$ ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the chilli chicken .
-dishes
+the_3255 chicken_63 lo_16 ##lli_1 ##pop_1 is_1144 my_160 favorite_19 ,_2158 most_49 of_520 the_3256 $T$ (_191 i_697 have_219 to_650 agree_1 with_322 a_995 previous_7 reviewer_5 )_192 are_304 quite_24 oil_14 ##y_115 and_1872 very_271 spicy_35 ,_2159 es_8 ##pe_1 ##ically_1 the_3257 chill_1 ##i_43 chicken_64 ._3202
+dishes_87
 -1
-the chicken lollipop is my favorite , most of the dishes ( i have to agree with a previous reviewer ) are quite oily and very spicy , espeically the $T$ .
-chilli chicken
+the_3258 chicken_65 lo_17 ##lli_2 ##pop_2 is_1145 my_161 favorite_20 ,_2160 most_50 of_521 the_3259 dishes_88 (_192 i_698 have_220 to_651 agree_2 with_323 a_996 previous_8 reviewer_6 )_193 are_305 quite_25 oil_15 ##y_116 and_1873 very_272 spicy_36 ,_2161 es_9 ##pe_2 ##ically_2 the_3260 $T$ ._3203
+chill_2 ##i_44 chicken_66
 -1
-my mom originally introduced me to this place , but even she ( being indian ) feels the $T$ can be somewhat over the top spicy and far too oily .
-food
+my_162 mom_2 originally_1 introduced_2 me_57 to_652 this_368 place_374 ,_2162 but_343 even_50 she_6 (_193 being_27 indian_24 )_194 feels_3 the_3261 $T$ can_96 be_145 somewhat_1 over_96 the_3262 top_37 spicy_37 and_1874 far_14 too_87 oil_16 ##y_117 ._3204
+food_780
 -1
-i was speechless by the horrible $T$ .
-food
+i_699 was_896 speechless_0 by_63 the_3263 horrible_13 $T$ ._3205
+food_781
 -1
-i attended a holiday dinner at the restaurant , and the $T$ was majorly disappointing .
-food
+i_700 attended_0 a_997 holiday_2 dinner_40 at_244 the_3264 restaurant_193 ,_2163 and_1875 the_3265 $T$ was_897 major_1 ##ly_65 disappointing_7 ._3206
+food_782
 -1
-rather than preparing vegetarian dish , the $T$ presented me with a plate of steamed vegetables ( minus sauce , seasoning , or any form or aesthetic presentation ) .
-chef
+rather_16 than_56 preparing_2 vegetarian_9 dish_22 ,_2164 the_3266 $T$ presented_4 me_58 with_324 a_998 plate_9 of_522 steamed_0 vegetables_2 (_194 minus_14 sauce_37 ,_2165 season_4 ##ing_37 ,_2166 or_124 any_35 form_0 or_125 aesthetic_2 presentation_0 )_195 ._3207
+chef_24
 -1
-rather than preparing $T$ , the chef presented me with a plate of steamed vegetables ( minus sauce , seasoning , or any form or aesthetic presentation ) .
-vegetarian dish
+rather_17 than_57 preparing_3 $T$ ,_2167 the_3267 chef_25 presented_5 me_59 with_325 a_999 plate_10 of_523 steamed_1 vegetables_3 (_195 minus_15 sauce_38 ,_2168 season_5 ##ing_38 ,_2169 or_126 any_36 form_1 or_127 aesthetic_3 presentation_1 )_196 ._3208
+vegetarian_10 dish_23
 -1
-rather than preparing $T$ , the chef presented me with a plate of steamed vegetables ( minus sauce , seasoning , or any form or aesthetic presentation ) .
-vegetarian dish
+rather_18 than_58 preparing_4 $T$ ,_2170 the_3268 chef_26 presented_6 me_60 with_326 a_1000 plate_11 of_524 steamed_2 vegetables_4 (_196 minus_16 sauce_39 ,_2171 season_6 ##ing_39 ,_2172 or_128 any_37 form_2 or_129 aesthetic_4 presentation_2 )_197 ._3209
+vegetarian_11 dish_24
 -1
-this $T$ survives on reputation alone .
-place
+this_369 $T$ survives_0 on_200 reputation_2 alone_8 ._3210
+place_375
 -1
-this is the most wonderful $T$ in all of new york city , not just brooklyn ...
-restaurant
+this_370 is_1146 the_3269 most_51 wonderful_52 $T$ in_408 all_183 of_525 new_56 york_26 city_29 ,_2173 not_278 just_64 brooklyn_8 ._3211 ._3212 ._3213
+restaurant_194
 1
-for 7 years they have put out the most tasty , most delicious $T$ and kept it that way ...
-food
+for_392 7_12 years_38 they_165 have_221 put_0 out_69 the_3270 most_52 ta_53 ##sty_53 ,_2174 most_53 delicious_158 $T$ and_1876 kept_0 it_416 that_277 way_43 ._3214 ._3215 ._3216
+food_783
 1
-never swaying , never a bad $T$ , never bad service ...
-meal
+never_67 swaying_0 ,_2175 never_68 a_1001 bad_35 $T$ ,_2176 never_69 bad_36 service_511 ._3217 ._3218 ._3219
+meal_36
 1
-never swaying , never a bad meal , never bad $T$ ...
-service
+never_70 swaying_1 ,_2177 never_71 a_1002 bad_37 meal_37 ,_2178 never_72 bad_38 $T$ ._3220 ._3221 ._3222
+service_512
 1
-great $T$ , great wine list , great service in a great neighborhood ...
-food
+great_559 $T$ ,_2179 great_560 wine_111 list_43 ,_2180 great_561 service_513 in_409 a_1003 great_562 neighborhood_11 ._3223 ._3224 ._3225
+food_784
 1
-great food , great $T$ , great service in a great neighborhood ...
-wine list
+great_563 food_785 ,_2181 great_564 $T$ ,_2182 great_565 service_514 in_410 a_1004 great_566 neighborhood_12 ._3226 ._3227 ._3228
+wine_112 list_44
 1
-great food , great wine list , great $T$ in a great neighborhood ...
-service
+great_567 food_786 ,_2183 great_568 wine_113 list_45 ,_2184 great_569 $T$ in_411 a_1005 great_570 neighborhood_13 ._3229 ._3230 ._3231
+service_515
 1
-great food , great wine list , great service in a great $T$ ...
-neighborhood
+great_571 food_787 ,_2185 great_572 wine_114 list_46 ,_2186 great_573 service_516 in_412 a_1006 great_574 $T$ ._3232 ._3233 ._3234
+neighborhood_14
 1
-$T$ = true love
-patsy 's pizza
+$T$ =_0 true_2 love_47
+patsy_0 '_545 s_187 pizza_147
 1
-hands down the best $T$ on the planet .
-pizza
+hands_5 down_21 the_3271 best_139 $T$ on_201 the_3272 planet_8 ._3235
+pizza_148
 1
-great $T$ ..
-hot dogs
+great_575 $T$ ._3236 ._3237
+hot_16 dogs_2
 1
-the $T$ were juicy and tender inside and had plenty of crunch and snap on the outside .
-hot dogs
+the_3273 $T$ were_212 juicy_0 and_1877 tender_6 inside_14 and_1878 had_237 plenty_0 of_526 crunch_1 and_1879 snap_0 on_202 the_3274 outside_18 ._3238
+hot_17 dogs_3
 1
-great $T$ definitely a place you need to check out for late night munchies or a mid day boost !
-toppings
+great_576 $T$ definitely_16 a_1007 place_376 you_365 need_19 to_653 check_8 out_70 for_393 late_6 night_31 mu_18 ##nch_0 ##ies_0 or_130 a_1008 mid_0 day_18 boost_0 !_333
+topping_18 ##s_276
 1
-great toppings definitely a $T$ you need to check out for late night munchies or a mid day boost !
-place
+great_577 topping_19 ##s_277 definitely_17 a_1009 $T$ you_366 need_20 to_654 check_9 out_71 for_394 late_7 night_32 mu_19 ##nch_1 ##ies_1 or_131 a_1010 mid_1 day_19 boost_1 !_334
+place_377
 1
-for me $T$ a little oily , but overall dining experience good .
-dishes
+for_395 me_61 $T$ a_1011 little_42 oil_17 ##y_118 ,_2187 but_344 overall_15 dining_34 experience_22 good_428 ._3239
+dishes_89
 -1
-helpful $T$ and average price per dish $ 10 .
-service
+helpful_10 $T$ and_1880 average_60 price_102 per_2 dish_25 10_11 ._3240
+service_517
 1
-helpful service and average price per $T$ $ 10 .
-dish
+helpful_11 service_518 and_1881 average_61 price_103 per_3 $T$ 10_12 ._3241
+dish_26
 0
-the only thing that strikes you is the $T$ ? ( not very pleasant ) .
-decor
+the_3275 only_45 thing_28 that_278 strikes_0 you_367 is_1147 the_3276 $T$ ?_10 (_197 not_279 very_273 pleasant_20 )_198 ._3242
+decor_100
 -1
-great $T$
-food
+great_578 $T$
+food_788
 1
-this place has great $T$ .
-indian chinese food
+this_371 place_378 has_101 great_579 $T$ ._3243
+indian_25 chinese_17 food_789
 1
-be prepared to wait , because the $T$ is pretty tiny .
-place
+be_146 prepared_16 to_655 wait_46 ,_2188 because_30 the_3277 $T$ is_1148 pretty_36 tiny_15 ._3244
+place_379
 -1
-be prepared to wait , because the $T$ is pretty tiny .
-place
+be_147 prepared_17 to_656 wait_47 ,_2189 because_31 the_3278 $T$ is_1149 pretty_37 tiny_16 ._3245
+place_380
 -1
-even though the $T$ is not beautiful , the food speaks for itself .
-place
+even_51 though_41 the_3279 $T$ is_1150 not_280 beautiful_26 ,_2190 the_3280 food_790 speaks_2 for_396 itself_6 ._3246
+place_381
 -1
-even though the place is not beautiful , the $T$ speaks for itself .
-food
+even_52 though_42 the_3281 place_382 is_1151 not_281 beautiful_27 ,_2191 the_3282 $T$ speaks_3 for_397 itself_7 ._3247
+food_791
 1
-best $T$ in the city , by far !
-indian chinese
+best_140 $T$ in_413 the_3283 city_30 ,_2192 by_64 far_15 !_335
+indian_26 chinese_18
 1
-i came across $T$ by accident , now i go there all the time .
-village underground
+i_701 came_17 across_6 $T$ by_65 accident_1 ,_2193 now_12 i_702 go_90 there_100 all_184 the_3284 time_58 ._3248
+village_26 underground_0
 1
-the $T$ are amazing and very fairly priced .
-martinis
+the_3285 $T$ are_306 amazing_76 and_1882 very_274 fairly_9 priced_42 ._3249
+martini_14 ##s_278
 1
-the $T$ are amazing and very fairly priced .
-martinis
+the_3286 $T$ are_307 amazing_77 and_1883 very_275 fairly_10 priced_43 ._3250
+martini_15 ##s_279
 1
-the $T$ is amazing , i 've had different waiters and they were all nice , which is a rare thing in nyc .
-service
+the_3287 $T$ is_1152 amazing_78 ,_2194 i_703 '_546 ve_80 had_238 different_24 waiter_45 ##s_280 and_1884 they_166 were_213 all_185 nice_122 ,_2195 which_118 is_1153 a_1012 rare_2 thing_29 in_414 nyc_22 ._3251
+service_519
 1
-the service is amazing , i 've had different $T$ and they were all nice , which is a rare thing in nyc .
-waiters
+the_3288 service_520 is_1154 amazing_79 ,_2196 i_704 '_547 ve_81 had_239 different_25 $T$ and_1885 they_167 were_214 all_186 nice_123 ,_2197 which_119 is_1155 a_1013 rare_3 thing_30 in_415 nyc_23 ._3252
+waiter_46 ##s_281
 1
-the $T$ is awesome , i have been there for my birthday and a bunch of other times with friends and i keep going back .
-dj
+the_3289 $T$ is_1156 awesome_16 ,_2198 i_705 have_222 been_74 there_101 for_398 my_163 birthday_2 and_1886 a_1014 bunch_0 of_527 other_26 times_34 with_327 friends_23 and_1887 i_706 keep_14 going_13 back_36 ._3253
+dj_2
 1
-everything on the $T$ is great .
-menu
+everything_34 on_203 the_3290 $T$ is_1157 great_580 ._3254
+menu_112
 1
-this $T$ is the real deal .
-establishment
+this_372 $T$ is_1158 the_3291 real_12 deal_14 ._3255
+establishment_6
 1
-wish ny had more of these kind of places : intimate , superb $T$ , homey , top notch all the way around , certainly worth the wait .
-food
+wish_8 ny_16 had_240 more_74 of_528 these_19 kind_15 of_529 places_2 :_69 intimate_11 ,_2199 superb_3 $T$ ,_2200 home_33 ##y_119 ,_2201 top_38 notch_16 all_187 the_3292 way_44 around_16 ,_2202 certainly_10 worth_36 the_3293 wait_48 ._3256
+food_792
 1
-but $ 500 for a $T$ that did n't include wine ?
-dinner for two
+but_345 $T$ 500_0 for_399 a_1015 that_279 did_38 n_91 '_548 include_0 wine_115 ?_11
+dinner_41 for_400 two_44
 -1
-look , the $T$ were really good .
-appetizers
+look_9 ,_2203 the_3294 $T$ were_215 really_102 good_429 ._3257
+app_53 ##eti_59 ##zers_11
 1
-the $T$ was also very good .
-entree
+the_3295 $T$ was_898 also_44 very_276 good_430 ._3258
+en_18 ##tree_14
 1
-what you are paying for is the $T$ and the name .
-environment
+what_64 you_368 are_308 paying_11 for_401 is_1159 the_3296 $T$ and_1888 the_3297 name_5 ._3259
+environment_0
 0
-yes , the $T$ is classy and beautiful , but they most certainly target the uber whealthy not the common joe that wants to go all out every once in a while .
-place
+yes_17 ,_2204 the_3298 $T$ is_1160 class_7 ##y_120 and_1889 beautiful_28 ,_2205 but_346 they_168 most_54 certainly_11 target_0 the_3299 uber_0 w_8 ##hea_0 ##lth_0 ##y_121 not_282 the_3300 common_4 joe_0 that_280 wants_4 to_657 go_91 all_188 out_72 every_49 once_16 in_416 a_1016 while_24 ._3260
+place_383
 1
-yes , the $T$ is classy and beautiful , but they most certainly target the uber whealthy not the common joe that wants to go all out every once in a while .
-place
+yes_18 ,_2206 the_3301 $T$ is_1161 class_8 ##y_122 and_1890 beautiful_29 ,_2207 but_347 they_169 most_55 certainly_12 target_1 the_3302 uber_1 w_9 ##hea_1 ##lth_1 ##y_123 not_283 the_3303 common_5 joe_1 that_281 wants_5 to_658 go_92 all_189 out_73 every_50 once_17 in_417 a_1017 while_25 ._3261
+place_384
 -1
-$T$ was good but not amazing .
-vanison
+$T$ was_899 good_431 but_348 not_284 amazing_80 ._3262
+van_0 ##ison_0
 0
-$T$ was quite excellent however .
-bison
+$T$ was_900 quite_26 excellent_150 however_35 ._3263
+bison_0
 1
-$T$ : pure disaster .
-dessert
+$T$ :_70 pure_6 disaster_0 ._3264
+dessert_62
 -1
-i read reviews that called the $T$ too expensive and i thought to myself , but may be it is worth it .
-restaurant
+i_707 read_2 reviews_10 that_282 called_2 the_3304 $T$ too_88 expensive_23 and_1891 i_708 thought_25 to_659 myself_2 ,_2208 but_349 may_24 be_148 it_417 is_1162 worth_37 it_418 ._3265
+restaurant_195
 -1
-i read reviews that called the $T$ too expensive and i thought to myself , but may be it is worth it .
-restaurant
+i_709 read_3 reviews_11 that_283 called_3 the_3305 $T$ too_89 expensive_24 and_1892 i_710 thought_26 to_660 myself_3 ,_2209 but_350 may_25 be_149 it_419 is_1163 worth_38 it_420 ._3266
+restaurant_196
 -1
-$T$ has history and it is a sort of landmark of new york city restaurants , but trust me , they will charge you through the nose just so that you can say `` i 've been to $T$ restaurant '' .
-the four seasons
+$T$ has_102 history_0 and_1893 it_421 is_1164 a_1018 sort_2 of_530 landmark_0 of_531 new_57 york_27 city_31 restaurants_25 ,_2210 but_351 trust_0 me_62 ,_2211 they_170 will_45 charge_1 you_369 through_4 the_3306 nose_0 just_65 so_177 that_284 you_370 can_97 say_23 `_8 `_9 i_711 '_549 ve_82 been_75 to_661 restaurant_197 '_550 '_551 ._3267
+the_3307 four_8 seasons_4
 0
-$T$ has history and it is a sort of landmark of new york city restaurants , but trust me , they will charge you through the nose just so that you can say `` i 've been to $T$ restaurant '' .
-the four seasons
+$T$ has_103 history_1 and_1894 it_422 is_1165 a_1019 sort_3 of_532 landmark_1 of_533 new_58 york_28 city_32 restaurants_26 ,_2212 but_352 trust_1 me_63 ,_2213 they_171 will_46 charge_2 you_371 through_5 the_3308 nose_1 just_66 so_178 that_285 you_372 can_98 say_24 `_10 `_11 i_712 '_552 ve_83 been_76 to_662 restaurant_198 '_553 '_554 ._3268
+the_3309 four_9 seasons_5
 -1
-all in all , the $T$ was great ( except for the dessserts ) .
-food
+all_190 in_418 all_191 ,_2214 the_3310 $T$ was_901 great_581 (_198 except_6 for_402 the_3311 des_0 ##sser_0 ##ts_0 )_199 ._3269
+food_793
 1
-all in all , the food was great ( except for the $T$ ) .
-dessserts
+all_192 in_419 all_193 ,_2215 the_3312 food_794 was_902 great_582 (_199 except_7 for_403 the_3313 $T$ )_200 ._3270
+des_1 ##sser_1 ##ts_1
 -1
-the $T$ is very upscale and you will see a lot of rich guys with trophy wives or just highly paid escorts .
-environment
+the_3314 $T$ is_1166 very_277 upscale_2 and_1895 you_373 will_47 see_6 a_1020 lot_29 of_534 rich_5 guys_6 with_328 trophy_0 wives_0 or_132 just_67 highly_27 paid_5 escorts_0 ._3271
+environment_1
 0
-if you are going for the $T$ , it will not be worth it .
-food
+if_117 you_374 are_309 going_14 for_404 the_3315 $T$ ,_2216 it_423 will_48 not_285 be_150 worth_39 it_424 ._3272
+food_795
 -1
-you would think they would make up for it with $T$ , sadly , no .
-service
+you_375 would_74 think_18 they_172 would_75 make_59 up_65 for_405 it_425 with_329 $T$ ,_2217 sadly_1 ,_2218 no_63 ._3273
+service_521
 -1
-$T$ was just ok , it is not what you 'd expect for $ 500 .
-service
+$T$ was_903 just_68 ok_25 ,_2219 it_426 is_1167 not_286 what_65 you_376 '_555 d_27 expect_8 for_406 500_1 ._3274
+service_522
 -1
-i agree that dining at $T$ is like no other dining experience !
-casa la femme
+i_713 agree_3 that_286 dining_35 at_245 $T$ is_1168 like_146 no_64 other_27 dining_36 experience_23 !_336
+casa_1 la_10 femme_1
 -1
-i literally just got back home after visiting $T$ and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .
-casa la femme
+i_714 literally_4 just_69 got_31 back_37 home_34 after_17 visiting_5 $T$ and_1896 was_904 so_179 offended_0 by_66 my_164 visit_15 felt_7 it_427 necessary_0 to_663 try_75 and_1897 warn_6 other_28 diner_10 ##s_282 who_40 value_17 their_98 money_12 and_1898 time_59 ._3275
+casa_2 la_11 femme_2
 -1
-i literally just got back home after visiting $T$ and was so offended by my visit felt it necessary to try and warn other diners who value their money and time .
-casa la femme
+i_715 literally_5 just_70 got_32 back_38 home_35 after_18 visiting_6 $T$ and_1899 was_905 so_180 offended_1 by_67 my_165 visit_16 felt_8 it_428 necessary_1 to_664 try_76 and_1900 warn_7 other_29 diner_11 ##s_283 who_41 value_18 their_99 money_13 and_1901 time_60 ._3276
+casa_3 la_12 femme_3
 -1
-we did arrive late for our reservation so i can not complain too much about the $T$ for a table .
-wait
+we_243 did_39 arrive_0 late_8 for_407 our_68 reservation_0 so_181 i_716 can_99 not_287 complain_2 too_90 much_37 about_92 the_3316 $T$ for_408 a_1021 table_22 ._3277
+wait_49
 0
-the $T$ is beautiful !
-place
+the_3317 $T$ is_1169 beautiful_30 !_337
+place_385
 1
-the $T$ was very pleasant .
-hostess
+the_3318 $T$ was_906 very_278 pleasant_21 ._3278
+hostess_8
 1
-however , our $ 14 $T$ were were horrible !
-drinks
+however_36 ,_2220 our_69 $T$ 14_0 were_216 were_217 horrible_14 !_338
+drinks_71
 -1
-however , our $ 14 $T$ were were horrible !
-drinks
+however_37 ,_2221 our_70 $T$ 14_1 were_218 were_219 horrible_15 !_339
+drinks_72
 -1
-we also asked for hooka six times and the $T$ kept telling us one minute and never returning with the hooka .
-waiter
+we_244 also_45 asked_18 for_409 hook_1 ##a_15 six_0 times_35 and_1902 the_3319 $T$ kept_1 telling_0 us_50 one_78 minute_0 and_1903 never_73 returning_0 with_330 the_3320 hook_2 ##a_16 ._3279
+waiter_47
 -1
-after the 4th time i asked again and the $T$ than said after our dinner .
-waiter
+after_19 the_3321 4th_0 time_61 i_717 asked_19 again_21 and_1904 the_3322 $T$ than_59 said_9 after_20 our_71 dinner_42 ._3280
+waiter_48
 -1
-we asked for sides which the $T$ than admitted that he forgot to put in that part of our order .
-waiter
+we_245 asked_20 for_410 sides_0 which_120 the_3323 $T$ than_60 admitted_4 that_287 he_36 forgot_0 to_665 put_1 in_420 that_288 part_15 of_535 our_72 order_26 ._3281
+waiter_49
 -1
-my $T$ was inedible as there were so many fatty lumps which i had to keep spitting out into my napkin .
-chicken
+my_166 $T$ was_907 in_421 ##ed_23 ##ible_3 as_121 there_102 were_220 so_182 many_25 fatty_0 lump_0 ##s_284 which_121 i_718 had_241 to_666 keep_15 spitting_0 out_74 into_8 my_167 napkin_0 ._3282
+chicken_67
 -1
-i would not expect this for a $ 55 $T$ .
-dinner
+i_719 would_76 not_288 expect_9 this_373 for_411 a_1022 $T$ 55_0 ._3283
+dinner_43
 -1
-i would not expect this for a $ 55 $T$ .
-dinner
+i_720 would_77 not_289 expect_10 this_374 for_412 a_1023 $T$ 55_1 ._3284
+dinner_44
 -1
-by the time we left our wallets were empy and so were our stomachs and we missed the show we were supposed to see following our dinner , which would have been acceptable if we got to enjoy the experience of good $T$ and belly dancers !
-food
+by_68 the_3324 time_62 we_246 left_5 our_73 wallet_0 ##s_285 were_221 em_0 ##py_0 and_1905 so_183 were_222 our_74 stomach_6 ##s_286 and_1906 we_247 missed_0 the_3325 show_1 we_248 were_223 supposed_1 to_667 see_7 following_6 our_75 dinner_45 ,_2222 which_122 would_78 have_223 been_77 acceptable_0 if_118 we_249 got_33 to_668 enjoy_17 the_3326 experience_24 of_536 good_432 $T$ and_1907 belly_7 dancers_2 !_340
+food_796
 -1
-if it seemed possible to do so while there i would have fought my bill since my dinner portion of my $T$ was inedible !
-meal
+if_119 it_429 seemed_8 possible_0 to_669 do_66 so_184 while_26 there_103 i_721 would_79 have_224 fought_0 my_168 bill_4 since_8 my_169 dinner_46 portion_18 of_537 my_170 $T$ was_908 in_422 ##ed_24 ##ible_4 !_341
+meal_38
 -1
-i have never left a $T$ feeling as if i was abused , and wasted my hard earned money .
-restaurant
+i_722 have_225 never_74 left_6 a_1024 $T$ feeling_0 as_122 if_120 i_723 was_909 abused_0 ,_2223 and_1908 wasted_2 my_171 hard_5 earned_1 money_14 ._3285
+restaurant_199
 -1
-i have never left a $T$ feeling as if i was abused , and wasted my hard earned money .
-restaurant
+i_724 have_226 never_75 left_7 a_1025 $T$ feeling_1 as_123 if_121 i_725 was_910 abused_1 ,_2224 and_1909 wasted_3 my_172 hard_6 earned_2 money_15 ._3286
+restaurant_200
 -1
-the $T$ is fairly simple without much descriptions .
-menu
+the_3327 $T$ is_1170 fairly_11 simple_14 without_12 much_38 descriptions_0 ._3287
+menu_113
 0
-there was no tap $T$ that evening , which was a disappointment .
-beer
+there_104 was_911 no_65 tap_2 $T$ that_289 evening_12 ,_2225 which_123 was_912 a_1026 disappointment_11 ._3288
+beer_12
 -1
-not much of a $T$ either , we went with brahma .
-selection of bottled beer
+not_290 much_39 of_538 a_1027 $T$ either_5 ,_2226 we_250 went_28 with_331 bra_6 ##hma_0 ._3289
+selection_58 of_539 bottled_0 beer_13
 -1
-the appetizers we ordered were served quickly - an order of $T$ were delicious but a tiny portion ( maybe 3 of each ) .
-fried oysters and clams
+the_3328 app_54 ##eti_60 ##zers_12 we_251 ordered_27 were_224 served_20 quickly_1 -_600 an_85 order_27 of_540 $T$ were_225 delicious_159 but_353 a_1028 tiny_17 portion_19 (_200 maybe_3 3_14 of_541 each_9 )_201 ._3290
+fried_17 oyster_8 ##s_287 and_1910 cl_3 ##ams_2
 1
-the appetizers we ordered were served quickly - an order of $T$ were delicious but a tiny portion ( maybe 3 of each ) .
-fried oysters and clams
+the_3329 app_55 ##eti_61 ##zers_13 we_252 ordered_28 were_226 served_21 quickly_2 -_601 an_86 order_28 of_542 $T$ were_227 delicious_160 but_354 a_1029 tiny_18 portion_20 (_201 maybe_4 3_15 of_543 each_10 )_202 ._3291
+fried_18 oyster_9 ##s_288 and_1911 cl_4 ##ams_3
 -1
-the $T$ ( special of the day ) were ok , but pretty tasteless .
-lobster knuckles
+the_3330 $T$ (_202 special_65 of_544 the_3331 day_20 )_203 were_228 ok_26 ,_2227 but_355 pretty_38 taste_24 ##less_11 ._3292
+lobster_37 knuckles_0
 0
-the $T$ ( special of the day ) were ok , but pretty tasteless .
-lobster knuckles
+the_3332 $T$ (_203 special_66 of_545 the_3333 day_21 )_204 were_229 ok_27 ,_2228 but_356 pretty_39 taste_25 ##less_12 ._3293
+lobster_38 knuckles_1
 -1
-i believe there were 2 shrimp in the $T$ .
-`` salt encrusted shrimp '' appetizer
+i_726 believe_2 there_105 were_230 2_32 shrimp_39 in_423 the_3334 $T$ ._3294
+`_12 `_13 salt_4 en_19 ##cr_0 ##ust_0 ##ed_25 shrimp_40 '_556 '_557 app_56 ##eti_62 ##zer_33
 -1
-i had the $T$ ... which was very good .
-thai style fried sea bass
+i_727 had_242 the_3335 $T$ ._3295 ._3296 ._3297 which_124 was_913 very_279 good_433 ._3298
+thai_45 style_16 fried_19 sea_22 bass_8
 1
-everyone seemed generally happy with their $T$ , except my brother who had the grilled mahi mahi , seemingly drenched in grapfruit juice !
-food
+everyone_8 seemed_9 generally_17 happy_9 with_332 their_100 $T$ ,_2229 except_8 my_173 brother_0 who_42 had_243 the_3336 grille_4 ##d_53 ma_8 ##hi_7 ma_9 ##hi_8 ,_2230 seemingly_0 drenched_0 in_424 gr_5 ##ap_1 ##fr_8 ##uit_0 juice_4 !_342
+food_797
 1
-everyone seemed generally happy with their food , except my brother who had the $T$ , seemingly drenched in grapfruit juice !
-grilled mahi mahi
+everyone_9 seemed_10 generally_18 happy_10 with_333 their_101 food_798 ,_2231 except_9 my_174 brother_1 who_43 had_244 the_3337 $T$ ,_2232 seemingly_1 drenched_1 in_425 gr_6 ##ap_2 ##fr_9 ##uit_1 juice_5 !_343
+grille_5 ##d_54 ma_10 ##hi_9 ma_11 ##hi_10
 -1
-everyone seemed generally happy with their food , except my brother who had the $T$ , seemingly drenched in grapfruit juice !
-grilled mahi mahi
+everyone_10 seemed_11 generally_19 happy_11 with_334 their_102 food_799 ,_2233 except_10 my_175 brother_2 who_44 had_245 the_3338 $T$ ,_2234 seemingly_2 drenched_2 in_426 gr_7 ##ap_3 ##fr_10 ##uit_2 juice_6 !_344
+grille_6 ##d_55 ma_12 ##hi_11 ma_13 ##hi_12
 -1
-i heard the $T$ was excellent .
-lobster roll
+i_728 heard_5 the_3339 $T$ was_914 excellent_151 ._3299
+lobster_39 roll_37
 1
-all in all the $T$ was good - a little on the expensive side , but fresh .
-food
+all_194 in_427 all_195 the_3340 $T$ was_915 good_434 -_602 a_1030 little_43 on_204 the_3341 expensive_25 side_36 ,_2235 but_357 fresh_119 ._3300
+food_800
 1
-all in all the $T$ was good - a little on the expensive side , but fresh .
-food
+all_196 in_428 all_197 the_3342 $T$ was_916 good_435 -_603 a_1031 little_44 on_205 the_3343 expensive_26 side_37 ,_2236 but_358 fresh_120 ._3301
+food_801
 -1
-$T$ not the friendliest to our `` large party '' !
-service
+$T$ not_291 the_3344 friend_16 ##liest_1 to_670 our_76 `_14 `_15 large_35 party_2 '_558 '_559 !_345
+service_523
 -1
-great $T$
-indian food
+great_583 $T$
+indian_27 food_802
 1
-$T$ was amazing - i love indian $T$ and eat it quite regularly , but i can say this is one of the best i 've had .
-food
+$T$ was_917 amazing_81 -_604 i_729 love_48 indian_28 and_1912 eat_49 it_430 quite_27 regularly_0 ,_2237 but_359 i_730 can_100 say_25 this_375 is_1171 one_79 of_546 the_3345 best_141 i_731 '_560 ve_84 had_246 ._3302
+food_803
 1
-very `` normal $T$ '' , but done really well .
-indian food
+very_280 `_16 `_17 normal_2 $T$ '_561 '_562 ,_2238 but_360 done_3 really_103 well_75 ._3303
+indian_29 food_804
 0
-very `` normal $T$ '' , but done really well .
-indian food
+very_281 `_18 `_19 normal_3 $T$ '_563 '_564 ,_2239 but_361 done_4 really_104 well_76 ._3304
+indian_30 food_805
 1
-i have it a 4 instead of 5 because of the price ( just chicken tikka masala - no bread of rice - is $ 25 ) , which i would expect at a upscale indian restaurant but this $T$ does n't have an upscale feel .
-place
+i_732 have_227 it_431 a_1032 4_4 instead_6 of_547 5_10 because_32 of_548 the_3346 price_104 (_204 just_71 chicken_68 ti_4 ##kka_0 mas_1 ##ala_1 -_605 no_66 bread_15 of_549 rice_67 -_606 is_1172 $T$ 25_0 )_205 ,_2240 which_125 i_733 would_80 expect_11 at_246 a_1033 upscale_3 indian_31 restaurant_201 but_362 this_376 does_32 n_92 '_565 have_228 an_87 upscale_4 feel_64 ._3305
+place_386
 1
-i have it a 4 instead of 5 because of the price ( just chicken tikka masala - no bread of rice - is $ 25 ) , which i would expect at a upscale indian restaurant but this $T$ does n't have an upscale feel .
-place
+i_734 have_229 it_432 a_1034 4_5 instead_7 of_550 5_11 because_33 of_551 the_3347 price_105 (_205 just_72 chicken_69 ti_5 ##kka_1 mas_2 ##ala_2 -_607 no_67 bread_16 of_552 rice_68 -_608 is_1173 $T$ 25_1 )_206 ,_2241 which_126 i_735 would_81 expect_12 at_247 a_1035 upscale_5 indian_32 restaurant_202 but_363 this_377 does_33 n_93 '_566 have_230 an_88 upscale_6 feel_65 ._3306
+place_387
 -1
-i have it a 4 instead of 5 because of the price ( just $T$ - no bread of rice - is $ 25 ) , which i would expect at a upscale indian restaurant but this place does n't have an upscale feel .
-chicken tikka masala
+i_736 have_231 it_433 a_1036 4_6 instead_8 of_553 5_12 because_34 of_554 the_3348 price_106 (_206 just_73 $T$ -_609 no_68 bread_17 of_555 rice_69 -_610 is_1174 25_2 )_207 ,_2242 which_127 i_737 would_82 expect_13 at_248 a_1037 upscale_7 indian_33 restaurant_203 but_364 this_378 place_388 does_34 n_94 '_567 have_232 an_89 upscale_8 feel_66 ._3307
+chicken_70 ti_6 ##kka_2 mas_3 ##ala_3
 -1
-i have it a 4 instead of 5 because of the price ( just chicken tikka masala - no bread of rice - is $ 25 ) , which i would expect at a upscale indian restaurant but this place does n't have an upscale $T$ .
-feel
+i_738 have_233 it_434 a_1038 4_7 instead_9 of_556 5_13 because_35 of_557 the_3349 price_107 (_207 just_74 chicken_71 ti_7 ##kka_3 mas_4 ##ala_4 -_611 no_69 bread_18 of_558 rice_70 -_612 is_1175 $T$ 25_3 )_208 ,_2243 which_128 i_739 would_83 expect_14 at_249 a_1039 upscale_9 indian_34 restaurant_204 but_365 this_379 place_389 does_35 n_95 '_568 have_234 an_90 upscale_10 ._3308
+feel_67
 -1
-also , $T$ try to push more food on you , like suggest things as if they are complimentary when they actually cost $ .
-waiters
+also_46 ,_2244 $T$ try_77 to_671 push_0 more_75 food_806 on_206 you_377 ,_2245 like_147 suggest_0 things_25 as_124 if_122 they_173 are_310 compliment_3 ##ary_1 when_49 they_174 actually_11 cost_3 ._3309
+waiter_50 ##s_289
 -1
-but if you 're prepared to spend some $ and remember to ask if something they offer is complimentary , then this is the place to go for $T$
-indian food
+but_366 if_123 you_378 '_569 re_59 prepared_18 to_672 spend_14 some_62 $T$ and_1913 remember_8 to_673 ask_14 if_124 something_8 they_175 offer_14 is_1176 compliment_4 ##ary_2 ,_2246 then_13 this_380 is_1177 the_3350 place_390 to_674 go_93 for_413
+indian_35 food_807
 1
-but if you 're prepared to spend some $ and remember to ask if something they offer is complimentary , then this is the $T$ to go for indian food
-place
+but_367 if_125 you_379 '_570 re_60 prepared_19 to_675 spend_15 some_63 $T$ and_1914 remember_9 to_676 ask_15 if_126 something_9 they_176 offer_15 is_1178 compliment_5 ##ary_3 ,_2247 then_14 this_381 is_1179 the_3351 to_677 go_94 for_414 indian_36 food_808
+place_391
 -1
-$T$ , the tagline says it all .. `` indian spice rave ''
-bukhara grill
+$T$ ,_2248 the_3352 tag_4 ##line_6 says_2 it_435 all_198 ._3310 ._3311 `_20 `_21 indian_37 spice_8 rave_4 '_571 '_572
+bu_8 ##khar_6 ##a_17 grill_4
 1
-the $T$ is expensive but is deff worth it .
-lunch buffet
+the_3353 $T$ is_1180 expensive_27 but_368 is_1181 def_7 ##f_2 worth_40 it_436 ._3312
+lunch_12 buffet_2
 -1
-the $T$ is expensive but is deff worth it .
-lunch buffet
+the_3354 $T$ is_1182 expensive_28 but_369 is_1183 def_8 ##f_3 worth_41 it_437 ._3313
+lunch_13 buffet_3
 1
-we have gone for dinner only a few times but the same great quality and $T$ is given .
-service
+we_253 have_235 gone_0 for_415 dinner_47 only_46 a_1040 few_21 times_36 but_370 the_3355 same_12 great_584 quality_50 and_1915 $T$ is_1184 given_0 ._3314
+service_524
 1
-we have gone for $T$ only a few times but the same great quality and service is given .
-dinner
+we_254 have_236 gone_1 for_416 $T$ only_47 a_1041 few_22 times_37 but_371 the_3356 same_13 great_585 quality_51 and_1916 service_525 is_1185 given_1 ._3315
+dinner_48
 1
-$T$ is on my top 5 indian places in nyc
-bukhara
+$T$ is_1186 on_207 my_176 top_39 5_14 indian_38 places_3 in_429 nyc_24
+bu_9 ##khar_7 ##a_18
 1
-i have never been so disgusted by both $T$ an service .
-food
+i_740 have_237 never_76 been_78 so_185 disgusted_0 by_69 both_63 $T$ an_91 service_526 ._3316
+food_809
 -1
-i have never been so disgusted by both food an $T$ .
-service
+i_741 have_238 never_77 been_79 so_186 disgusted_1 by_70 both_64 food_810 an_92 $T$ ._3317
+service_527
 -1
-however , once i received my predictably mediocre order of what dokebi thinks passes as korean fair , ( sometimes you have to settle when it 's your only option ) , i got through about half my $T$ before i found a piece of random lettuce accompanied by a far more disgusting , slimy , clearly bad piece of fish skin .
-kimchee
+however_38 ,_2249 once_18 i_742 received_4 my_177 predict_0 ##ably_0 med_14 ##io_11 ##cre_11 order_29 of_559 what_66 do_67 ##ke_2 ##bi_0 thinks_0 passes_0 as_125 korean_0 fair_6 ,_2250 (_208 sometimes_28 you_380 have_239 to_678 settle_0 when_50 it_438 '_573 s_188 your_102 only_48 option_0 )_209 ,_2251 i_743 got_34 through_6 about_93 half_9 my_178 $T$ before_18 i_744 found_23 a_1042 piece_11 of_560 random_0 let_4 ##tu_2 ##ce_28 accompanied_0 by_71 a_1043 far_16 more_76 disgusting_14 ,_2252 slim_0 ##y_124 ,_2253 clearly_0 bad_39 piece_12 of_561 fish_76 skin_0 ._3318
+kim_0 ##chee_0
 -1
-however , once i received my predictably mediocre order of what dokebi thinks passes as $T$ , ( sometimes you have to settle when it 's your only option ) , i got through about half my kimchee before i found a piece of random lettuce accompanied by a far more disgusting , slimy , clearly bad piece of fish skin .
-korean fair
+however_39 ,_2254 once_19 i_745 received_5 my_179 predict_1 ##ably_1 med_15 ##io_12 ##cre_12 order_30 of_562 what_67 do_68 ##ke_3 ##bi_1 thinks_1 passes_1 as_126 $T$ ,_2255 (_209 sometimes_29 you_381 have_240 to_679 settle_1 when_51 it_439 '_574 s_189 your_103 only_49 option_1 )_210 ,_2256 i_746 got_35 through_7 about_94 half_10 my_180 kim_1 ##chee_1 before_19 i_747 found_24 a_1044 piece_13 of_563 random_1 let_5 ##tu_3 ##ce_29 accompanied_1 by_72 a_1045 far_17 more_77 disgusting_15 ,_2257 slim_1 ##y_125 ,_2258 clearly_1 bad_40 piece_14 of_564 fish_77 skin_1 ._3319
+korean_1 fair_7
 -1
-my main concern was the sanity of the $T$ that was being sent out to myself and others , but i would be lying is i said that as someone who has worked in restaurants since the age of fifteen i was expecting at least a minimal effort on the part of the restaurant to amend the situation .
-food
+my_181 main_20 concern_0 was_918 the_3357 sanity_0 of_565 the_3358 $T$ that_290 was_919 being_28 sent_0 out_75 to_680 myself_4 and_1917 others_2 ,_2259 but_372 i_748 would_84 be_151 lying_0 is_1187 i_749 said_10 that_291 as_127 someone_10 who_45 has_104 worked_1 in_430 restaurants_27 since_9 the_3359 age_0 of_566 fifteen_0 i_750 was_920 expecting_0 at_250 least_9 a_1046 minimal_0 effort_6 on_208 the_3360 part_16 of_567 the_3361 restaurant_205 to_681 amend_0 the_3362 situation_0 ._3320
+food_811
 -1
-my girlfriend , being slightly more aggressive , and having been equally disgusted causing her to throw out the remainder of her barely eaten $T$ , called back only to be informed that i was probably wrong and that it was most likely an oyster , and that we were also blacklisted from their restaurant .
-meal
+my_182 girlfriend_10 ,_2260 being_29 slightly_9 more_78 aggressive_1 ,_2261 and_1918 having_6 been_80 equally_0 disgusted_2 causing_0 her_6 to_682 throw_0 out_76 the_3363 remainder_0 of_568 her_7 barely_8 eaten_10 $T$ ,_2262 called_4 back_39 only_50 to_683 be_152 informed_0 that_292 i_751 was_921 probably_15 wrong_15 and_1919 that_293 it_440 was_922 most_56 likely_2 an_93 oyster_10 ,_2263 and_1920 that_294 we_255 were_231 also_47 black_0 ##list_0 ##ed_26 from_88 their_103 restaurant_206 ._3321
+meal_39
 -1
-it was n't as if this $T$ had any major bragging points before hand , but now it 's simply repulsive .
-restaurant
+it_441 was_923 n_96 '_575 as_128 if_127 this_382 $T$ had_247 any_38 major_2 bragg_0 ##ing_40 points_4 before_20 hand_6 ,_2264 but_373 now_13 it_442 '_576 s_190 simply_16 rep_0 ##ulsive_0 ._3322
+restaurant_207
 -1
-gorgeous $T$ ideal for a romantic dinner
-place
+gorgeous_4 $T$ ideal_0 for_417 a_1047 romantic_19 dinner_49
+place_392
 1
-gorgeous $T$ ideal for a romantic dinner
-place
+gorgeous_5 $T$ ideal_1 for_418 a_1048 romantic_20 dinner_50
+place_393
 1
-i book a gorgeous white organza tent which included a $T$ which we enjoyed a lot .
-four course prix fix menu
+i_752 book_0 a_1049 gorgeous_6 white_2 organ_0 ##za_4 tent_0 which_129 included_16 a_1050 $T$ which_130 we_256 enjoyed_18 a_1051 lot_30 ._3323
+four_10 course_9 prix_18 fix_24 menu_114
 1
-i book a gorgeous $T$ which included a four course prix fix menu which we enjoyed a lot .
-white organza tent
+i_753 book_1 a_1052 gorgeous_7 $T$ which_131 included_17 a_1053 four_11 course_10 prix_19 fix_25 menu_115 which_132 we_257 enjoyed_19 a_1054 lot_31 ._3324
+white_3 organ_1 ##za_5 tent_1
 1
-the $T$ was spectacular as the waiter knew everything about the menu and his recommendations were amazing !
-service
+the_3364 $T$ was_924 spectacular_10 as_129 the_3365 waiter_51 knew_4 everything_35 about_95 the_3366 menu_116 and_1921 his_8 recommendations_0 were_232 amazing_82 !_346
+service_528
 1
-the service was spectacular as the $T$ knew everything about the menu and his recommendations were amazing !
-waiter
+the_3367 service_529 was_925 spectacular_11 as_130 the_3368 $T$ knew_5 everything_36 about_96 the_3369 menu_117 and_1922 his_9 recommendations_1 were_233 amazing_83 !_347
+waiter_52
 1
-i completely recommend $T$ for any special occasion and to really impress your date .
-casa la femme
+i_754 completely_21 recommend_73 $T$ for_419 any_39 special_67 occasion_6 and_1923 to_684 really_105 impress_2 your_104 date_18 ._3325
+casa_4 la_13 femme_4
 1
-the $T$ was average , but the stone bowl was n't even close to sizzling .
-bibimbap
+the_3370 $T$ was_926 average_62 ,_2265 but_374 the_3371 stone_0 bowl_0 was_927 n_97 '_577 even_53 close_6 to_685 si_0 ##zzling_0 ._3326
+bi_1 ##bi_2 ##mba_0 ##p_5
 0
-the bibimbap was average , but the $T$ was n't even close to sizzling .
-stone bowl
+the_3372 bi_2 ##bi_3 ##mba_1 ##p_6 was_928 average_63 ,_2266 but_375 the_3373 $T$ was_929 n_98 '_578 even_54 close_7 to_686 si_1 ##zzling_1 ._3327
+stone_1 bowl_1
 -1
-too bad i had paid an extra $ 2 for the $T$ .
-stone bowl
+too_91 bad_41 i_755 had_248 paid_6 an_94 extra_5 $T$ 2_33 for_420 the_3374 ._3328
+stone_2 bowl_2
 -1
-the $T$ was horrible .
-nakgi-bokum
+the_3375 $T$ was_930 horrible_16 ._3329
+nak_0 ##gi_2 -_613 bo_0 ##ku_0 ##m_30
 -1
-easily the worst $T$ i 've ever tasted .
-stir-fried squid
+easily_4 the_3376 worst_8 $T$ i_756 '_579 ve_85 ever_45 tasted_21 ._3330
+stir_8 -_614 fried_20 squid_1
 -1
-the $T$ tasted more like chinese fast food than decent korean .
-sauce
+the_3377 $T$ tasted_22 more_79 like_148 chinese_19 fast_43 food_812 than_61 decent_19 korean_2 ._3331
+sauce_40
 -1
-the $T$ were passable , and i did get a refill upon request .
-side dishes
+the_3378 $T$ were_234 pass_2 ##able_8 ,_2267 and_1924 i_757 did_40 get_114 a_1055 ref_6 ##ill_0 upon_6 request_2 ._3332
+side_38 dishes_90
 0
-the $T$ were passable , and i did get a refill upon request .
-side dishes
+the_3379 $T$ were_235 pass_3 ##able_9 ,_2268 and_1925 i_758 did_41 get_115 a_1056 ref_7 ##ill_1 upon_7 request_3 ._3333
+side_39 dishes_91
 1
-the real problem i had with this place was the complete lack of $T$ .
-service
+the_3380 real_13 problem_7 i_759 had_249 with_335 this_383 place_394 was_931 the_3381 complete_3 lack_2 of_569 $T$ ._3334
+service_530
 -1
-my wife had barely touched that mess of a $T$ .
-dish
+my_183 wife_12 had_250 barely_9 touched_0 that_295 mess_2 of_570 a_1057 $T$ ._3335
+dish_27
 -1
-the wife had the $T$ which was amazing .
-risotto
+the_3382 wife_13 had_251 the_3383 $T$ which_133 was_932 amazing_84 ._3336
+ri_10 ##so_8 ##tto_8
 1
-the $T$ and the mashed yukon potatoes were also extremely tasty .
-farro salad
+the_3384 $T$ and_1926 the_3385 mas_5 ##hed_1 yukon_0 potatoes_4 were_236 also_48 extremely_9 ta_54 ##sty_54 ._3337
+far_18 ##ro_4 salad_51
 1
-the farro salad and the $T$ were also extremely tasty .
-mashed yukon potatoes
+the_3386 far_19 ##ro_5 salad_52 and_1927 the_3387 $T$ were_237 also_49 extremely_10 ta_55 ##sty_55 ._3338
+mas_6 ##hed_2 yukon_1 potatoes_5
 1
-i love margherita pizza – i looove $T$
-east village pizza
+i_760 love_49 mar_4 ##gh_4 ##eri_4 ##ta_4 pizza_149 –_3 i_761 lo_18 ##oo_6 ##ve_4 $T$
+east_14 village_27 pizza_150
 1
-i love $T$ – i looove east village pizza
-margherita pizza
+i_762 love_50 $T$ –_4 i_763 lo_19 ##oo_7 ##ve_5 east_15 village_28 pizza_151
+mar_5 ##gh_5 ##eri_5 ##ta_5 pizza_152
 1
-love this $T$ , every time we are in the city this is one of the $T$s we always go .
-place
+love_51 this_384 $T$ ,_2269 every_51 time_63 we_258 are_311 in_431 the_3388 city_33 this_385 is_1188 one_80 of_571 the_3389 s_191 we_259 always_87 go_95 ._3339
+place_395
 1
-a quintessential $T$ .
-slice of nyc pizza
+a_1058 qui_2 ##ntes_0 ##sen_0 ##tial_0 $T$ ._3340
+slice_16 of_572 nyc_25 pizza_153
 0
-the $T$ has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .
-crust
+the_3390 $T$ has_105 a_1059 great_586 bite_8 and_1928 a_1060 good_436 chew_0 ,_2270 the_3391 sauce_41 is_1189 light_14 with_336 a_1061 nice_124 acid_0 ##ity_0 to_687 it_443 ,_2271 the_3392 salt_5 from_89 the_3393 cheese_68 is_1190 great_587 ,_2272 really_106 height_0 ##ens_0 the_3394 flavor_34 of_573 all_199 the_3395 other_30 components_0 ._3341
+crust_36
 1
-the crust has a great bite and a good chew , the $T$ is light with a nice acidity to it , the salt from the cheese is great , really heightens the flavor of all the other components .
-sauce
+the_3396 crust_37 has_106 a_1062 great_588 bite_9 and_1929 a_1063 good_437 chew_1 ,_2273 the_3397 $T$ is_1191 light_15 with_337 a_1064 nice_125 acid_1 ##ity_1 to_688 it_444 ,_2274 the_3398 salt_6 from_90 the_3399 cheese_69 is_1192 great_589 ,_2275 really_107 height_1 ##ens_1 the_3400 flavor_35 of_574 all_200 the_3401 other_31 components_1 ._3342
+sauce_42
 1
-the crust has a great bite and a good chew , the sauce is light with a nice acidity to it , the salt from the $T$ is great , really heightens the flavor of all the other components .
-cheese
+the_3402 crust_38 has_107 a_1065 great_590 bite_10 and_1930 a_1066 good_438 chew_2 ,_2276 the_3403 sauce_43 is_1193 light_16 with_338 a_1067 nice_126 acid_2 ##ity_2 to_689 it_445 ,_2277 the_3404 salt_7 from_91 the_3405 $T$ is_1194 great_591 ,_2278 really_108 height_2 ##ens_2 the_3406 flavor_36 of_575 all_201 the_3407 other_32 components_2 ._3343
+cheese_70
 1
-personally i like the $T$ better , but they are all good .
-margherita pizza
+personally_5 i_764 like_149 the_3408 $T$ better_26 ,_2279 but_376 they_177 are_312 all_202 good_439 ._3344
+mar_6 ##gh_6 ##eri_6 ##ta_6 pizza_154
 1
-possibly the most romantic $T$ in the city
-restaurant
+possibly_0 the_3409 most_57 romantic_21 $T$ in_432 the_3410 city_34
+restaurant_208
 1
-this is undoubtedly my favorite $T$ ( that don ’ t serve sushi ) , and in my opinion , one of the most romantic restaurants in the city !
-modern japanese brasserie
+this_386 is_1195 undoubtedly_0 my_184 favorite_21 $T$ (_210 that_296 don_39 ’_0 serve_20 su_133 ##shi_121 )_211 ,_2280 and_1931 in_433 my_185 opinion_4 ,_2281 one_81 of_576 the_3411 most_58 romantic_22 restaurants_28 in_434 the_3412 city_35 !_348
+modern_9 japanese_31 brass_0 ##erie_0
 1
-this is undoubtedly my favorite $T$ ( that don ’ t serve sushi ) , and in my opinion , one of the most romantic restaurants in the city !
-modern japanese brasserie
+this_387 is_1196 undoubtedly_1 my_186 favorite_22 $T$ (_211 that_297 don_40 ’_1 serve_21 su_134 ##shi_122 )_212 ,_2282 and_1932 in_435 my_187 opinion_5 ,_2283 one_82 of_577 the_3413 most_59 romantic_23 restaurants_29 in_436 the_3414 city_36 !_349
+modern_10 japanese_32 brass_1 ##erie_1
 1
-not only is it an adventure getting to this somewhat hidden $T$ , once you enter the unmarked wooden doors , the zen and intimate décor will make you feel like you ’ re no longer in the city .
-spot
+not_292 only_51 is_1197 it_446 an_95 adventure_0 getting_6 to_690 this_388 somewhat_2 hidden_5 $T$ ,_2284 once_20 you_382 enter_0 the_3415 unmarked_0 wooden_1 doors_0 ,_2285 the_3416 zen_0 and_1933 intimate_12 decor_101 will_49 make_60 you_383 feel_68 like_150 you_384 ’_2 re_61 no_70 longer_5 in_437 the_3417 city_37 ._3345
+spot_32
 0
-not only is it an adventure getting to this somewhat hidden spot , once you enter the $T$ , the zen and intimate décor will make you feel like you ’ re no longer in the city .
-unmarked wooden doors
+not_293 only_52 is_1198 it_447 an_96 adventure_1 getting_7 to_691 this_389 somewhat_3 hidden_6 spot_33 ,_2286 once_21 you_385 enter_1 the_3418 $T$ ,_2287 the_3419 zen_1 and_1934 intimate_13 decor_102 will_50 make_61 you_386 feel_69 like_151 you_387 ’_3 re_62 no_71 longer_6 in_438 the_3420 city_38 ._3346
+unmarked_1 wooden_2 doors_1
 1
-not only is it an adventure getting to this somewhat hidden spot , once you enter the unmarked wooden doors , the zen and intimate $T$ will make you feel like you ’ re no longer in the city .
-décor
+not_294 only_53 is_1199 it_448 an_97 adventure_2 getting_8 to_692 this_390 somewhat_4 hidden_7 spot_34 ,_2288 once_22 you_388 enter_2 the_3421 unmarked_2 wooden_3 doors_2 ,_2289 the_3422 zen_2 and_1935 intimate_14 $T$ will_51 make_62 you_389 feel_70 like_152 you_390 ’_4 re_63 no_72 longer_7 in_439 the_3423 city_39 ._3347
+decor_103
 1
-if you ’ re planning to come here , make sure that your date is someone whom you really like since you ’ ll be ushered to $T$ where there will be no people or food watching ( choose the ones on the ground level that have glass ceilings so you may see the stars in the sky ! ) .
-private booths
+if_128 you_391 ’_5 re_64 planning_2 to_693 come_19 here_68 ,_2290 make_63 sure_24 that_298 your_105 date_19 is_1200 someone_11 whom_2 you_392 really_109 like_153 since_10 you_393 ’_6 ll_8 be_153 ushered_0 to_694 $T$ where_21 there_106 will_52 be_154 no_73 people_36 or_133 food_813 watching_4 (_212 choose_2 the_3424 ones_2 on_209 the_3425 ground_0 level_0 that_299 have_241 glass_23 ceilings_0 so_187 you_394 may_26 see_8 the_3426 stars_0 in_440 the_3427 sky_0 !_350 )_213 ._3348
+private_5 booths_1
 1
-if you ’ re planning to come here , make sure that your date is someone whom you really like since you ’ ll be ushered to private booths where there will be no people or food watching ( choose the ones on the ground level that have $T$ so you may see the stars in the sky ! ) .
-glass ceilings
+if_129 you_395 ’_7 re_65 planning_3 to_695 come_20 here_69 ,_2291 make_64 sure_25 that_300 your_106 date_20 is_1201 someone_12 whom_3 you_396 really_110 like_154 since_11 you_397 ’_8 ll_9 be_155 ushered_1 to_696 private_6 booths_2 where_22 there_107 will_53 be_156 no_74 people_37 or_134 food_814 watching_5 (_213 choose_3 the_3428 ones_3 on_210 the_3429 ground_1 level_1 that_301 have_242 $T$ so_188 you_398 may_27 see_9 the_3430 stars_1 in_441 the_3431 sky_1 !_351 )_214 ._3349
+glass_24 ceilings_1
 1
-it ’ s just you and your date and an occasional cute ‘ excuse me ’ before the $T$ opens the little curtain to your booth !
-waiter
+it_449 ’_9 s_192 just_75 you_399 and_1936 your_107 date_21 and_1937 an_98 occasional_2 cute_20 ‘_0 excuse_2 me_64 ’_10 before_21 the_3432 $T$ opens_0 the_3433 little_45 curtain_0 to_697 your_108 booth_0 !_352
+waiter_53
 1
-my party had the $T$ , which was such a wonderful deal since it also came with a flight of sake !
-bbe $ 29 fixe prix menu
+my_188 party_3 had_252 the_3434 $T$ ,_2292 which_134 was_933 such_18 a_1068 wonderful_53 deal_15 since_12 it_450 also_50 came_18 with_339 a_1069 flight_0 of_578 sake_27 !_353
+bb_14 ##e_106 $T$ 29_0 fix_26 ##e_107 prix_20 menu_118
 1
-my party had the $T$ , which was such a wonderful deal since it also came with a flight of sake !
-bbe $ 29 fixe prix menu
+my_189 party_4 had_253 the_3435 $T$ ,_2293 which_135 was_934 such_19 a_1070 wonderful_54 deal_16 since_13 it_451 also_51 came_19 with_340 a_1071 flight_1 of_579 sake_28 !_354
+bb_15 ##e_108 $T$ 29_1 fix_27 ##e_109 prix_21 menu_119
 1
-we started off with a delightful $T$ .
-sashimi amuse bouche
+we_260 started_7 off_29 with_341 a_1072 delightful_7 $T$ ._3350
+sash_28 ##imi_30 am_95 ##use_0 bo_1 ##uche_0
 1
-i picked the $T$ as my entree , which i absolutely devoured while someone commented that the grilled salmon dish was better .
-grilled black cod
+i_765 picked_0 the_3436 $T$ as_131 my_190 en_20 ##tree_15 ,_2294 which_136 i_766 absolutely_18 dev_2 ##oured_2 while_27 someone_13 commented_0 that_302 the_3437 grille_7 ##d_56 salmon_23 dish_28 was_935 better_27 ._3351
+grille_8 ##d_57 black_1 cod_0
 1
-i picked the grilled black cod as my entree , which i absolutely devoured while someone commented that the $T$ was better .
-grilled salmon dish
+i_767 picked_1 the_3438 grille_9 ##d_58 black_2 cod_1 as_132 my_191 en_21 ##tree_16 ,_2295 which_137 i_768 absolutely_19 dev_3 ##oured_3 while_28 someone_14 commented_1 that_303 the_3439 $T$ was_936 better_28 ._3352
+grille_10 ##d_59 salmon_24 dish_29
 1
-the $T$ were served with miso soup and rice .
-entrees
+the_3440 $T$ were_238 served_22 with_342 mis_0 ##o_38 soup_27 and_1938 rice_71 ._3353
+en_22 ##tree_17 ##s_290
 0
-the $T$ complimented the courses very well and is successfully easing me into the sake world .
-sake ’ s
+the_3441 $T$ complimented_0 the_3442 courses_2 very_282 well_77 and_1939 is_1202 successfully_0 easing_0 me_65 into_9 the_3443 sake_29 world_36 ._3354
+sake_30 ’_11 s_193
 1
-for desserts , we tried the $T$ ( interesting but not extraordinary ) and matcha ( powdered green tea ) and blueberry cheesecake , which was phenomenal .
-frozen black sesame mousse
+for_421 dessert_63 ##s_291 ,_2296 we_261 tried_22 the_3444 $T$ (_214 interesting_17 but_377 not_295 extraordinary_1 )_215 and_1940 match_6 ##a_19 (_215 powder_0 ##ed_27 green_6 tea_4 )_216 and_1941 blue_7 ##berry_0 cheese_71 ##cake_6 ,_2297 which_138 was_937 phenomena_4 ##l_16 ._3355
+frozen_5 black_3 sesame_0 mo_17 ##uss_0 ##e_110
 0
-for desserts , we tried the frozen black sesame mousse ( interesting but not extraordinary ) and $T$ , which was phenomenal .
-matcha ( powdered green tea ) and blueberry cheesecake
+for_422 dessert_64 ##s_292 ,_2298 we_262 tried_23 the_3445 frozen_6 black_4 sesame_1 mo_18 ##uss_1 ##e_111 (_216 interesting_18 but_378 not_296 extraordinary_2 )_217 and_1942 $T$ ,_2299 which_139 was_938 phenomena_5 ##l_17 ._3356
+match_7 ##a_20 (_217 powder_1 ##ed_28 green_7 tea_5 )_218 and_1943 blue_8 ##berry_1 cheese_72 ##cake_7
 1
-maybe it was the great company ( i had friends visiting from philly – yes , it was not a date this time ) or the super reasonable price point , but i just can ’ t say enough good things about this $T$ .
-brasserie
+maybe_5 it_452 was_939 the_3446 great_592 company_2 (_218 i_769 had_254 friends_24 visiting_7 from_92 phil_0 ##ly_66 –_5 yes_19 ,_2300 it_453 was_940 not_297 a_1073 date_22 this_391 time_64 )_219 or_135 the_3447 super_10 reasonable_36 price_108 point_6 ,_2301 but_379 i_770 just_76 can_101 ’_12 say_26 enough_16 good_440 things_26 about_97 this_392 $T$ ._3357
+brass_2 ##erie_2
 1
-maybe it was the great company ( i had friends visiting from philly – yes , it was not a date this time ) or the super reasonable price point , but i just can ’ t say enough good things about this $T$ .
-brasserie
+maybe_6 it_454 was_941 the_3448 great_593 company_3 (_219 i_771 had_255 friends_25 visiting_8 from_93 phil_1 ##ly_67 –_6 yes_20 ,_2302 it_455 was_942 not_298 a_1074 date_23 this_393 time_65 )_220 or_136 the_3449 super_11 reasonable_37 price_109 point_7 ,_2303 but_380 i_772 just_77 can_102 ’_13 say_27 enough_17 good_441 things_27 about_98 this_394 $T$ ._3358
+brass_3 ##erie_3
 1
-i don ’ t usually visit the same establishment more than once , what more twice , but i ’ ll come to $T$ anytime for a quiet , unhurried and memorable dinner .
-zenkichi
+i_773 don_41 ’_14 usually_20 visit_17 the_3450 same_14 establishment_7 more_80 than_62 once_23 ,_2304 what_68 more_81 twice_3 ,_2305 but_381 i_774 ’_15 ll_10 come_21 to_698 $T$ anytime_0 for_423 a_1075 quiet_6 ,_2306 un_46 ##hur_0 ##ried_0 and_1944 memorable_3 dinner_51 ._3359
+zen_3 ##kic_0 ##hi_13
 1
-i don ’ t usually visit the same establishment more than once , what more twice , but i ’ ll come to $T$ anytime for a quiet , unhurried and memorable dinner .
-zenkichi
+i_775 don_42 ’_16 usually_21 visit_18 the_3451 same_15 establishment_8 more_82 than_63 once_24 ,_2307 what_69 more_83 twice_4 ,_2308 but_382 i_776 ’_17 ll_11 come_22 to_699 $T$ anytime_1 for_424 a_1076 quiet_7 ,_2309 un_47 ##hur_1 ##ried_1 and_1945 memorable_4 dinner_52 ._3360
+zen_4 ##kic_1 ##hi_14
 1
-the $T$ leaves much to be desired , from feeling like you are rushed the place your order , to being ignored the rest of the night .
-service
+the_3452 $T$ leaves_3 much_40 to_700 be_157 desired_0 ,_2310 from_94 feeling_2 like_155 you_400 are_313 rushed_7 the_3453 place_396 your_109 order_31 ,_2311 to_701 being_30 ignored_0 the_3454 rest_13 of_580 the_3455 night_33 ._3361
+service_531
 -1
-they are extremely rude , not even apologizing for the horrible $T$ we got and handing us a bill well over $ 500 for some drinks adn their pita bread !
-service
+they_178 are_314 extremely_11 rude_25 ,_2312 not_299 even_55 ap_0 ##olo_0 ##gizing_0 for_425 the_3456 horrible_17 $T$ we_263 got_36 and_1946 handing_0 us_51 a_1077 bill_5 well_78 over_97 500_2 for_426 some_64 drinks_73 ad_2 ##n_6 their_104 pit_0 ##a_21 bread_19 !_355
+service_532
 -1
-they are extremely rude , not even apologizing for the horrible service we got and handing us a bill well over $ 500 for some $T$ adn their pita bread !
-drinks
+they_179 are_315 extremely_12 rude_26 ,_2313 not_300 even_56 ap_1 ##olo_1 ##gizing_1 for_427 the_3457 horrible_18 service_533 we_264 got_37 and_1947 handing_1 us_52 a_1078 bill_6 well_79 over_98 $T$ 500_3 for_428 some_65 ad_3 ##n_7 their_105 pit_1 ##a_22 bread_20 !_356
+drinks_74
 -1
-they are extremely rude , not even apologizing for the horrible service we got and handing us a bill well over $ 500 for some drinks adn their $T$ !
-pita bread
+they_180 are_316 extremely_13 rude_27 ,_2314 not_301 even_57 ap_2 ##olo_2 ##gizing_2 for_429 the_3458 horrible_19 service_534 we_265 got_38 and_1948 handing_2 us_53 a_1079 bill_7 well_80 over_99 $T$ 500_4 for_430 some_66 drinks_75 ad_4 ##n_8 their_106 !_357
+pit_2 ##a_23 bread_21
 -1
-great $T$
-shabu shabu
+great_594 $T$
+sha_8 ##bu_8 sha_9 ##bu_9
 1
-i tried a couple other $T$ but was n't too impressed .
-dishes
+i_777 tried_24 a_1080 couple_10 other_33 $T$ but_383 was_943 n_99 '_580 too_92 impressed_11 ._3362
+dishes_92
 0
-but for the $T$ , you wo n't find much better in ny .
-shabu shabu
+but_384 for_431 the_3459 $T$ ,_2315 you_401 wo_1 n_100 '_581 find_19 much_41 better_29 in_442 ny_17 ._3363
+sha_10 ##bu_10 sha_11 ##bu_11
 1
-the $T$ is fresh , the sauces are great , you get kimchi and a salad free with your meal and service is good too .
-meat
+the_3460 $T$ is_1203 fresh_121 ,_2316 the_3461 sauce_44 ##s_293 are_317 great_595 ,_2317 you_402 get_116 kim_2 ##chi_0 and_1949 a_1081 salad_53 free_7 with_343 your_110 meal_40 and_1950 service_535 is_1204 good_442 too_93 ._3364
+meat_12
 1
-the meat is fresh , the $T$ are great , you get kimchi and a salad free with your meal and service is good too .
-sauces
+the_3462 meat_13 is_1205 fresh_122 ,_2318 the_3463 $T$ are_318 great_596 ,_2319 you_403 get_117 kim_3 ##chi_1 and_1951 a_1082 salad_54 free_8 with_344 your_111 meal_41 and_1952 service_536 is_1206 good_443 too_94 ._3365
+sauce_45 ##s_294
 1
-the meat is fresh , the sauces are great , you get kimchi and a salad free with your meal and $T$ is good too .
-service
+the_3464 meat_14 is_1207 fresh_123 ,_2320 the_3465 sauce_46 ##s_295 are_319 great_597 ,_2321 you_404 get_118 kim_4 ##chi_2 and_1953 a_1083 salad_55 free_9 with_345 your_112 meal_42 and_1954 $T$ is_1208 good_444 too_95 ._3366
+service_537
 1
-the meat is fresh , the sauces are great , you get kimchi and a salad free with your $T$ and service is good too .
-meal
+the_3466 meat_15 is_1209 fresh_124 ,_2322 the_3467 sauce_47 ##s_296 are_320 great_598 ,_2323 you_405 get_119 kim_5 ##chi_3 and_1955 a_1084 salad_56 free_10 with_346 your_113 $T$ and_1956 service_538 is_1210 good_445 too_96 ._3367
+meal_43
 1
-the meat is fresh , the sauces are great , you get $T$ and a salad free with your meal and service is good too .
-kimchi
+the_3468 meat_16 is_1211 fresh_125 ,_2324 the_3469 sauce_48 ##s_297 are_321 great_599 ,_2325 you_406 get_120 $T$ and_1957 a_1085 salad_57 free_11 with_347 your_114 meal_44 and_1958 service_539 is_1212 good_446 too_97 ._3368
+kim_6 ##chi_4
 1
-the meat is fresh , the sauces are great , you get kimchi and a $T$ free with your meal and service is good too .
-salad
+the_3470 meat_17 is_1213 fresh_126 ,_2326 the_3471 sauce_49 ##s_298 are_322 great_600 ,_2327 you_407 get_121 kim_7 ##chi_5 and_1959 a_1086 $T$ free_12 with_348 your_115 meal_45 and_1960 service_540 is_1214 good_447 too_98 ._3369
+salad_58
 1
-dokebi gives williamsburg the right one-two punch of classic $T$ and fusion twists like pork belly tacos .
-korean food
+do_69 ##ke_4 ##bi_4 gives_2 williamsburg_2 the_3472 right_22 one_83 -_615 two_45 punch_0 of_581 classic_0 $T$ and_1961 fusion_4 twists_0 like_156 pork_17 belly_8 ta_56 ##cos_0 ._3370
+korean_3 food_815
 1
-dokebi gives williamsburg the right one-two punch of classic korean food and $T$ like pork belly tacos .
-fusion twists
+do_70 ##ke_5 ##bi_5 gives_3 williamsburg_3 the_3473 right_23 one_84 -_616 two_46 punch_1 of_582 classic_1 korean_4 food_816 and_1962 $T$ like_157 pork_18 belly_9 ta_57 ##cos_1 ._3371
+fusion_5 twists_1
 1
-dokebi gives williamsburg the right one-two punch of classic korean food and fusion twists like $T$ .
-pork belly tacos
+do_71 ##ke_6 ##bi_6 gives_4 williamsburg_4 the_3474 right_24 one_85 -_617 two_47 punch_2 of_583 classic_2 korean_5 food_817 and_1963 fusion_6 twists_2 like_158 $T$ ._3372
+pork_19 belly_10 ta_58 ##cos_2
 1
-the $T$ are good , yes , but the reason to get over here is the fantastic pork croquette sandwich , perfect on its supermarket squishy bun .
-hot dogs
+the_3475 $T$ are_323 good_448 ,_2328 yes_21 ,_2329 but_385 the_3476 reason_4 to_702 get_122 over_100 here_70 is_1215 the_3477 fantastic_39 pork_20 cr_8 ##o_39 ##quette_0 sandwich_16 ,_2330 perfect_23 on_211 its_35 supermarket_0 sq_0 ##uis_0 ##hy_2 bun_6 ._3373
+hot_18 dogs_4
 1
-the hot dogs are good , yes , but the reason to get over here is the fantastic $T$ , perfect on its supermarket squishy bun .
-pork croquette sandwich
+the_3478 hot_19 dogs_5 are_324 good_449 ,_2331 yes_22 ,_2332 but_386 the_3479 reason_5 to_703 get_123 over_101 here_71 is_1216 the_3480 fantastic_40 $T$ ,_2333 perfect_24 on_212 its_36 supermarket_1 sq_1 ##uis_1 ##hy_3 bun_7 ._3374
+pork_21 cr_9 ##o_40 ##quette_1 sandwich_17
 1
-the hot dogs are good , yes , but the reason to get over here is the fantastic pork croquette sandwich , perfect on its supermarket squishy $T$ .
-bun
+the_3481 hot_20 dogs_6 are_325 good_450 ,_2334 yes_23 ,_2335 but_387 the_3482 reason_6 to_704 get_124 over_102 here_72 is_1217 the_3483 fantastic_41 pork_22 cr_10 ##o_41 ##quette_2 sandwich_18 ,_2336 perfect_25 on_213 its_37 supermarket_2 sq_2 ##uis_2 ##hy_4 $T$ ._3375
+bun_8
 1
-restaurant with a $T$
-view
+restaurant_209 with_349 a_1087 $T$
+view_19
 0
-the $T$ tasted very good .
-food
+the_3484 $T$ tasted_23 very_283 good_451 ._3376
+food_818
 1
-the $T$ was very good .
-family seafood entree
+the_3485 $T$ was_944 very_284 good_452 ._3377
+family_28 seafood_21 en_23 ##tree_18
 1
-the $T$ was also very good .
-main entree
+the_3486 $T$ was_945 also_52 very_285 good_453 ._3378
+main_21 en_24 ##tree_19
 1
-price is high but the $T$ is good , so i would come back again .
-food
+price_110 is_1218 high_23 but_388 the_3487 $T$ is_1219 good_454 ,_2337 so_189 i_778 would_85 come_23 back_40 again_22 ._3379
+food_819
 1
-price is high but the $T$ is good , so i would come back again .
-food
+price_111 is_1220 high_24 but_389 the_3488 $T$ is_1221 good_455 ,_2338 so_190 i_779 would_86 come_24 back_41 again_23 ._3380
+food_820
 -1
-this $T$ does n't make any sense
-place
+this_395 $T$ does_36 n_101 '_582 make_65 any_40 sense_3
+place_397
 -1
-this place has totally weird $T$ , stairs going up with mirrored walls - i am surprised how no one yet broke their head or fall off the stairs - mirrored walls make you dizzy and delusional ...
-decor
+this_396 place_398 has_108 totally_12 weird_4 $T$ ,_2339 stairs_0 going_15 up_66 with_350 mirrored_0 walls_0 -_618 i_780 am_96 surprised_0 how_23 no_75 one_86 yet_17 broke_0 their_107 head_2 or_137 fall_10 off_30 the_3489 stairs_1 -_619 mirrored_1 walls_1 make_66 you_408 dizzy_0 and_1964 del_22 ##usion_0 ##al_25 ._3381 ._3382 ._3383
+decor_104
 -1
-this place has totally weird decor , stairs going up with $T$ - i am surprised how no one yet broke their head or fall off the stairs - $T$ make you dizzy and delusional ...
-mirrored walls
+this_397 place_399 has_109 totally_13 weird_5 decor_105 ,_2340 stairs_2 going_16 up_67 with_351 $T$ -_620 i_781 am_97 surprised_1 how_24 no_76 one_87 yet_18 broke_1 their_108 head_3 or_138 fall_11 off_31 the_3490 stairs_3 -_621 make_67 you_409 dizzy_1 and_1965 del_23 ##usion_1 ##al_26 ._3384 ._3385 ._3386
+mirrored_2 walls_2
 -1
-this $T$ is not inviting and the food is totally weird .
-place
+this_398 $T$ is_1222 not_302 inviting_1 and_1966 the_3491 food_821 is_1223 totally_14 weird_6 ._3387
+place_400
 -1
-this place is not inviting and the $T$ is totally weird .
-food
+this_399 place_401 is_1224 not_303 inviting_2 and_1967 the_3492 $T$ is_1225 totally_15 weird_7 ._3388
+food_822
 -1
-the concept of $T$ is newly created and clearly does n't work .
-japanese tapas
+the_3493 concept_0 of_584 $T$ is_1226 newly_0 created_0 and_1968 clearly_2 does_37 n_102 '_583 work_18 ._3389
+japanese_33 tap_3 ##as_20
 -1
-the $T$ they serve is not comforting , not appetizing and uncooked .
-food
+the_3494 $T$ they_181 serve_22 is_1227 not_304 comforting_0 ,_2341 not_305 app_57 ##eti_63 ##zing_8 and_1969 un_48 ##co_2 ##oked_2 ._3390
+food_823
 -1
-good $T$
-food
+good_456 $T$
+food_824
 1
-the $T$ was great and tasty , but the sitting space was too small , i do n't like being cramp in a corner .
-food
+the_3495 $T$ was_946 great_601 and_1970 ta_59 ##sty_56 ,_2342 but_390 the_3496 sitting_14 space_6 was_947 too_99 small_49 ,_2343 i_782 do_72 n_103 '_584 like_159 being_31 cr_11 ##amp_4 in_443 a_1088 corner_0 ._3391
+food_825
 1
-the food was great and tasty , but the $T$ was too small , i do n't like being cramp in a corner .
-sitting space
+the_3497 food_826 was_948 great_602 and_1971 ta_60 ##sty_57 ,_2344 but_391 the_3498 $T$ was_949 too_100 small_50 ,_2345 i_783 do_73 n_104 '_585 like_160 being_32 cr_12 ##amp_5 in_444 a_1089 corner_1 ._3392
+sitting_15 space_7
 -1
-over all it was a very nice romantic $T$ .
-place
+over_103 all_203 it_456 was_950 a_1090 very_286 nice_127 romantic_24 $T$ ._3393
+place_402
 1
-over all it was a very nice romantic $T$ .
-place
+over_104 all_204 it_457 was_951 a_1091 very_287 nice_128 romantic_25 $T$ ._3394
+place_403
 1
-a coworker and i tried $T$ after work a few fridays and loved it .
-pacifico
+a_1092 cow_0 ##or_0 ##ker_0 and_1972 i_784 tried_25 $T$ after_21 work_19 a_1093 few_23 fridays_0 and_1973 loved_14 it_458 ._3395
+pacific_3 ##o_42
 1
-the $T$ was great .
-atmosphere
+the_3499 $T$ was_952 great_603 ._3396
+atmosphere_114
 1
-the $T$ we ordered was excellent , although i would n't say the margaritas were anything to write home about .
-food
+the_3500 $T$ we_266 ordered_29 was_953 excellent_152 ,_2346 although_30 i_785 would_87 n_105 '_586 say_28 the_3501 margarita_1 ##s_299 were_239 anything_18 to_705 write_6 home_36 about_99 ._3397
+food_827
 1
-the food we ordered was excellent , although i would n't say the $T$ were anything to write home about .
-margaritas
+the_3502 food_828 we_267 ordered_30 was_954 excellent_153 ,_2347 although_31 i_786 would_88 n_106 '_587 say_29 the_3503 $T$ were_240 anything_19 to_706 write_7 home_37 about_100 ._3398
+margarita_2 ##s_300
 0
-our $T$ was n't mean , but not especially warm or attentive either .
-waitress
+our_77 $T$ was_955 n_107 '_588 mean_5 ,_2348 but_392 not_306 especially_37 warm_39 or_139 at_251 ##ten_55 ##tive_37 either_6 ._3399
+waitress_23
 0
-i must say i am surprised by the bad reviews of the $T$ earlier in the year , though .
-restaurant
+i_787 must_34 say_30 i_788 am_98 surprised_2 by_73 the_3504 bad_42 reviews_12 of_585 the_3505 $T$ earlier_2 in_445 the_3506 year_4 ,_2349 though_43 ._3400
+restaurant_210
 1
-regardless , we 'll be back and ca n't wait to visit in the summer to take advantage of the $T$ .
-patio
+regardless_0 ,_2350 we_268 '_589 ll_12 be_158 back_42 and_1974 ca_25 n_108 '_590 wait_50 to_707 visit_19 in_446 the_3507 summer_5 to_708 take_17 advantage_0 of_586 the_3508 $T$ ._3401
+patio_6
 1
-the $T$ at flatbush farm appear to have perfected that ghastly technique of making you feel guilty and ashamed for deigning to attract their attention .
-servers
+the_3509 $T$ at_252 flat_1 ##bush_0 farm_0 appear_0 to_709 have_243 perfect_26 ##ed_29 that_304 g_17 ##has_0 ##tly_4 technique_0 of_587 making_4 you_410 feel_71 guilty_0 and_1975 ashamed_2 for_432 dei_0 ##gni_0 ##ng_8 to_710 attract_0 their_109 attention_3 ._3402
+servers_6
 -1
-a different $T$ enhanced the fun , dumping our entrees in front of us halfway through our appetizer ( which was delicious ) .
-server
+a_1094 different_26 $T$ enhanced_1 the_3510 fun_36 ,_2351 dumping_0 our_78 en_25 ##tree_20 ##s_301 in_447 front_0 of_588 us_54 halfway_0 through_8 our_79 app_58 ##eti_64 ##zer_34 (_220 which_140 was_956 delicious_161 )_221 ._3403
+server_5
 -1
-a different server enhanced the fun , dumping our entrees in front of us halfway through our $T$ ( which was delicious ) .
-appetizer
+a_1095 different_27 server_6 enhanced_2 the_3511 fun_37 ,_2352 dumping_1 our_80 en_26 ##tree_21 ##s_302 in_448 front_1 of_589 us_55 halfway_1 through_9 our_81 $T$ (_221 which_141 was_957 delicious_162 )_222 ._3404
+app_59 ##eti_65 ##zer_35
 1
-overall the $T$ quality was pretty good , though i hear the salmon is much better when it has n't sat cooling in front of the guest .
-food
+overall_16 the_3512 $T$ quality_52 was_958 pretty_40 good_457 ,_2353 though_44 i_789 hear_4 the_3513 salmon_25 is_1228 much_42 better_30 when_52 it_459 has_110 n_109 '_591 sat_4 cooling_0 in_449 front_2 of_590 the_3514 guest_10 ._3405
+food_829
 1
-the place has a nice $T$ , some attractive furnishings and , from what i could tell , a reasonable wine list ( i was given the food menu when i asked for the carte des vins )
-fit-out
+the_3515 place_404 has_111 a_1096 nice_129 $T$ ,_2354 some_67 attractive_3 furnishings_0 and_1976 ,_2355 from_95 what_70 i_790 could_44 tell_6 ,_2356 a_1097 reasonable_38 wine_116 list_47 (_222 i_791 was_959 given_2 the_3516 food_830 menu_120 when_53 i_792 asked_21 for_433 the_3517 cart_2 ##e_112 des_2 vin_2 ##s_303 )_223
+fit_2 -_622 out_77
 1
-the place has a nice fit-out , some attractive $T$ and , from what i could tell , a reasonable wine list ( i was given the food menu when i asked for the carte des vins )
-furnishings
+the_3518 place_405 has_112 a_1098 nice_130 fit_3 -_623 out_78 ,_2357 some_68 attractive_4 $T$ and_1977 ,_2358 from_96 what_71 i_793 could_45 tell_7 ,_2359 a_1099 reasonable_39 wine_117 list_48 (_223 i_794 was_960 given_3 the_3519 food_831 menu_121 when_54 i_795 asked_22 for_434 the_3520 cart_3 ##e_113 des_3 vin_3 ##s_304 )_224
+furnishings_1
 1
-the place has a nice fit-out , some attractive furnishings and , from what i could tell , a reasonable $T$ ( i was given the food menu when i asked for the carte des vins )
-wine list
+the_3521 place_406 has_113 a_1100 nice_131 fit_4 -_624 out_79 ,_2360 some_69 attractive_5 furnishings_2 and_1978 ,_2361 from_97 what_72 i_796 could_46 tell_8 ,_2362 a_1101 reasonable_40 $T$ (_224 i_797 was_961 given_4 the_3522 food_832 menu_122 when_55 i_798 asked_23 for_435 the_3523 cart_4 ##e_114 des_4 vin_4 ##s_305 )_225
+wine_118 list_49
 1
-how is this $T$ still open ?
-palce
+how_25 is_1229 this_400 $T$ still_11 open_9 ?_12
+pal_6 ##ce_30
 -1
-everything was going good until we got our $T$ .
-meals
+everything_37 was_962 going_17 good_458 until_0 we_269 got_39 our_82 $T$ ._3406
+meals_14
 -1
-i took one look at the $T$ and i was appalled .
-chicken
+i_799 took_16 one_88 look_10 at_253 the_3524 $T$ and_1979 i_800 was_963 appalled_0 ._3407
+chicken_72
 -1
-it was served with skin , over a bed of extremely undercooked $T$ and mashed potatoes .
-spinach
+it_460 was_964 served_23 with_352 skin_2 ,_2363 over_105 a_1102 bed_0 of_591 extremely_14 under_8 ##co_3 ##oked_3 $T$ and_1980 mas_7 ##hed_3 potatoes_6 ._3408
+spin_1 ##ach_1
 -1
-i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
-salmon
+i_801 took_17 one_89 bite_11 from_98 the_3525 $T$ 24_4 ,_2364 and_1981 i_802 have_244 never_78 ,_2365 in_450 the_3526 17_0 years_39 i_803 have_245 been_81 going_18 to_711 restaurants_30 tasted_24 as_133 fish_78 ##y_126 ,_2366 as_134 dry_8 ,_2367 and_1982 as_135 bland_35 as_136 the_3527 one_90 in_451 flat_2 ##bush_1 farms_0 ._3409
+salmon_26
 -1
-i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
-salmon
+i_804 took_18 one_91 bite_12 from_99 the_3528 $T$ 24_5 ,_2368 and_1983 i_805 have_246 never_79 ,_2369 in_452 the_3529 17_1 years_40 i_806 have_247 been_82 going_19 to_712 restaurants_31 tasted_25 as_137 fish_79 ##y_127 ,_2370 as_138 dry_9 ,_2371 and_1984 as_139 bland_36 as_140 the_3530 one_92 in_453 flat_3 ##bush_2 farms_1 ._3410
+salmon_27
 -1
-at this point , the $T$ comes over and asks us if everything was okay , i was literally so shocked that i was speechless and did n't say anything , and guess what , the $T$ walked away .
-waitress
+at_254 this_401 point_8 ,_2372 the_3531 $T$ comes_14 over_106 and_1985 asks_0 us_56 if_130 everything_38 was_965 okay_4 ,_2373 i_807 was_966 literally_6 so_191 shocked_1 that_305 i_808 was_967 speechless_1 and_1986 did_42 n_110 '_592 say_31 anything_20 ,_2374 and_1987 guess_4 what_73 ,_2375 the_3532 walked_2 away_22 ._3411
+waitress_24
 -1
-so , i switch with my boyfriend again to see if maybe i could stomach the meat and $T$ again , but the $T$ was so undercooked that i just could not bite through it .
-spinach
+so_192 ,_2376 i_809 switch_0 with_353 my_192 boyfriend_8 again_24 to_713 see_10 if_131 maybe_7 i_810 could_47 stomach_7 the_3533 meat_18 and_1988 $T$ again_25 ,_2377 but_393 the_3534 was_968 so_193 under_9 ##co_4 ##oked_4 that_306 i_811 just_78 could_48 not_307 bite_13 through_10 it_461 ._3412
+spin_2 ##ach_2
 -1
-this is where it really really gets bad : the $T$ said , there is absolutely nothing we can do , it 's a matter of taste that she did n't like it , and i can not comp it .
-manager
+this_402 is_1230 where_23 it_462 really_111 really_112 gets_11 bad_43 :_71 the_3535 $T$ said_11 ,_2378 there_108 is_1231 absolutely_20 nothing_28 we_270 can_103 do_74 ,_2379 it_463 '_593 s_194 a_1103 matter_6 of_592 taste_26 that_307 she_7 did_43 n_111 '_594 like_161 it_464 ,_2380 and_1989 i_812 can_104 not_308 com_2 ##p_7 it_465 ._3413
+manager_15
 -1
-the $T$ came to the table and said we can do what we want , so we paid for what we did enjoy , the drinks and appetizers , and walked out .
-manager
+the_3536 $T$ came_20 to_714 the_3537 table_23 and_1990 said_12 we_271 can_105 do_75 what_74 we_272 want_30 ,_2381 so_194 we_273 paid_7 for_436 what_75 we_274 did_44 enjoy_18 ,_2382 the_3538 drinks_76 and_1991 app_60 ##eti_66 ##zers_14 ,_2383 and_1992 walked_3 out_80 ._3414
+manager_16
 -1
-the manager came to the table and said we can do what we want , so we paid for what we did enjoy , the $T$ and appetizers , and walked out .
-drinks
+the_3539 manager_17 came_21 to_715 the_3540 table_24 and_1993 said_13 we_275 can_106 do_76 what_76 we_276 want_31 ,_2384 so_195 we_277 paid_8 for_437 what_77 we_278 did_45 enjoy_19 ,_2385 the_3541 $T$ and_1994 app_61 ##eti_67 ##zers_15 ,_2386 and_1995 walked_4 out_81 ._3415
+drinks_77
 1
-the manager came to the table and said we can do what we want , so we paid for what we did enjoy , the drinks and $T$ , and walked out .
-appetizers
+the_3542 manager_18 came_22 to_716 the_3543 table_25 and_1996 said_14 we_279 can_107 do_77 what_78 we_280 want_32 ,_2387 so_196 we_281 paid_9 for_438 what_79 we_282 did_46 enjoy_20 ,_2388 the_3544 drinks_78 and_1997 $T$ ,_2389 and_1998 walked_5 out_82 ._3416
+app_62 ##eti_68 ##zers_16
 1
-this $T$ should be fired .
-staff
+this_403 $T$ should_20 be_159 fired_0 ._3417
+staff_138
 -1
-cirspy crust $T$
-margherita pizza
+ci_0 ##rs_2 ##py_1 crust_39 $T$
+mar_7 ##gh_7 ##eri_7 ##ta_7 pizza_155
 1
-it was really good $T$ .
-pizza
+it_466 was_969 really_113 good_459 $T$ ._3418
+pizza_156
 1
-the $T$ was imazingly cooked well and pizza was fully loaded : ) : ) : )
-crust
+the_3545 $T$ was_970 im_2 ##azi_0 ##ng_9 ##ly_68 cooked_17 well_81 and_1999 pizza_157 was_971 fully_3 loaded_0 :_72 )_226 :_73 )_227 :_74 )_228
+crust_40
 1
-the crust was imazingly cooked well and $T$ was fully loaded : ) : ) : )
-pizza
+the_3546 crust_41 was_972 im_3 ##azi_1 ##ng_10 ##ly_69 cooked_18 well_82 and_2000 $T$ was_973 fully_4 loaded_1 :_75 )_229 :_76 )_230 :_77 )_231
+pizza_158
 1
-single worst $T$ in manhattan
-restaurant
+single_6 worst_9 $T$ in_454 manhattan_53
+restaurant_211
 -1
-i 'll being with a couple of positives : cool $T$ , good pita and hummus , and grilled octopus that was actually pretty tasty .
-decor
+i_813 '_595 ll_13 being_33 with_354 a_1104 couple_11 of_593 positive_0 ##s_306 :_78 cool_25 $T$ ,_2390 good_460 pit_3 ##a_24 and_2001 hum_0 ##mus_0 ,_2391 and_2002 grille_11 ##d_60 octopus_2 that_308 was_974 actually_12 pretty_41 ta_61 ##sty_58 ._3419
+decor_106
 1
-i 'll being with a couple of positives : cool decor , good $T$ and hummus , and grilled octopus that was actually pretty tasty .
-pita
+i_814 '_596 ll_14 being_34 with_355 a_1105 couple_12 of_594 positive_1 ##s_307 :_79 cool_26 decor_107 ,_2392 good_461 $T$ and_2003 hum_1 ##mus_1 ,_2393 and_2004 grille_12 ##d_61 octopus_3 that_309 was_975 actually_13 pretty_42 ta_62 ##sty_59 ._3420
+pit_4 ##a_25
 1
-i 'll being with a couple of positives : cool decor , good pita and $T$ , and grilled octopus that was actually pretty tasty .
-hummus
+i_815 '_597 ll_15 being_35 with_356 a_1106 couple_13 of_595 positive_2 ##s_308 :_80 cool_27 decor_108 ,_2394 good_462 pit_5 ##a_26 and_2005 $T$ ,_2395 and_2006 grille_13 ##d_62 octopus_4 that_310 was_976 actually_14 pretty_43 ta_63 ##sty_60 ._3421
+hum_2 ##mus_2
 1
-i 'll being with a couple of positives : cool decor , good pita and hummus , and $T$ that was actually pretty tasty .
-grilled octopus
+i_816 '_598 ll_16 being_36 with_357 a_1107 couple_14 of_596 positive_3 ##s_309 :_81 cool_28 decor_109 ,_2396 good_463 pit_6 ##a_27 and_2007 hum_3 ##mus_3 ,_2397 and_2008 $T$ that_311 was_977 actually_15 pretty_44 ta_64 ##sty_61 ._3422
+grille_14 ##d_63 octopus_5
 1
-if i could give 0 stars i would do so for this $T$ .
-place
+if_132 i_817 could_49 give_4 0_1 stars_2 i_818 would_89 do_78 so_197 for_439 this_404 $T$ ._3423
+place_407
 -1
-this $T$ ... god where do i begin .
-place
+this_405 $T$ ._3424 ._3425 ._3426 god_0 where_24 do_79 i_819 begin_2 ._3427
+place_408
 -1
-it is quite a spectacular $T$ i 'll give them that .
-scene
+it_467 is_1232 quite_28 a_1108 spectacular_12 $T$ i_820 '_599 ll_17 give_5 them_10 that_312 ._3428
+scene_11
 1
-the $T$ however seems to be the distraction so you wo n't notice that you just payed 300 bucks for some cold eggplant that took 2 frickin hours to come ! ! ! !
-decor
+the_3547 $T$ however_40 seems_8 to_717 be_160 the_3548 distraction_0 so_198 you_411 wo_2 n_112 '_600 notice_0 that_313 you_412 just_79 pay_8 ##ed_30 300_0 bucks_0 for_440 some_70 cold_12 egg_13 ##pl_3 ##ant_3 that_314 took_19 2_34 fr_16 ##ick_4 ##in_1 hours_2 to_718 come_25 !_358 !_359 !_360 !_361
+decor_110
 0
-the decor however seems to be the distraction so you wo n't notice that you just payed 300 bucks for some cold $T$ that took 2 frickin hours to come ! ! ! !
-eggplant
+the_3549 decor_111 however_41 seems_9 to_719 be_161 the_3550 distraction_1 so_199 you_413 wo_3 n_113 '_601 notice_1 that_315 you_414 just_80 pay_9 ##ed_31 300_1 bucks_1 for_441 some_71 cold_13 $T$ that_316 took_20 2_35 fr_17 ##ick_5 ##in_2 hours_3 to_720 come_26 !_362 !_363 !_364 !_365
+egg_14 ##pl_4 ##ant_4
 -1
-the decor however seems to be the distraction so you wo n't notice that you just payed 300 bucks for some cold $T$ that took 2 frickin hours to come ! ! ! !
-eggplant
+the_3551 decor_112 however_42 seems_10 to_721 be_162 the_3552 distraction_2 so_200 you_415 wo_4 n_114 '_602 notice_2 that_317 you_416 just_81 pay_10 ##ed_32 300_2 bucks_2 for_442 some_72 cold_14 $T$ that_318 took_21 2_36 fr_18 ##ick_6 ##in_3 hours_4 to_722 come_27 !_366 !_367 !_368 !_369
+egg_15 ##pl_5 ##ant_5
 -1
-how this $T$ survives the competitive west village market in this economy , or any other for that matter , is beyond me .
-place
+how_26 this_406 $T$ survives_1 the_3553 competitive_0 west_14 village_29 market_0 in_455 this_407 economy_0 ,_2398 or_140 any_41 other_34 for_443 that_319 matter_7 ,_2399 is_1233 beyond_2 me_66 ._3429
+place_409
 -1
-great $T$ !
-hot dogs
+great_604 $T$ !_370
+hot_21 dogs_7
 1
-though it 's been crowded most times i 've gone here , bark always delivers on their $T$ .
-food
+though_45 it_468 '_603 s_195 been_83 crowded_11 most_60 times_38 i_821 '_604 ve_86 gone_2 here_73 ,_2400 bark_0 always_88 delivers_1 on_214 their_110 $T$ ._3430
+food_833
 1
-though it 's been crowded most times i 've gone here , $T$ always delivers on their food .
-bark
+though_46 it_469 '_605 s_196 been_84 crowded_12 most_61 times_39 i_822 '_606 ve_87 gone_3 here_74 ,_2401 $T$ always_89 delivers_2 on_215 their_111 food_834 ._3431
+bark_1
 0
-the $T$ are top notch , and they 're slamwich is amazing !
-hot dogs
+the_3554 $T$ are_326 top_40 notch_17 ,_2402 and_2009 they_182 '_607 re_66 slam_0 ##wich_0 is_1234 amazing_85 !_371
+hot_22 dogs_8
 1
-the hot dogs are top notch , and they 're $T$ is amazing !
-slamwich
+the_3555 hot_23 dogs_9 are_327 top_41 notch_18 ,_2403 and_2010 they_183 '_608 re_67 $T$ is_1235 amazing_86 !_372
+slam_1 ##wich_1
 1
-going to $T$ is always worth the train ride , and will make your tongue and belly very happy !
-bark
+going_20 to_723 $T$ is_1236 always_90 worth_42 the_3556 train_0 ride_0 ,_2404 and_2011 will_54 make_68 your_116 tongue_0 and_2012 belly_11 very_288 happy_12 !_373
+bark_2
 1
-only complaint is the pricing -- i believe it would be more reasonable to pay a dollar less on each item listed on the $T$ .
-menu
+only_54 complaint_0 is_1237 the_3557 pricing_0 -_625 -_626 i_823 believe_3 it_470 would_90 be_163 more_84 reasonable_41 to_724 pay_11 a_1109 dollar_4 less_7 on_216 each_11 item_0 listed_7 on_217 the_3558 $T$ ._3432
+menu_123
 -1
-but nonetheless -- great $T$ , great food .
-spot
+but_394 nonetheless_0 -_627 -_628 great_605 $T$ ,_2405 great_606 food_835 ._3433
+spot_35
 1
-but nonetheless -- great spot , great $T$ .
-food
+but_395 nonetheless_1 -_629 -_630 great_607 spot_36 ,_2406 great_608 $T$ ._3434
+food_836
 1
-fabulous $T$ - if the front of house staff do n't put you off –
-food
+fabulous_26 $T$ -_631 if_133 the_3559 front_3 of_597 house_18 staff_139 do_80 n_115 '_609 put_2 you_417 off_32 –_7
+food_837
 1
-fabulous food - if the $T$ do n't put you off –
-front of house staff
+fabulous_27 food_838 -_632 if_134 the_3560 $T$ do_81 n_116 '_610 put_3 you_418 off_33 –_8
+front_4 of_598 house_19 staff_140
 -1
-each time we 've been , the front of house staff ( not the $T$ - they 're fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional fish dishes i would never return .
-waiters
+each_12 time_66 we_283 '_611 ve_88 been_85 ,_2407 the_3561 front_5 of_599 house_20 staff_141 (_225 not_309 the_3562 $T$ -_633 they_184 '_612 re_68 fantastic_42 -_634 but_396 the_3563 people_38 who_46 greet_0 and_2013 seat_0 you_419 )_232 has_114 been_86 so_201 hideous_0 to_725 us_57 that_320 were_241 it_471 not_310 for_444 the_3564 exceptional_8 fish_80 dishes_93 i_824 would_91 never_80 return_7 ._3435
+waiter_54 ##s_310
 1
-each time we 've been , the $T$ ( not the waiters - they 're fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional fish dishes i would never return .
-front of house staff
+each_13 time_67 we_284 '_613 ve_89 been_87 ,_2408 the_3565 $T$ (_226 not_311 the_3566 waiter_55 ##s_311 -_635 they_185 '_614 re_69 fantastic_43 -_636 but_397 the_3567 people_39 who_47 greet_1 and_2014 seat_1 you_420 )_233 has_115 been_88 so_202 hideous_1 to_726 us_58 that_321 were_242 it_472 not_312 for_445 the_3568 exceptional_9 fish_81 dishes_94 i_825 would_92 never_81 return_8 ._3436
+front_6 of_600 house_21 staff_142
 -1
-each time we 've been , the front of house staff ( not the waiters - they 're fantastic - but the people who greet and seat you ) has been so hideous to us that were it not for the exceptional $T$ i would never return .
-fish dishes
+each_14 time_68 we_285 '_615 ve_90 been_89 ,_2409 the_3569 front_7 of_601 house_22 staff_143 (_227 not_313 the_3570 waiter_56 ##s_312 -_637 they_186 '_616 re_70 fantastic_44 -_638 but_398 the_3571 people_40 who_48 greet_2 and_2015 seat_2 you_421 )_234 has_116 been_90 so_203 hideous_2 to_727 us_59 that_322 were_243 it_473 not_314 for_446 the_3572 exceptional_10 $T$ i_826 would_93 never_82 return_9 ._3437
+fish_82 dishes_95
 1
-as $T$ does n't take reservations you almost always have to wait by the bar - and be abused by the front of house staff until you are seated , which can be over an hour later !
-bfc
+as_141 $T$ does_38 n_117 '_617 take_18 reservations_6 you_422 almost_13 always_91 have_248 to_728 wait_51 by_74 the_3573 bar_41 -_639 and_2016 be_164 abused_2 by_75 the_3574 front_8 of_602 house_23 staff_144 until_1 you_423 are_328 seated_2 ,_2410 which_142 can_108 be_165 over_107 an_99 hour_5 later_1 !_374
+bf_0 ##c_7
 -1
-as bfc does n't take reservations you almost always have to wait by the bar - and be abused by the $T$ until you are seated , which can be over an hour later !
-front of house staff
+as_142 bf_1 ##c_8 does_39 n_118 '_618 take_19 reservations_7 you_424 almost_14 always_92 have_249 to_729 wait_52 by_76 the_3575 bar_42 -_640 and_2017 be_166 abused_3 by_77 the_3576 $T$ until_2 you_425 are_329 seated_3 ,_2411 which_143 can_109 be_167 over_108 an_100 hour_6 later_2 !_375
+front_9 of_603 house_24 staff_145
 -1
-the frizzy retro $T$ ( with winged/ dame edna glasses ) will yell at you if you try to order a drink .
-girl
+the_3577 fr_19 ##iz_0 ##zy_0 retro_0 $T$ (_228 with_358 winged_0 /_68 dame_0 edna_0 glasses_1 )_235 will_55 yell_0 at_255 you_426 if_135 you_427 try_78 to_730 order_32 a_1110 drink_10 ._3438
+girl_0
 -1
-i 'd be horrified if my $T$ were turning away customers so early and so rudely !
-staff
+i_827 '_619 d_28 be_168 horrified_0 if_136 my_193 $T$ were_244 turning_0 away_23 customers_6 so_204 early_3 and_2018 so_205 rude_28 ##ly_70 !_376
+staff_146
 -1
-there 's another $T$ who i ca n't describe , she is about 5 ' 6 '' with brown hair , who eavesdrops on your conversation and chimes in - except she only hears the last part of what you said , so her uninvited opinions are often out of context and nothing to do with what you 're * really * talking about .
-girl
+there_109 '_620 s_197 another_14 $T$ who_49 i_828 ca_26 n_119 '_621 describe_2 ,_2412 she_8 is_1238 about_101 5_15 '_622 6_12 '_623 '_624 with_359 brown_0 hair_1 ,_2413 who_50 ea_0 ##ves_0 ##drop_0 ##s_313 on_218 your_117 conversation_8 and_2019 chi_5 ##mes_9 in_456 -_641 except_11 she_9 only_55 hears_0 the_3578 last_37 part_17 of_604 what_80 you_428 said_15 ,_2414 so_206 her_8 un_49 ##in_4 ##vite_0 ##d_64 opinions_0 are_330 often_8 out_83 of_605 context_0 and_2020 nothing_29 to_731 do_82 with_360 what_81 you_429 '_625 re_71 *_6 really_114 *_7 talking_0 about_102 ._3439
+girl_1
 -1
-considering you will spend at least $ 60 a head , i expect better $T$ .
-service
+considering_6 you_430 will_56 spend_16 at_256 least_10 $T$ 60_2 a_1111 head_4 ,_2415 i_829 expect_15 better_31 ._3440
+service_541
 -1
-$T$- '' eat and get out ''
-maitre-d
+$T$ -_642 '_626 '_627 eat_50 and_2021 get_125 out_84 '_628 '_629
+mai_7 ##tre_3 -_643 d_29
 -1
-the $T$ and service were fine , however the maitre-d was incredibly unwelcoming and arrogant .
-food
+the_3579 $T$ and_2022 service_542 were_245 fine_32 ,_2416 however_43 the_3580 mai_8 ##tre_4 -_644 d_30 was_978 incredibly_9 un_50 ##we_3 ##lco_0 ##ming_1 and_2023 arrogant_6 ._3441
+food_839
 1
-the food and $T$ were fine , however the maitre-d was incredibly unwelcoming and arrogant .
-service
+the_3581 food_840 and_2024 $T$ were_246 fine_33 ,_2417 however_44 the_3582 mai_9 ##tre_5 -_645 d_31 was_979 incredibly_10 un_51 ##we_4 ##lco_1 ##ming_2 and_2025 arrogant_7 ._3442
+service_543
 1
-the food and service were fine , however the $T$ was incredibly unwelcoming and arrogant .
-maitre-d
+the_3583 food_841 and_2026 service_544 were_247 fine_34 ,_2418 however_45 the_3584 $T$ was_980 incredibly_11 un_52 ##we_5 ##lco_2 ##ming_3 and_2027 arrogant_8 ._3443
+mai_10 ##tre_6 -_646 d_32
 -1
-while finishing our meals which included a high-end $T$ , our son 's fiance joined us for a glass of wine and dessert .
-bottle of wine
+while_29 finishing_2 our_83 meals_15 which_144 included_18 a_1112 high_25 -_647 end_5 $T$ ,_2419 our_84 son_2 '_630 s_198 fiance_1 joined_0 us_60 for_447 a_1113 glass_25 of_606 wine_119 and_2028 dessert_65 ._3444
+bottle_12 of_607 wine_120
 1
-this guy refused to seat her and she left , followed shortly by the four of us , but not before i told him that in my 40 years of world travel , including paris , that i had never seen such a display of bad behavior by a $T$ in a restaurant .
-frontman
+this_408 guy_1 refused_0 to_732 seat_3 her_9 and_2029 she_10 left_8 ,_2420 followed_0 shortly_0 by_78 the_3585 four_12 of_608 us_61 ,_2421 but_399 not_315 before_22 i_830 told_6 him_5 that_323 in_457 my_194 40_2 years_41 of_609 world_37 travel_0 ,_2422 including_12 paris_2 ,_2423 that_324 i_831 had_256 never_83 seen_12 such_20 a_1114 display_0 of_610 bad_44 behavior_0 by_79 a_1115 $T$ in_458 a_1116 restaurant_212 ._3445
+frontman_0
 -1
-a word to the wise : you ca n't dine here and disturb the $T$ 's sense of `` table turnover '' , as whacked as it is , or else .
-maitre-d
+a_1117 word_4 to_733 the_3586 wise_6 :_82 you_431 ca_27 n_120 '_631 din_10 ##e_115 here_75 and_2030 disturb_0 the_3587 $T$ '_632 s_199 sense_4 of_611 `_22 `_23 table_26 turnover_0 '_633 '_634 ,_2424 as_143 w_10 ##ha_4 ##cked_0 as_144 it_474 is_1239 ,_2425 or_141 else_7 ._3446
+mai_11 ##tre_7 -_648 d_33
 -1
-best $T$ in a long time !
-meal
+best_142 $T$ in_459 a_1118 long_6 time_69 !_377
+meal_46
 1
-$T$ and calamari were superb saturday evening .
-mussles
+$T$ and_2031 cal_12 ##ama_16 ##ri_12 were_248 superb_4 saturday_6 evening_13 ._3447
+mu_20 ##ss_11 ##les_8
 1
-mussles and $T$ were superb saturday evening .
-calamari
+mu_21 ##ss_12 ##les_9 and_2032 $T$ were_249 superb_5 saturday_7 evening_14 ._3448
+cal_13 ##ama_17 ##ri_13
 1
-i had the $T$ which was perfect .
-lamb special
+i_832 had_257 the_3588 $T$ which_145 was_981 perfect_27 ._3449
+lamb_26 special_68
 1
-my father had the $T$ which was very good , and my mother had the swordfish .
-flank steak
+my_195 father_0 had_258 the_3589 $T$ which_146 was_982 very_289 good_464 ,_2426 and_2033 my_196 mother_2 had_259 the_3590 sword_0 ##fish_0 ._3450
+flank_0 steak_15
 1
-$T$ is a great experience .
-the four seasons restaurant
+$T$ is_1240 a_1119 great_609 experience_25 ._3451
+the_3591 four_13 seasons_6 restaurant_213
 1
-the $T$ is great and the environment is even better .
-food
+the_3592 $T$ is_1241 great_610 and_2034 the_3593 environment_2 is_1242 even_58 better_32 ._3452
+food_842
 1
-the food is great and the $T$ is even better .
-environment
+the_3594 food_843 is_1243 great_611 and_2035 the_3595 $T$ is_1244 even_59 better_33 ._3453
+environment_3
 1
-taking $T$ to the next level
-hot dogs
+taking_0 $T$ to_734 the_3596 next_3 level_2
+hot_24 dogs_10
 1
-at first glance this place seems a bit pricey for a hot dog joint , but at $T$ you do n't just get your average hot dog .
-bark
+at_257 first_38 glance_0 this_409 place_410 seems_11 a_1120 bit_54 price_112 ##y_128 for_448 a_1121 hot_25 dog_5 joint_4 ,_2427 but_400 at_258 $T$ you_432 do_83 n_121 '_635 just_82 get_126 your_118 average_64 hot_26 dog_6 ._3454
+bark_3
 -1
-at first glance this place seems a bit pricey for a $T$ joint , but at bark you do n't just get your average $T$ .
-hot dog
+at_259 first_39 glance_1 this_410 place_411 seems_12 a_1122 bit_55 price_113 ##y_129 for_449 a_1123 $T$ joint_5 ,_2428 but_401 at_260 bark_4 you_433 do_84 n_122 '_636 just_83 get_127 your_119 average_65 ._3455
+hot_27 dog_7
 1
-here the $T$ is elevated to the level of a real entree with numerous variations available .
-hot dog
+here_76 the_3597 $T$ is_1245 elevated_0 to_735 the_3598 level_3 of_612 a_1124 real_14 en_27 ##tree_22 with_361 numerous_0 variations_1 available_0 ._3456
+hot_28 dog_8
 1
-here the $T$ is elevated to the level of a real entree with numerous variations available .
-hot dog
+here_77 the_3599 $T$ is_1246 elevated_1 to_736 the_3600 level_4 of_613 a_1125 real_15 en_28 ##tree_23 with_362 numerous_1 variations_2 available_1 ._3457
+hot_29 dog_9
 1
-great $T$
-atmosphere
+great_612 $T$
+atmosphere_115
 1
-i highly recommend the $T$ , everything else was ok .
-fish tacos
+i_833 highly_28 recommend_74 the_3601 $T$ ,_2429 everything_39 else_8 was_983 ok_28 ._3458
+fish_83 ta_65 ##cos_3
 1
-cool $T$ , the fire place in the back really ads to it but needs a bit more heat throughout on a cold night .
-atmosphere
+cool_29 $T$ ,_2430 the_3602 fire_0 place_412 in_460 the_3603 back_43 really_115 ads_0 to_737 it_475 but_402 needs_12 a_1126 bit_56 more_85 heat_0 throughout_2 on_219 a_1127 cold_15 night_34 ._3459
+atmosphere_116
 1
-cool atmosphere , the $T$ in the back really ads to it but needs a bit more heat throughout on a cold night .
-fire place
+cool_30 atmosphere_117 ,_2431 the_3604 $T$ in_461 the_3605 back_44 really_116 ads_1 to_738 it_476 but_403 needs_13 a_1128 bit_57 more_86 heat_1 throughout_3 on_220 a_1129 cold_16 night_35 ._3460
+fire_1 place_413
 1
-poor $T$ and management
-service
+poor_12 $T$ and_2036 management_10
+service_545
 -1
-poor service and $T$
-management
+poor_13 service_546 and_2037 $T$
+management_11
 -1
-don ’ t go to this $T$ !
-place
+don_43 ’_18 go_96 to_739 this_411 $T$ !_378
+place_414
 -1
-had an awful experience at $T$ on a saturday dinner .
-casa la femme
+had_260 an_101 awful_3 experience_26 at_261 $T$ on_221 a_1130 saturday_8 dinner_53 ._3461
+casa_5 la_14 femme_5
 -1
-the $T$ was rude and handled the situation extremely poorly .
-manager
+the_3606 $T$ was_984 rude_29 and_2038 handled_0 the_3607 situation_1 extremely_15 poorly_0 ._3462
+manager_19
 -1
-can ’ t believe how an expensive nyc $T$ can be so disrespectful to its clients .
-restaurant
+can_110 ’_19 believe_4 how_27 an_102 expensive_29 nyc_26 $T$ can_111 be_169 so_207 di_18 ##sr_0 ##es_10 ##pe_3 ##ct_0 ##ful_5 to_740 its_38 clients_0 ._3463
+restaurant_214
 -1
-the $T$ is very good , but not outstanding .
-food
+the_3608 $T$ is_1247 very_290 good_465 ,_2432 but_404 not_316 outstanding_11 ._3464
+food_844
 0
-there is no way it justifies the accolades it receives , the attitude of the $T$ or the wait for a table .
-staff
+there_110 is_1248 no_77 way_45 it_477 just_84 ##ifies_0 the_3609 accolades_0 it_478 receives_0 ,_2433 the_3610 attitude_2 of_614 the_3611 $T$ or_142 the_3612 wait_53 for_450 a_1131 table_27 ._3465
+staff_147
 -1
-there is no way it justifies the accolades it receives , the attitude of the staff or the $T$ for a table .
-wait
+there_111 is_1249 no_78 way_46 it_479 just_85 ##ifies_1 the_3613 accolades_1 it_480 receives_1 ,_2434 the_3614 attitude_3 of_615 the_3615 staff_148 or_143 the_3616 $T$ for_451 a_1132 table_28 ._3466
+wait_54
 -1
-mistakes happen , but they are usually accompanied by an apology , perhaps even a glass of wine ... but not the grunt that we received from the al di la $T$ .
-staff
+mistakes_0 happen_2 ,_2435 but_405 they_187 are_331 usually_22 accompanied_2 by_80 an_103 apology_2 ,_2436 perhaps_1 even_60 a_1133 glass_26 of_616 wine_121 ._3467 ._3468 ._3469 but_406 not_317 the_3617 grunt_0 that_325 we_286 received_6 from_100 the_3618 al_4 di_19 la_15 $T$ ._3470
+staff_149
 -1
-the $T$ was stale , the salad was overpriced and empty .
-bread
+the_3619 $T$ was_985 stale_4 ,_2437 the_3620 salad_59 was_986 over_109 ##pr_33 ##ice_33 ##d_65 and_2039 empty_5 ._3471
+bread_22
 -1
-the bread was stale , the $T$ was overpriced and empty .
-salad
+the_3621 bread_23 was_987 stale_5 ,_2438 the_3622 $T$ was_988 over_110 ##pr_34 ##ice_34 ##d_66 and_2040 empty_6 ._3472
+salad_60
 -1
-the bread was stale , the $T$ was overpriced and empty .
-salad
+the_3623 bread_24 was_989 stale_6 ,_2439 the_3624 $T$ was_990 over_111 ##pr_35 ##ice_35 ##d_67 and_2041 empty_7 ._3473
+salad_61
 -1
-the $T$ was well cooked , did n't have enough sauce though or flavor .
-pasta
+the_3625 $T$ was_991 well_83 cooked_19 ,_2440 did_47 n_123 '_637 have_250 enough_18 sauce_50 though_47 or_144 flavor_37 ._3474
+pasta_42
 1
-the $T$ was well cooked , did n't have enough sauce though or flavor .
-pasta
+the_3626 $T$ was_992 well_84 cooked_20 ,_2441 did_48 n_124 '_638 have_251 enough_19 sauce_51 though_48 or_145 flavor_38 ._3475
+pasta_43
 -1
-the $T$ was well cooked , did n't have enough sauce though or flavor .
-pasta
+the_3627 $T$ was_993 well_85 cooked_21 ,_2442 did_49 n_125 '_639 have_252 enough_20 sauce_52 though_49 or_146 flavor_39 ._3476
+pasta_44
 -1
-the $T$ was rude and i got a distinct feeling that they did not want to serve us .
-hostess
+the_3628 $T$ was_994 rude_30 and_2042 i_834 got_40 a_1134 distinct_0 feeling_3 that_326 they_188 did_50 not_318 want_33 to_741 serve_23 us_62 ._3477
+hostess_9
 -1
-the only thing that my friend left out is that when we sat down at the bar the $T$ disappeared .
-bartender
+the_3629 only_56 thing_31 that_327 my_197 friend_17 left_9 out_85 is_1250 that_328 when_56 we_287 sat_5 down_22 at_262 the_3630 bar_43 the_3631 $T$ disappeared_0 ._3478
+bartender_9
 -1
-i asked for a menu and the same $T$ looked at my like i was insane .
-waitress
+i_835 asked_24 for_452 a_1135 menu_124 and_2043 the_3632 same_16 $T$ looked_7 at_263 my_198 like_162 i_836 was_995 insane_0 ._3479
+waitress_25
 -1
-i was shocked that my friends wanted to stay after the $T$ said , `` can i help you '' and `` how many are in your party . ''
-waitress
+i_837 was_996 shocked_2 that_329 my_199 friends_26 wanted_8 to_742 stay_4 after_22 the_3633 $T$ said_16 ,_2443 `_24 `_25 can_112 i_838 help_2 you_434 '_640 '_641 and_2044 `_26 `_27 how_28 many_26 are_332 in_462 your_120 party_5 ._3480 '_642 '_643
+waitress_26
 -1
-shame on this place for the horrible rude $T$ and non-existent customer service .
-staff
+shame_0 on_222 this_412 place_415 for_453 the_3634 horrible_20 rude_31 $T$ and_2045 non_6 -_649 existent_0 customer_6 service_547 ._3481
+staff_150
 -1
-shame on this place for the horrible rude staff and non-existent $T$ .
-customer service
+shame_1 on_223 this_413 place_416 for_454 the_3635 horrible_21 rude_32 staff_151 and_2046 non_7 -_650 existent_1 $T$ ._3482
+customer_7 service_548
 -1
-bad $T$
-staff
+bad_45 $T$
+staff_152
 -1
-i generally like this $T$ .
-place
+i_839 generally_20 like_163 this_414 $T$ ._3483
+place_417
 1
-the $T$ is good .
-food
+the_3636 $T$ is_1251 good_466 ._3484
+food_845
 1
-the design of the $T$ is good .
-space
+the_3637 design_4 of_617 the_3638 $T$ is_1252 good_467 ._3485
+space_8
 1
-but the $T$ is horrid !
-service
+but_407 the_3639 $T$ is_1253 ho_7 ##rri_1 ##d_68 !_379
+service_549
 -1
-i was there for brunch recently , and we were tag teamed by a $T$ and a waiter .
-waitress
+i_840 was_997 there_112 for_455 br_13 ##un_5 ##ch_3 recently_7 ,_2444 and_2047 we_288 were_250 tag_5 teamed_0 by_81 a_1136 $T$ and_2048 a_1137 waiter_57 ._3486
+waitress_27
 -1
-i was there for brunch recently , and we were tag teamed by a waitress and a $T$ .
-waiter
+i_841 was_998 there_113 for_456 br_14 ##un_6 ##ch_4 recently_8 ,_2445 and_2049 we_289 were_251 tag_6 teamed_1 by_82 a_1138 waitress_28 and_2050 a_1139 $T$ ._3487
+waiter_58
 -1
-the $T$ delivered our food while holding what appeared to be a plastic bag of garbage in one hand .
-waiter
+the_3640 $T$ delivered_5 our_85 food_846 while_30 holding_0 what_82 appeared_0 to_743 be_170 a_1140 plastic_0 bag_32 of_618 garbage_0 in_463 one_93 hand_7 ._3488
+waiter_59
 -1
-the $T$ came to check in on us every few minutes , and began to clear the plates while half of us were still eating ( a big pet peeve of mine that happens almost everywhere , so i try to ignore it ) .
-waitress
+the_3641 $T$ came_23 to_744 check_10 in_464 on_224 us_63 every_52 few_24 minutes_7 ,_2446 and_2051 began_0 to_745 clear_0 the_3642 plates_2 while_31 half_11 of_619 us_64 were_252 still_12 eating_6 (_229 a_1141 big_29 pet_0 pee_0 ##ve_6 of_620 mine_3 that_330 happens_0 almost_15 everywhere_0 ,_2447 so_208 i_842 try_79 to_746 ignore_0 it_481 )_236 ._3489
+waitress_29
 -1
-i wish i could like this $T$ more , and i wish someone would retrain the staff .
-place
+i_843 wish_9 i_844 could_50 like_164 this_415 $T$ more_87 ,_2448 and_2052 i_845 wish_10 someone_15 would_94 re_72 ##train_0 the_3643 staff_153 ._3490
+place_418
 -1
-i wish i could like this place more , and i wish someone would retrain the $T$ .
-staff
+i_846 wish_11 i_847 could_51 like_165 this_416 place_419 more_88 ,_2449 and_2053 i_848 wish_12 someone_16 would_95 re_73 ##train_1 the_3644 $T$ ._3491
+staff_154
 -1
