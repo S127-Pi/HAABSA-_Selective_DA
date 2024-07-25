@@ -100,25 +100,22 @@ def is_similar_enough(str1, str2, threshold=0.95):
 
 def augment_random(in_sentence, in_target, sentiment):
     """
-    
-    This function augment the sentence according to Devlin et al.
+    This code is adapted from https://github.com/S127-Pi/HAABSA_PLUS_PLUS_DA/blob/master/bertPrependAugmentation.py
     """
 
     words = tokenizer.tokenize(in_sentence)
     tar = re.findall(r'\w+|[^\s\w]+', in_target)
-    
     for word in tar:
         word = tokenizer.tokenize(word)
     tar_length = len(tar)
 
     targettoken_sen = []
-    ind = 0 
+    ind = 0
 
     for wrd in words:
         j = words.index(wrd)
         if wrd == '$' and words[j+1]=='t' and words[j+2]=='$':
             ind = words.index(wrd)
-            break
 
     targettoken_sen.extend(words[:ind])
     targettoken_sen.extend(tar)
@@ -137,14 +134,14 @@ def augment_random(in_sentence, in_target, sentiment):
         else:
             j += 1
 
-
     mask_prob = 0.15
+    total_masks = min(1,int(round((len(words)-number_not_words)*mask_prob)))
     amount_masked = 0
     vocab = tokenizer.vocab
-    real_percentage = mask_prob / ((len(words)-number_not_words)/len(words))
-    total_masks = max(1,int(round((len(words)-number_not_words)*mask_prob)))
+    real_percentage = mask_prob / ((len(words)-number_not_words)/len(words) )
 
-    i = 0
+    i=0
+    augmented_sentence = []
     while i < len(words):
         if words[i] == '$' and words[i+1]=='t' and words[i+2]=='$':
             augmented_sentence.append('$T$')
@@ -152,51 +149,44 @@ def augment_random(in_sentence, in_target, sentiment):
         elif words[i] in string.punctuation:
             augmented_sentence.append(words[i])
             i += 1
-        elif amount_masked >= total_masks: # reach maximun number of total_mask
-            if words[i] == '$' and words[i+1]=='t' and words[i+2]=='$':
-                augmented_sentence.append('$T$')
-                i+=3
+        else:
+            prob1 = rd.random()
+            if prob1 <= real_percentage:
+                prob2 = rd.random()
+                if prob2 <= 0.8:
+                    amount_masked += 1
+                    cur_sent = targettoken_sen.copy()
+                    masked_word = words[i]
+                    if i < ind:
+                        cur_sent[i] = '[MASK]'
+                    else:
+                        cur_sent[i-(3-tar_length)] = '[MASK]'
+                    results = unmasker(tokenizer.convert_tokens_to_string(cur_sent), sentiment)
+                    predicted_words = []
+
+                    for result in results:
+                        predicted_words.append(result)
+                    if predicted_words[0]==masked_word:
+                        augmented_sentence.append(predicted_words[1])
+                        i += 1
+                    else:
+                        augmented_sentence.append(predicted_words[0])
+                        i += 1
+                elif 0.8 < prob2 <= 0.9:
+                    amount_masked += 1
+                    random_token = rd.choice(list(vocab.keys()))
+                    augmented_sentence.append(random_token)
+                    i += 1
+                else:
+                    augmented_sentence.append(words[i])
+                    i += 1
             else:
                 augmented_sentence.append(words[i])
                 i+=1
-        else:
-            prob1 = rd.random()
-            if prob1 < 0.8:
-                amount_masked += 1
-                cur_sent = targettoken_sen.copy()
-                masked_word = words[i]
-                if i < ind:
-                    cur_sent[i] = '[MASK]'
-                else:
-                    cur_sent[i-(3-tar_length)] = '[MASK]'
-                results = unmasker(tokenizer.convert_tokens_to_string(cur_sent), sentiment)
-                predicted_words = []
-                for result in results:
-                    predicted_words.append(result)
-                if predicted_words[0]==masked_word:
-                    augmented_sentence.append(predicted_words[1])
-                    i += 1
-                else:
-                    augmented_sentence.append(predicted_words[0])
-                    i += 1
 
-            # 10% of the time, keep original
-            elif rd.random() < 0.5:
-                augmented_sentence.append(words[i])
-                i += 1
-
-             # 10% of the time, replace with random word
-            else:
-                random_token = rd.choice(list(vocab.keys()))
-                augmented_sentence.append(random_token)
-                i += 1
-
-
-    # augmented_sentence_str = " ".join(augmented_sentence)
-    augmented_sentence_str = tokenizer.convert_tokens_to_string(augmented_sentence)
+    augmented_sentence_str = ' '.join(augmented_sentence)
 
     return augmented_sentence_str, in_target
-
 
 def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
@@ -638,6 +628,8 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
                 sub_target = augmented_sentence[tar_idx[j]]
                 augmented_sentence.append(sub_target)
                 j+=1
+                if j >= len(tar_idx): # reset index
+                    j = 0
                 i+=1
             else:
                 augmented_sentence.append(doc_tokens[i])

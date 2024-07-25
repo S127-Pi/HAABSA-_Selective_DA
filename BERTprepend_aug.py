@@ -189,6 +189,96 @@ def augment_random(in_sentence, in_target, sentiment):
 
     return augmented_sentence_str, in_target
 
+def augment_random(in_sentence, in_target, sentiment):
+    """
+    This code is adapted from https://github.com/S127-Pi/HAABSA_PLUS_PLUS_DA/blob/master/bertPrependAugmentation.py
+    """
+
+    words = tokenizer.tokenize(in_sentence)
+    tar = re.findall(r'\w+|[^\s\w]+', in_target)
+    for word in tar:
+        word = tokenizer.tokenize(word)
+    tar_length = len(tar)
+
+    targettoken_sen = []
+    ind = 0
+
+    for wrd in words:
+        j = words.index(wrd)
+        if wrd == '$' and words[j+1]=='t' and words[j+2]=='$':
+            ind = words.index(wrd)
+
+    targettoken_sen.extend(words[:ind])
+    targettoken_sen.extend(tar)
+    targettoken_sen.extend(words[(ind+3):])
+    augmented_sentence = []
+
+    j=0
+    number_not_words = 0
+    while j < len(words):
+        if words[j] == '$' and words[j+1]=='t' and words[j+2]=='$':
+            j+=3
+            number_not_words +=3
+        elif words[j] in string.punctuation:
+            j += 1
+            number_not_words +=1
+        else:
+            j += 1
+
+    mask_prob = 0.15
+    total_masks = min(1,int(round((len(words)-number_not_words)*mask_prob)))
+    amount_masked = 0
+    vocab = tokenizer.vocab
+    real_percentage = mask_prob / ((len(words)-number_not_words)/len(words) )
+
+    i=0
+    augmented_sentence = []
+    while i < len(words):
+        if words[i] == '$' and words[i+1]=='t' and words[i+2]=='$':
+            augmented_sentence.append('$T$')
+            i+=3
+        elif words[i] in string.punctuation:
+            augmented_sentence.append(words[i])
+            i += 1
+        else:
+            prob1 = rd.random()
+            if prob1 <= real_percentage:
+                prob2 = rd.random()
+                if prob2 <= 0.8:
+                    amount_masked += 1
+                    cur_sent = targettoken_sen.copy()
+                    masked_word = words[i]
+                    if i < ind:
+                        cur_sent[i] = '[MASK]'
+                    else:
+                        cur_sent[i-(3-tar_length)] = '[MASK]'
+                    results = unmasker(tokenizer.convert_tokens_to_string(cur_sent), sentiment)
+                    predicted_words = []
+
+                    for result in results:
+                        predicted_words.append(result)
+                    if predicted_words[0]==masked_word:
+                        augmented_sentence.append(predicted_words[1])
+                        i += 1
+                    else:
+                        augmented_sentence.append(predicted_words[0])
+                        i += 1
+                elif 0.8 < prob2 <= 0.9:
+                    amount_masked += 1
+                    random_token = rd.choice(list(vocab.keys()))
+                    augmented_sentence.append(random_token)
+                    i += 1
+                else:
+                    augmented_sentence.append(words[i])
+                    i += 1
+            else:
+                augmented_sentence.append(words[i])
+                i+=1
+
+    augmented_sentence_str = ' '.join(augmented_sentence)
+
+    return augmented_sentence_str, in_target
+
 
 def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
@@ -632,6 +722,8 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
                 sub_target = augmented_sentence[tar_idx[j]]
                 augmented_sentence.append(sub_target)
                 j+=1
+                if j >= len(tar_idx): # reset index
+                    j = 0
                 i+=1
             else:
                 augmented_sentence.append(doc_tokens[i])
@@ -660,16 +752,16 @@ def augment_all_noun_adj_adv(in_sentence, in_target, sentiment):
 
 if __name__ == '__main__':
     
-    in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
+    in_sentence = "The $T$ is too dirty, but the $T$ compensates it all."
     in_target = "mens bathroom"
-    aug, aspect = augment_aspect_adj_adv(in_sentence, in_target, "-1")
+    aug, aspect = augment_sentence_aspect(in_sentence, in_target, "-1")
     print(aug)
     print(aspect)
 
 
     # in_sentence = "The $T$ is too dirty, but the salmon compensates it all."
     # in_target = "mens bathroom"
-    # aug, aspect = augment_sentence_aspect(in_sentence, in_target, "negative")
+    # aug, aspect = augment_sentence_aspect(in_sentence, in_target, "-1")
     # print(aug)
     # print(aspect)
 
