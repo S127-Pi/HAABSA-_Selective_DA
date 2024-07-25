@@ -548,7 +548,7 @@ yes , they use fancy $T$ , but even fancy $T$ do n't make for good pizza unless 
 ingredients
 1
 yes , they use fancy $T$ , but even fancy $T$ do n't make for good pizza unless someone knows how to get the crust right .
-pizza
+cheese
 1
 yes , they use fancy ingredients , but even fancy ingredients do n't make for good $T$ unless someone knows how to get the crust right .
 pizza
@@ -1574,7 +1574,7 @@ the $T$ is a diamond in rough -- the $T$ is delicious and homemade with the perf
 food
 1
 the $T$ is a diamond in rough -- the $T$ is delicious and homemade with the perfect balance of herbs and tomatoes .
-pizza
+place
 1
 the food is a diamond in rough -- the food is delicious and homemade with the perfect $T$ .
 balance of herbs and tomatoes
@@ -2072,7 +2072,7 @@ sometimes i get bad food and bad service , sometimes i get $T$ $T$ and bad servi
 good
 1
 sometimes i get bad food and bad service , sometimes i get $T$ $T$ and bad service .
-over
+bad
 1
 the place is a bistro which means : simple $T$ and wine served efficiently in a bustling atmosphere .
 dishes
@@ -4004,7 +4004,7 @@ the $T$ , seems to be more concerned of looking good than actually $T$ing .
 waitress
 -1
 the $T$ , seems to be more concerned of looking good than actually $T$ing .
-waiter
+staff
 -1
 after dinner the $T$ grabbed my boyfriend , asked him : where are you from ... maybe you dont know how things work in america ... and in the end stormed away almost teareyed yelling that tips are the only thing they survive on .
 manager
@@ -4712,7 +4712,7 @@ guacamole+shrimp appetizer was really great , we both had the $T$ , very good , 
 filet
 1
 guacamole+shrimp appetizer was really great , we both had the $T$ , very good , did n't much like the frites that came with , but the $T$ was so good , neither of us cared .
-same
+shrimp
 1
 guacamole+shrimp appetizer was really great , we both had the filet , very good , did n't much like the $T$ that came with , but the filet was so good , neither of us cared .
 frites
@@ -6620,7 +6620,7 @@ it was the first $T$ we ate on our first trip to new york , and it will be the l
 place
 1
 it was the first $T$ we ate on our first trip to new york , and it will be the last $T$ we stop as we head out of town on our next trip to new york .
-time
+restaurant
 1
 thanks $T$ for a lovely trip .
 bloom 's
@@ -8000,7 +8000,7 @@ good $T$ : my favorite is the sea$T$ spaghetti .
 food
 1
 good $T$ : my favorite is the sea$T$ spaghetti .
-advice
+selection
 1
 good food : my favorite is the $T$ .
 seafood spaghetti
@@ -8678,7 +8678,7 @@ i 've enjoyed 99 % of the $T$es we 've ordered with the only exceptions being th
 dish
 -1
 i 've enjoyed 99 % of the $T$es we 've ordered with the only exceptions being the occasional too-authentic-for-me $T$ ( i 'm a daring eater but not that daring ) .
-$
+specials
 -1
 my daughter 's wedding reception at $T$ received the highest compliments from our guests .
 water 's edge
@@ -10670,13 +10670,13 @@ i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have be
 salmon
 -1
 i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
-menu
+fish
 -1
 i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
 salmon
 -1
 i took one bite from the $ 24 $T$ , and i have never , in the 17 years i have been going to restaurants tasted $T$ as fishy , as dry , and as bland as the one in flatbush farms .
-menu
+fish
 -1
 at this point , the $T$ comes over and asks us if everything was okay , i was literally so shocked that i was speechless and did n't say anything , and guess what , the $T$ walked away .
 waitress
@@ -11042,7 +11042,7 @@ at first glance this place seems a bit pricey for a $T$ joint , but at bark you 
 hot dog
 1
 at first glance this place seems a bit pricey for a $T$ joint , but at bark you do n't just get your average $T$ .
-burger
+hot
 1
 here the $T$ is elevated to the level of a real entree with numerous variations available .
 hot dog

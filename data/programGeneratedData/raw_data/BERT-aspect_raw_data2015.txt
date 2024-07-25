@@ -542,7 +542,7 @@ yes , they use fancy $T$ , but even fancy $T$ do n't make for good pizza unless 
 ingredients
 1
 yes , they use fancy $T$ , but even fancy $T$ do n't make for good pizza unless someone knows how to get the crust right .
-pizza
+cheese
 1
 yes , they use fancy ingredients , but even fancy ingredients do n't make for good $T$ unless someone knows how to get the crust right .
 pizza
@@ -1562,7 +1562,7 @@ the $T$ is a diamond in rough -- the $T$ is delicious and homemade with the perf
 food
 1
 the $T$ is a diamond in rough -- the $T$ is delicious and homemade with the perfect balance of herbs and tomatoes .
-pizza
+place
 1
 the food is a diamond in rough -- the food is delicious and homemade with the perfect $T$ .
 balance of herbs and tomatoes
@@ -2060,7 +2060,7 @@ sometimes i get bad food and bad service , sometimes i get $T$ $T$ and bad servi
 good
 1
 sometimes i get bad food and bad service , sometimes i get $T$ $T$ and bad service .
-over
+bad
 1
 the place is a bistro which means : simple $T$ and wine served efficiently in a bustling atmosphere .
 dishes
@@ -3980,7 +3980,7 @@ the $T$ , seems to be more concerned of looking good than actually $T$ing .
 waitress
 -1
 the $T$ , seems to be more concerned of looking good than actually $T$ing .
-waiter
+staff
 -1
 after dinner the $T$ grabbed my boyfriend , asked him : where are you from ... maybe you dont know how things work in america ... and in the end stormed away almost teareyed yelling that tips are the only thing they survive on .
 manager
@@ -4682,7 +4682,7 @@ guacamole+shrimp appetizer was really great , we both had the $T$ , very good , 
 filet
 1
 guacamole+shrimp appetizer was really great , we both had the $T$ , very good , did n't much like the frites that came with , but the $T$ was so good , neither of us cared .
-same
+shrimp
 1
 guacamole+shrimp appetizer was really great , we both had the filet , very good , did n't much like the $T$ that came with , but the filet was so good , neither of us cared .
 frites
@@ -6572,7 +6572,7 @@ it was the first $T$ we ate on our first trip to new york , and it will be the l
 place
 1
 it was the first $T$ we ate on our first trip to new york , and it will be the last $T$ we stop as we head out of town on our next trip to new york .
-time
+restaurant
 1
 thanks $T$ for a lovely trip .
 bloom 's
