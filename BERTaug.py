@@ -160,7 +160,8 @@ def augment_sentence_aspect(in_sentence, in_target):
     """
     masked_word = in_target
     sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence, count=1) # mask only the first occurence
-
+    sentence_mask_target = re.sub(r'\$T\$', in_target, sentence_mask_target)
+    
     results = unmasker(sentence_mask_target)
     predicted_words = []
     target = ""

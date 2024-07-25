@@ -204,7 +204,8 @@ def augment_sentence_aspect(in_sentence, in_target, sentiment):
     """
     masked_word = in_target
     sentence_mask_target = re.sub(r'\$T\$', "[MASK]", in_sentence, count = 1)
-
+    sentence_mask_target = re.sub(r'\$T\$', in_target, sentence_mask_target)
+    
     predicted_words = unmasker(sentence_mask_target, sentiment)
     target = ""
     # print(f"{predicted_words=}")
@@ -441,7 +442,7 @@ def augment_aspect_adj_adv(in_sentence, in_target, sentiment):
     """
     tar = nlp(in_target)
     tar = [token.text for token in tar]
-    sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # substitute $t$ with autual target
+    sentence_w_target = re.sub(r'\$T\$', in_target, in_sentence) # substitute $t$ with actual target
 
     # Tokenize the sequence using spaCy
     doc = nlp(sentence_w_target)
