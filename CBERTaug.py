@@ -74,7 +74,7 @@ def unmasker(text, sentiment):
     all_masked_idx = [(input_ids == MASK_id).nonzero(as_tuple=True)[1].tolist()]
     model.eval()
     inputs = {'input_ids': input_ids, # tokens embeddings
-                'attention_mask': attention, # segment embedding
+                'attention_mask': attention, #attention mask
                 'token_type_ids': label} # label
     outputs = model(**inputs)
     predictions = outputs[0]
