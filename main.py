@@ -18,7 +18,7 @@ import lcrModelAlt_hierarchical_v4
 
 # main function
 def main(_):
-    loadData         = True        # Only True for making data augmentations or raw_data files
+    loadData         = False        # Only True for making data augmentations or raw_data files
                                     # Use TorchBert in Google Colab to generate the BERT embeddings for every word
                                     # Use prepare_bert for making train and test data sets
     useOntology      = False        # When run together with runLCRROTALT, the two-step method is used
